@@ -1,0 +1,14 @@
+baseurl = "http://beethoven.com/"
+languageCode = "ja-jp"
+title = "Keichi Takahashi"
+author = "Keichi Takahashi"
+copyright = "&copy; 2015 Keichi Takahashi. All Rights Reserved."
+
+[params]
+    twitter = "_keichi_"
+    github = "keichi"
+    linkedin = "keichi"
+    facebook = "keichi.t"
+    mixpanel_api_key = "4fba483e1aa9d2f63135edb7dc38b242"
+    bio = "is a software developer, hardware hacker and a beer lover. He believes in the power of code."
+
