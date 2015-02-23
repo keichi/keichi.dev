@@ -1,7 +1,6 @@
 baseurl = "http://keichi.net/"
 languageCode = "ja-jp"
 title = "Keichi Takahashi"
-author = "Keichi Takahashi"
 copyright = "&copy; 2015 Keichi Takahashi. All Rights Reserved."
 
 [params]
@@ -10,5 +9,9 @@ copyright = "&copy; 2015 Keichi Takahashi. All Rights Reserved."
     linkedin = "keichi"
     facebook = "keichi.t"
     ga_api_key = "UA-59307512-1"
-    bio = "is a software developer, hardware hacker and a beer lover. He believes in the power of code."
+    author = "Keichi Takahashi"
+    avatar = "/images/avatar.jpg"
+    contact = "mailto:keichi.t@me.com"
+    bio = "A software developer, hardware hacker and a beer lover. Keichi believes in the power of code."
+    subtitle = "is a software developer, hardware hacker and a beer lover. He believes in the power of code."
 
