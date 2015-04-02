@@ -1,6 +1,7 @@
 +++
 date = "2015-04-01T21:25:46+09:00"
 title = "超小型シングルボードコンピュータのUSB Armoryがやって来た"
+images = ["http://keichi.net/images/usb_armory.jpg"]
 
 +++
 
@@ -12,6 +13,8 @@ USB Armoryというガジェットが家に届いた。[USB Armory](http://www.i
 されている。
 
 <!--more-->
+
+![USB Armory](/images/usb_armory.jpg)
 
 基本的に何でもできるハードウェアなのだが、特にセキュリティ関係の用途を想定
 しているようだ:
