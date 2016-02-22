@@ -1,12 +1,12 @@
 +++
 date = "2015-10-22T23:14:18+09:00"
 title = "CentOS 7でKVM + libvirt + Open vSwitchな仮想化環境のつくり方"
-
 +++
 
 CentOS 7上でのKVM、libvirt、Open vSwitchを使った仮想化環境のつくり方について
 メモしておく。目指す構成は下の画像の通り。ゲストOSは`192.168.100.0/24`の
-ネットワークで、NATでホスト外のネットワークに出ることができる。
+ネットワークで、NATでホスト外のネットワークに出ることができる。ストレージプール
+にはLVMのVolume Groupを使う。
 
 ![](/images/kvm_ovs_network.png)
 
@@ -16,7 +16,9 @@ CentOS 7上でのKVM、libvirt、Open vSwitchを使った仮想化環境のつ�
 
 CentOS 7をminimal構成でインストールする。この際、LVMのパーティションを1つ
 余分に作っておく。 (ここでは`/dev/sda3`) このパーティションは、libvirtの
-LVMストレージプールにするため。
+LVMストレージプールにするため。ディスクが1台しか準備できなかったので
+同じディスク上にパーティションを切ってるが、2台できるなら片方をストレージプール用
+にすれば 良いと思う。
 
 ```bash
 $ fdisk -l
@@ -104,20 +106,26 @@ $ firewall-cmd --zone=public --add-masquerade
 $ firewall-cmd --zone=public --add-masquerade --permanent
 ```
 
-ゲストOSからDHCPとDNSを使えるように設定する。
+ゲストOSからDHCPとDNSを使えるように設定する。どちらも必須ではないけれども、
+OSをネットワークインストール際はDHCPを動かしとくと便利だ。また、DNSサーバをホスト
+で動かしておくと、ゲストで`/etc/hosts`を編集したりする必要が無くなるので後々
+手間が減る。
 
-```bash
+```text
 # vim /etc/dnsmasq.conf
 listen-address=192.168.100.1
 dhcp-range=192.168.100.2,192.168.100.150,255.255.255.0,12h
-systemctl enable dnsmasq
-systemctl start dnsmasq
+```
+
+```bash
+$ systemctl enable dnsmasq
+$ systemctl start dnsmasq
 ```
 
 ## ストレージプールの設定
 
-ここでは、/dev/sda3に作ったLVM VGをストレージプールとして使用する。PVのみ
-手動で作成し、VGはlibvirtにつくらせる。
+ここでは、/dev/sda3に作ったLVM VGをストレージプールとして使用する。Physical
+Volumeのみ手動で作成し、Volume Groupはlibvirtにつくらせる。
 
 ```bash
 $ pvcreate /dev/sda3
@@ -126,7 +134,8 @@ $ virsh pool-autostart vmpool
 $ virsh pool-start vmpool
 ```
 
-ストレージプールに、ボリュームを作成する。このボリュームはLVとして作成される。
+ストレージプールに、ボリュームを作成する。このときボリュームはlibvirtにより
+Logical Volumeとして作成される。
 
 ```
 $ virsh vol-create vmpool vmdisk1 10G
