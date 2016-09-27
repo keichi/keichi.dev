@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hugo -t vienna
+hugo
 cd public
 msg="Update on `date '+%Y/%m/%d %H:%M:%S'`"
 if [ $# -eq 1 ]

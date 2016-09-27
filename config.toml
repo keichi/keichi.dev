@@ -1,7 +1,8 @@
 baseurl = "https://keichi.net/"
 languageCode = "ja-jp"
 title = "Keichi Takahashi"
-copyright = "&copy; 2015 Keichi Takahashi. All Rights Reserved."
+copyright = "&copy; 2016 Keichi Takahashi. All Rights Reserved."
+theme = "vienna"
 
 [params]
     twitter = "_keichi_"
