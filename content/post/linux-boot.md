@@ -6,59 +6,63 @@ title = "Linuxがブートするまで"
 
 +++
 
-普段Linuxを使っていて、`vmlinuz`や`initrd.img`というファイルは何なのか、
-BIOSとGRUB Legacyの環境を前提としている。EFIやGRUB2を使った環境については、
-今後いずれ勉強していきたい。
+普段Linuxを使っていながら、`vmlinuz`や`initrd.img`というファイルは何なのか、
+あやふやにしか理解していなかったので、一通りLinuxマシンのブートの仕組みを
+勉強してみた結果を書き留めておく。なお、BIOSとGRUB Legacyの環境を前提としている。
+EFIやGRUB2を使った環境については、今後いずれ勉強していきたい。
+
+<!--more-->
 
 基本的にOSの起動は、BIOS -> ブートローダ -> カーネルというように、単純・低機能
-なプログラムが、より複雑・高機能なプログラムを読み込み、起動するという処理を
-連鎖的に行っていくという仕組みになっている。あくまでブートの大枠を
-理解することが目的なので、以下ではブートの各プロセスについてごく簡単に要約して
-述べていく。
+なプログラムが、より複雑・高機能なプログラムを読み込み起動するという処理を
+連鎖的に行っていく仕組みになっている。以下ではブートの各プロセスについて、
+時系列順に簡単に要約して述べていく。
 
 ## 1. BIOS
 
-現在一般的なx86/x64 CPUは、電源投入直後に`0xFFFFFFF0` (Reset Vector) 番地から
-実行を開始する。この領域には、BIOSが格納されているマザーボード上のROMがマップ
-されている。つまり、電源投入直後からBIOSが実行される。BIOSはハードウェアの検出
-や初期化を実行した後、ブートローダを探索する処理に入る。
+現在一般的なx86/x86-64 CPUは、電源が投入されると、`0xfffffff0` (Reset Vector)
+番地から実行を開始する。この領域には、BIOSが格納されているマザーボード上のROMが
+マップされている。つまり、電源投入直後にはBIOSが実行される。BIOSはハードウェア
+の検出や初期化 (Power On Self Test) を実行した後、ブートローダを探索する
+処理に入る。
 
-ブートローダの探索は、優先順位の高いブートデバイスから順に、先頭1セクタの末尾
-2バイトが`0x55 0xAA` (Boot Signature) であるか確認することによって行われる。
-BIOSは、Boot Signatureが存在するセクタを発見すると、そのセクタを`0x7C00`に
-ロードし、実行を移す。
-
-## 2. ブートローダ (GRUB)
-
-ブートローダはOSをディスクからメモリに読み込み、起動するプログラムである。
-Linuxでは一般的に[GRand Unified Bootloader
-(GRUB)](https://www.gnu.org/software/grub/) というブートローダが用いられる。
-GRUBは複数の _Stage_ と呼ばれるプログラムに分かれている。なお、GRUB以外にも、
-[Syslinux](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project)
-や[LILO](https://lilo.alioth.debian.org/)などのブートローダが用いられている。
-
-### Stage 1
-
-ブート可能なディスクの先頭セクタには、[Master Boot Record
-(MBR)](https://en.wikipedia.org/wiki/Master_boot_record) が格納されている。MBR
-は下記のような構造になっている。
+ブートローダは、ディスクの先頭セクタにある [Master Boot Record
+(MBR)](https://en.wikipedia.org/wiki/Master_boot_record) という領域に収められ
+ている。MBRは下記のような構造になっている。
 
 1. ブートローダ (446B)
 2. パーティションテーブル (64B)
 3. Boot Signature (2B)
 
+MBRの探索は、優先順位の高いブートデバイスから順に、そのデバイスの先頭1セクタの
+末尾2バイトが`0x55 0xaa` (Boot Signature) であるか確認することによって行われ
+る。BIOSは、Boot Signatureが存在するセクタを発見すると、そのセクタの内容を
+`0x7c00` 番地にロードし、実行を移す。
+
+## 2. ブートローダ (GRUB)
+
+ブートローダはOSをディスクからメモリに読み込み、起動する役目を持ったプログラム
+である。Linuxでは一般的に[GRand Unified Bootloader
+(GRUB)](https://www.gnu.org/software/grub/) というブートローダが用いられること
+が多い。GRUB以外にも、
+[Syslinux](http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project)
+や[LILO](https://lilo.alioth.debian.org/)などのブートローダが用いられている。
+GRUBは複数の _Stage_ と呼ばれるプログラムに分かれている。
+
+### Stage 1
+
 GRUBのStage 1は、MBRの先頭446Bに存在する。Stage 1の役割は、Stage 2 (Stage 1.5)
 をロードすることである。1セクタしかないMBR内でブートローダの処理を全て実現する
-ことが難しいため、このような回りくどい仕組みになっている。
+ことが難しいため、このような仕組みになっている。
 
 ### Stage 1.5
 
 Stage 1.5はの役目は、ディスク上のファイルシステムを解釈し、Stage 2をロードする
 ことにある。Stage 1.5は、ディスク上ではMBRと最初のパーティションの間に存在する、
-DOS Compatibility Regionという領域に収められている。このStage 1.5は以下の
-ように解釈するファイルシステムごとに存在する。
+DOS Compatibility Regionという領域に収められており、は以下のように解釈する
+ファイルシステムごとに存在する。
 
-```bash
+```nohighlight
 $ ls -lah /boot/grub | grep stage1_5
 -rw-r--r--. 1 root root  14K  3月 13 22:41 2014 e2fs_stage1_5
 -rw-r--r--. 1 root root  13K  3月 13 22:41 2014 fat_stage1_5
@@ -75,9 +79,9 @@ $ ls -lah /boot/grub | grep stage1_5
 ### Stage 2
 
 Stage 2は、GRUBの本体である。これまでのstageでファイルシステムを読み込めるよう
-になっているので、stage 2はファイルシステム上にファイルとして置かれている。
+になっているので、stage 2はファイルシステム上に普通のファイルとして置かれている。
 
-```bash
+```nohighlight
 $ ls -lah /boot/grub/stage2
 -rw-r--r--. 1 root root 124K  3月 13 22:41 2014 /boot/grub/stage2
 ```
@@ -110,23 +114,58 @@ title CentOS (2.6.32-573.12.1.el6.x86_64)
 	initrd /initramfs-2.6.32-573.12.1.el6.x86_64.img
 ```
 
-ユーザがどれか1つのOSを選択すると、GRUBはカーネルの実行バイナリ`vmlinuz-*`と
+ユーザがどれか1つのOSを選択すると、GRUBはそのOSのカーネル`vmlinuz-*`と
 RAMディスク`initramfs-*.img`をメモリ上にロードし、カーネルの先頭アドレスに
 ジャンプし、その役目を終える。
 
 ## 3. カーネル
 
-ブートローダから起動された`vmlinuz`は、低レベルな初期化処理を実行した後、
-カーネルの本体を自己解凍し、メモリにロードする。カーネルの本体の先頭にジャンプ
-した後、さらに様々な初期化処理を実行する。ここら辺の仕組みについてより詳しく知
-りたい方には、
+ブートローダから起動されたカーネルの実行バイナリ `vmlinuz` は、低レベルな初期
+化処理を実行した後、カーネルの本体を自己解凍し、メモリにロードする。カーネルの
+本体の先頭にジャンプした後、さらに様々な初期化処理を実行する。ここら辺の仕組みは、
 [linux-insides](https://0xax.gitbooks.io/linux-insides/content/index.html) と
-いう資料がおすすめである。また、Linuxではないものの、[30日でできる! OS自作入門
-](https://www.amazon.co.jp/dp/4839919844) という書籍もおすすめしたい。
+いう資料が詳しい。また、Linuxではないものの、[30日でできる! OS自作入門
+](https://www.amazon.co.jp/dp/4839919844) という書籍も勉強になった。
 
-全ての初期化処理が終わると、
+カーネルは全ての初期化処理を終えると、初期RAMディスク (initrd) を展開し、
+仮のルートファイルシステムとしてマウントする。初期RAMディスクは、
+本番のルートファイルシステムが置いてあるディスクをマウントするために必要な
+ドライバや、各種ユーティリティが含まれている。
 
-```bash
-$ gunzip
-$ cpio -idv < archive.cpio
+initrdには、主にinitrdとinitramfsの2形式があり、現在は後者が使われることが多い。
+initramfsは、ルートディレクトリをcpioという形式でアーカイブし、
+gzipで圧縮したものである。実際に、 `/boot` にあるinitramfsの中身を覗くためには、
+次のようにすれば良い。
+
+```nohighlight
+$ zcat initramfs-xxx.img | cpio -idv
 ```
+
+CentOSやFedoraでは、initramfsの先頭にCPUマイクロコードが入っているので、これを
+スキップしてから解凍する。
+
+```nohighlight
+$ /usr/lib/dracut/skipcpio initramfs-xxx.img | gunzip -c | cpio -idv
+```
+
+ファイルリストを見るだけなら、`lsinitrd` というコマンドもある。
+
+なぜtarでなくcpioなのか気になったので調べたところ、initramfsのドキュメンテーションに
+答えが [書いてあった](https://github.com/torvalds/linux/blob/master/Documentation/filesystems/ramfs-rootfs-initramfs.txt)。
+
+- cpioは標準化されている
+- cpioは既にLinuxで広く使われている (rpmの内部など)
+- cpioの方がtarより単純で綺麗 (なので作成・展開ともに容易)
+
+などの理由があるそうだ。
+
+## 4. init
+
+カーネルはinitrdのマウントに成功すると、initrdに含まれているの `/sbin/init`
+というファイルを実行する。Initは実行される最初のプロセスであり、各種デーモン
+など、他のプロセスを起動する。Initには、
+[SysVinit](https://download.savannah.gnu.org/releases/sysvinit/),
+[Upstart](http://upstart.ubuntu.com/),
+[Systend](https://www.freedesktop.org/wiki/Software/systemd/)
+など様々な実装がある。最近のCentOS, Fedora, Ubuntuなどのディストリビューション
+では、Systemdが採用されている。
