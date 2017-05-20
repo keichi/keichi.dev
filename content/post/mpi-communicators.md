@@ -51,6 +51,8 @@ MPIにおけるコミュニケータ、グループ、プロセスについて�
 - `MPI_Group_difference`: グループの差集合を得る。
 - `MPI_Group_incl`, `MPI_Group_excl`, `MPI_Group_range_incl`, `MPI_Group_range_excl`:
     グループの一部から新しいグループを作成する。
+- `MPI_Group_translate_ranks`: あるグループにおけるランクを、別のグループに
+    おけるランクに変換する。
 
 
 ## イントラコミュニケータとインターコミュニケータ
