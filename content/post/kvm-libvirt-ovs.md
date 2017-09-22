@@ -20,7 +20,7 @@ LVMストレージプールにするため。ディスクが1台しか準備で�
 同じディスク上にパーティションを切ってるが、2台できるなら片方をストレージプール用
 にすれば 良いと思う。
 
-```bash
+```nohighlight
 $ fdisk -l
 Device      Boot    Start         End      Blocks   Id  System
 /dev/sda1     *      2048     1026047      512000   83  Linux    # /boot
@@ -28,7 +28,7 @@ Device      Boot    Start         End      Blocks   Id  System
 /dev/sda3       839886848  1953103871   556608512   83  Linux    # ストレージプール
 ```
 
-```
+```nohighlight
 $ df -h
 Filesystem               Size  Used Avail Use% Mounted on
 /dev/mapper/centos-root   50G  1.9G   49G   4% /
@@ -44,7 +44,7 @@ KVM、libvirt、Open vSwitchをインストールする。Open vSwitchはCentOS 
 リポジトリに入っていないので、RDOリポジトリ (本来はOpenStackのインストール
 に使う) からインストールする。
 
-```bash
+```nohighlight
 $ yum update
 $ yum install https://rdo.fedorapeople.org/openstack/openstack-kilo/rdo-release-kilo.rpm
 $ yum install qemu-kvm libvirt virt-install openvswitch
@@ -85,7 +85,7 @@ ZONE=trusted
 上記XMLファイルを`ovsbr0.xml`という名前で保存した後、libvirtのデフォルトの
 ネットワークを削除してovsbr0を登録する。
 
-```bash
+```nohighlight
 $ virsh net-destroy default
 $ virsh net-autostart default --disable
 $ virsh net-define ovsbr0.xml
@@ -98,7 +98,7 @@ $ virsh net-autostart ovsbr0
 ゲストOSからのパケットを全て許可する。最後にpublicゾーンにIPマスカレードを
 追加し、NATを有効にする。
 
-```bash
+```nohighlight
 $ sysctl -w net.ipv4.ip_forward=1
 $ echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
 $ firewall-cmd --zone=trusted --add-interface=ovsbr0
@@ -117,7 +117,7 @@ listen-address=192.168.100.1
 dhcp-range=192.168.100.2,192.168.100.150,255.255.255.0,12h
 ```
 
-```bash
+```nohighlight
 $ systemctl enable dnsmasq
 $ systemctl start dnsmasq
 ```
@@ -127,7 +127,7 @@ $ systemctl start dnsmasq
 ここでは、/dev/sda3に作ったLVM VGをストレージプールとして使用する。Physical
 Volumeのみ手動で作成し、Volume Groupはlibvirtにつくらせる。
 
-```bash
+```nohighlight
 $ pvcreate /dev/sda3
 $ virsh pool-define-as vmpool logical - - /dev/sda3 vmpool /dev/vmpool
 $ virsh pool-autostart vmpool
@@ -137,7 +137,7 @@ $ virsh pool-start vmpool
 ストレージプールに、ボリュームを作成する。このときボリュームはlibvirtにより
 Logical Volumeとして作成される。
 
-```
+```nohighlight
 $ virsh vol-create vmpool vmdisk1 10G
 ```
 
@@ -149,7 +149,7 @@ $ virsh vol-create vmpool vmdisk1 10G
 ネットワークインストールしている。
 仮想ブリッジovsbr0に接続したtapデバイスは自動的に作成される。
 
-```bash
+```nohighlight
 $ virt-install --connect qemu:///system --name vm1 --ram=2048 \
     --vcpus=1 --disk /dev/vmpool/vmdisk1 --os-type=linux
     --os-variant rhel7 --hvm --accelerate --nographics \
