@@ -2,16 +2,16 @@
 Description = ""
 Tags = []
 Title = "mpi4pyの紹介"
-date = "2017-12-19T23:06:00+09:00"
+date = "2017-12-21T17:00:00+09:00"
 +++
 
 これは [MPI Advent Calendar 2017](https://adventar.org/calendars/2548)
 の21日目の記事です。
+この記事では、MPIのPythonバインディングである
+[MPI for Python (mpi4py)](http://mpi4py.scipy.org/) を紹介したいと思います。
 
 <!--more-->
 
-この記事では、MPIのPythonバインディングである
-[MPI for Python (mpi4py)](http://mpi4py.scipy.org/) を紹介したいと思います。
 mpi4pyは多くのスパコンにプリインストールされており、PythonからMPIを呼ぶ際は、
 ほぼこれ一択のようです。
 mpi4pyを利用しているアプリケーションの一例として、
@@ -21,6 +21,7 @@ PFI/PFNさんの分散深層学習フレームワーク
 ## 基本
 
 pipでインストールできます。
+
 ```
 $ pip install mpi4py
 ```
@@ -166,6 +167,13 @@ Open MPIでは `-usze` の代わりに `OMPI_UNIVERSE_SIZE`
 なぜかエラーを吐いて起動できません…本家に
 [issue](https://bitbucket.org/mpi4py/mpi4py/issues/88)
 を立てたので、何か分かり次第追記します。
+
+**追記** どうもOpenMPIのバグのようです。とりあえずは、
+下記のワークアラウンドで動きました。
+
+```nohighlight
+$ MPI4PY_MAX_WORKERS=4 mpiexec --oversubscribe -np 1 python3 pool.py
+```
 
 ## まとめ
 
