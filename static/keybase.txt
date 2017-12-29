@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/keichi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://keichi.net
+  * I am keichi (https://keybase.io/keichi) on keybase.
+  * I have a public key with fingerprint 398A FBEE ACE4 914C 792F  62F9 E032 0357 B24E E5ED
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b623d5a64623658a47d6ae2f74f79c5d936f77c7db9cef9fee6aa9a1ea33bed00a",
+            "fingerprint": "398afbeeace4914c792f62f9e0320357b24ee5ed",
+            "host": "keybase.io",
+            "key_id": "e0320357b24ee5ed",
+            "kid": "0101b623d5a64623658a47d6ae2f74f79c5d936f77c7db9cef9fee6aa9a1ea33bed00a",
+            "uid": "2cbbabf94d1a7d027a7d5a0381b71919",
+            "username": "keichi"
+        },
+        "revoke": {
+            "sig_ids": [
+                "ae8d047fb98ffb2169aad11d6521baeeb8394d409fa3d43dd7d0a9479494f4e70f"
+            ]
+        },
+        "service": {
+            "hostname": "keichi.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1490602427,
+    "expire_in": 157680000,
+    "prev": "05a0f240128dfe4913c257547b4fcf26feda57aed5806466f3bcdebf64281187",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.66
+Comment: https://keybase.io/crypto
+
+yMN9AnicrVJtUFRVGF5ksYIhGIoQnUHmIg7lSvf7AwXGUcsREcsgTJnt3HvO3b0t
+7F12l22JEEbLT5pIZCISxQ+gMW0mGBQJMgIrBqaAxsSlWj9IzA1jBAMlq3uZ+tFM
+Pzs/zpnzzvM+z3Oe9/SEBxtCg66QwS82b/xpPKiva6LIkDvc+0kJJqqwGEspwWxo
+7kD5ELncZpsCsRQMJ3BCZEkKMoCltZNleEBzkAWIlDla5gSJgQLFyhwncVAUJCQL
+MkIsAAIgEKAoEUEcB5gJkxW7BTkdTsXu1mgpgQeyiBCQEC0QtMQJpMySsoBwisQp
+hhNJGiEGQa3Rqrr0Ds2cCFwoWVG1mnYxz9n7D/z/7Ltojo6URBGIskBDAnAQJzlt
+ZwBO8YTIEQIh6EAXctpBAZrzqkhWBSs1YU7kUW1IT9WlWDTLLixlKwYQD3Gak0WB
+l2WRJFgBAEgQkGVIQgQIiTylCdG4IAMK0hSEmiIQaE6gBVqmEYfLWJ7Grel5FGmO
+XM/oX9rJduTWPDmcqluV1HytbnW7Ha4U3ZO72KEDX0Wi+W8Ks6jYoTYfrcODnC5F
+tWMphIaU3IrOSdACzuIkTXImDHkdihOZFR3BcCyPa0vXQR49dC0SmaRxguShrA+W
+kkiGY2hOpGVJJlkZQcBwAEGGx7WpsDIlShCJMkuTPEHwHKY/qtCuatyU5hNYNE4t
+NztwFzkRVvp51zajISjUMD9knv5xDaGPRP7znUtWRvzpiPFu79xSqEY9VZAeEvml
+mlmT2vTcDW/vTEdF+2tq/cDWiNyeD2b27qjb9WSxL8ysnJscuTX+IXdwUUj/anx0
+6ueIw6FXG/Osu9p9LYZu0rFmWfrJmMM/VB81xJC/N/v8AV9g1RcNxlkTn3BocdPm
+6sxjG7osX1+qX0mTh4aip5rcd96drPXmLfXGdcQ9mIQPvb1oreNiRNfSUX9TYCze
+ahslXah9vimG6G0o81iOH3/Tt/eFuqjdJbEr9nPlqy/brR9n51ywNJ64MG0wTJw3
+pjqkwOulkwk3z/6yZ7rWv8qVqNz9Lffl912Du5sHo8vSBg7Gn6l+/t6t8/624PfC
+D1x7IvKZkc+qW44kPateDXwae5KPn/3m3Cv3c2rLvFP9fXeGEnd6ktI67neDqerW
+vqic+PItLcs3Nd42GBtqd7WetS1ZXkgSucLIupuds9dreeMf26TKPaezi+P8jQvq
+r7xVlTGWVJxQsPPBxuyoX9/pGj5Saf1qw2b49BCVFztVM5y2foGxdaIuKLCpPPve
+7e0JgfDeikeDd/gzrNGXFh9bt2Zk7cWZA7aq/Mmk0cRvV8xmLfwobHhhxn4T7qPe
+eEnGPadOzEvAI5cMJPdY8Mt1d7PGytNvuPf1w6zU9af7Hm6bXTZ+qiJksK1RfWxM
++LE7appLfPza950TMSPXz1RVHs38DvA1YS1/AdT+5kc=
+=aBx9
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/keichi
+
+==================================================================
