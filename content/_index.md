@@ -1,3 +1,7 @@
+---
+title: "About"
+---
+
 I am a Ph.D. candidate at [Cybermedia Center](http://www.cmc.osaka-u.ac.jp/),
 Osaka University, Japan. I work under the supervision of [Prof. Shinji
 Shimojo](https://sites.google.com/site/sshimojo/) and [Assoc. Prof. Susumu
