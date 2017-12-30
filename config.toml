@@ -1,19 +1,25 @@
 baseurl = "https://blog.keichi.net/"
-languageCode = "ja-jp"
 title = "Keichi Takahashi"
-copyright = "&copy; 2016 Keichi Takahashi. All Rights Reserved."
-theme = "vienna"
+copyright = "&copy; 2017 Keichi Takahashi"
+theme = "literati"
+DefaultContentLanguage = "ja"
+
+[blackfriday]
+    fractions = false
+
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/"
+
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/post/"
 
 [params]
+    author = "Keichi Takahashi"
+    email = "keichi.t@me.com"
     twitter = "_keichi_"
     github = "keichi"
-    linkedin = "keichi"
-    facebook = "keichi.t"
     ga_api_key = "UA-59307512-2"
-    disqus = "keichi"
-    author = "Keichi Takahashi"
-    avatar = "/images/avatar.jpg"
-    contact = "mailto:keichi.t@me.com"
-    bio = "A software developer, hardware hacker and a beer lover. Keichi believes in the power of code."
-    subtitle = "is a software developer, hardware hacker and a beer lover. He believes in the power of code."
-
