@@ -24,28 +24,29 @@ Inverse PathによるUSB Armoryの紹介ページでは、Electrumというウ�
 それはまた別の記事で説明することにする。
 
 ## インストール方法
-1. まず、USB Armoryにログインし、Electrumをインストールする。
 
-    ```nohighlight
-    $ sudo apt-get install python-qt4 python-pip
-    $ sudo pip install https://download.electrum.org/Electrum-2.0.4.tar.gz
-    ```
+まず、USB Armoryにログインし、Electrumをインストールする。
 
-2. 次に、`xauth`をインストールする。
+```nohighlight
+$ sudo apt-get install python-qt4 python-pip
+$ sudo pip install https://download.electrum.org/Electrum-2.0.4.tar.gz
+```
 
-    ```nohighlight
-    $ sudo apt-get install xauth
-    ```
+次に、`xauth`をインストールする。
 
-3. USB Armoryを接続して使いたいコンピュータから、X11 Forwardingを有効にした状態で、
-    USB Armoryに接続し、Electrumを起動する。
+```nohighlight
+$ sudo apt-get install xauth
+```
 
-    ```nohighlight
-    $ ssh -X <USB ArmoryのIPアドレス>
-    $ electrum
-    ```
+USB Armoryを接続して使いたいコンピュータから、X11 Forwardingを有効にした状態で、
+USB Armoryに接続し、Electrumを起動する。
 
-4. ElectrumのUIが表示されるので、ウォレットをインポートするか、新規作成する。
+```nohighlight
+$ ssh -X <USB ArmoryのIPアドレス>
+$ electrum
+```
+
+ElectrumのUIが表示されるので、ウォレットをインポートするか、新規作成する。
 
 ## 注意点
 - USB Armoryを接続するコンピュータには、X11 Serverがインストールされている
