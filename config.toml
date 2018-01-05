@@ -3,6 +3,7 @@ title = "Keichi Takahashi"
 copyright = "&copy; 2017 Keichi Takahashi"
 theme = "literati"
 DefaultContentLanguage = "ja"
+disableHugoGeneratorInject = true
 
 [blackfriday]
     fractions = false
