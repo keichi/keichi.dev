@@ -2,8 +2,9 @@ baseurl = "https://keichi.net/"
 title = "Keichi Takahashi"
 copyright = "&copy; 2017 Keichi Takahashi"
 theme = "literati"
-DefaultContentLanguage = "ja"
+defaultContentLanguage = "ja"
 disableHugoGeneratorInject = true
+hasCJKLanguage = true
 
 [blackfriday]
     fractions = false
@@ -24,4 +25,4 @@ disableHugoGeneratorInject = true
     email = "keichi.t@me.com"
     twitter = "_keichi_"
     github = "keichi"
-    ga_api_key = "UA-59307512-2"
+    googleAnalytics = "UA-59307512-1"
