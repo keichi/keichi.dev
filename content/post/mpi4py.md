@@ -1,7 +1,7 @@
 +++
 Description = ""
 Tags = []
-Title = "mpi4pyの紹介"
+Title = "mpi4pyの使い方"
 date = "2017-12-21T17:00:00+09:00"
 +++
 

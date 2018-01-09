@@ -5,9 +5,9 @@ date = "2018-01-05T00:27:39+09:00"
 
 最近Ethereumとスマートコントラクトの勉強をしている。まずは
 [堅牢なスマートコントラクト開発のためのブロックチェーン技術入門](http://amzn.asia/1cShVGt)
-という本を読んだので、次のステップとして、スマートコントラクトの脆弱性を突く
-CTFライクなゲーム [Ethernaut](https://ethernaut.zeppelin.solutions/) をプレイ
-してみた。
+という本を読み、次のステップとして、スマートコントラクトの脆弱性を突くCTFライ
+クなゲーム [Ethernaut](https://ethernaut.zeppelin.solutions/) をプレイした。
+無事にクリアできたので、以下に各問題の解答と説明をメモしておく。
 
 ## 0. Hello Ethernaut
 
