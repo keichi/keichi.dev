@@ -1,8 +1,7 @@
-+++
-date = "2015-02-04T03:39:22+09:00"
-title = "mixi主催のScrap Challengeに参加してきた"
-
-+++
+---
+title: "mixi主催のScrap Challengeに参加してきた"
+date: "2015-02-04T03:39:22+09:00"
+---
 
 先日、mixi主催のScrap Challengeというイベントに参加してきた。Scrap
 Challengeとはmixiが学生を対象として年に数回開催している、セキュリティ分野の

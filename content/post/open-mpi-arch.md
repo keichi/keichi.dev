@@ -1,12 +1,8 @@
-+++
-Description = ""
-Tags = [
-]
-date = "2016-12-06T16:33:13+09:00"
-title = "Open MPIのアーキテクチャ"
-draft = true
-
-+++
+---
+title: "Open MPIのアーキテクチャ"
+date: "2016-12-06T16:33:13+09:00"
+draft: true
+---
 
 OpenMPIのアーキテクチャを理解するために、
 _"The Architecture of Open Source Applications Volume ||: Structure, Scale and

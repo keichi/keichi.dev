@@ -1,9 +1,7 @@
-+++
-Description = ""
-Tags = []
-Title = "mpi4pyの使い方"
-date = "2017-12-21T17:00:00+09:00"
-+++
+---
+title: "mpi4pyの使い方"
+date: "2017-12-21T17:00:00+09:00"
+---
 
 これは [MPI Advent Calendar 2017](https://adventar.org/calendars/2548)
 の21日目の記事です。

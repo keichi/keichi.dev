@@ -1,7 +1,7 @@
-+++
-date = "2015-10-22T23:14:18+09:00"
-title = "CentOS 7でKVM + libvirt + Open vSwitchな仮想化環境のつくり方"
-+++
+---
+title: "CentOS 7でKVM + libvirt + Open vSwitchな仮想化環境のつくり方"
+date: "2015-10-22T23:14:18+09:00"
+---
 
 CentOS 7上でのKVM、libvirt、Open vSwitchを使った仮想化環境のつくり方について
 メモしておく。目指す構成は下の画像の通り。ゲストOSは`192.168.100.0/24`の

@@ -1,8 +1,7 @@
-+++
-date = "2015-06-16T14:40:51+09:00"
-title = "MPIのコミュニケータについて"
-
-+++
+---
+title: "MPIのコミュニケータについて"
+date: "2015-06-16T14:40:51+09:00"
+---
 
 MPIのコミュニケータについて、日本語の資料は基礎的なものしか見当たらなかったので
 、少し発展的な内容についてメモしておく。この [発表資料](https://computing.llnl.gov/tutorials/mpi_advanced/DavidCronkSlides.pdf) 、およびMPICHのドキュメントを参考にしている。

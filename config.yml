@@ -1,0 +1,28 @@
+baseurl: "https://keichi.net/"
+title: "Keichi Takahashi"
+copyright: "&copy; 2017 Keichi Takahashi"
+theme: literati
+defaultContentLanguage: ja
+disableHugoGeneratorInject: true
+hasCJKLanguage: true
+
+blackfriday:
+  fractions: false
+  extensions:
+    - joinLines
+
+menu:
+  main:
+    - name: About
+      identifier: about
+      url: /
+    - name: Blog
+      identifier: blog
+      url: /post/
+
+params:
+  author: Keichi Takahashi
+  email: keichi.t@me.com
+  twitter: _keichi_
+  github: keichi
+  googleAnalytics: UA-59307512-1

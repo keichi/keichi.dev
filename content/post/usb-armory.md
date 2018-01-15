@@ -1,9 +1,8 @@
-+++
-date = "2015-04-01T21:25:46+09:00"
-title = "超小型シングルボードコンピュータのUSB Armoryがやって来た"
-images = ["http://keichi.net/images/usb_armory.jpg"]
-
-+++
+---
+title: "超小型シングルボードコンピュータのUSB Armoryがやって来た"
+date: "2015-04-01T21:25:46+09:00"
+images: ["http://keichi.net/images/usb_armory.jpg"]
+---
 
 USB Armoryというガジェットが家に届いた。[USB Armory](http://www.inversepath.com/usbarmory.html)は、[Inverse Path](http://www.inversepath.com/)
 というトリエステを拠点とする会社が開発した、シングルボードコンピュータだ。大きさは

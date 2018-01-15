@@ -1,8 +1,7 @@
-+++
-date = "2015-04-07T23:51:04+09:00"
-title = "USB ArmoryでElectrum Bitcoin Walletを動かす"
-
-+++
+---
+title: "USB ArmoryでElectrum Bitcoin Walletを動かす"
+date: "2015-04-07T23:51:04+09:00"
+---
 
 [USB Armory](/post/usb-armory)の有用なユースケースの1つとして考えられるのが、
 ポータブルなビットコインのウォレットだ。ビットコインのウォレットの実体は、複数の

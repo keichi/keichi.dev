@@ -1,9 +1,8 @@
-+++
-date = "2015-11-30T23:00:44-06:00"
-draft = true
-title = "Ryu OpenFlowコントローラの概要"
-
-+++
+---
+title: "Ryu OpenFlowコントローラの概要"
+date: "2015-11-30T23:00:44-06:00"
+draft: true
+---
 
 [Ryu](http://osrg.github.io/ryu/)はOpenFlowコントローラを開発するための
 フレームワーク

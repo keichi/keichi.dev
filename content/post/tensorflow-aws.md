@@ -1,8 +1,7 @@
-+++
-date = "2016-09-27T00:22:25+09:00"
-title = "TensorFlow r0.10 on AWS"
-
-+++
+---
+title: "TensorFlow r0.10 on AWS"
+date: "2016-09-27T00:22:25+09:00"
+---
 
 最近TensorFlowで深層学習の勉強をしているが、手持ちのMac Book Pro Retina 13-inch
 だとチュートリアルの時点で既に学習が遅すぎて辛いので、AWSでGPUインスタンスを
