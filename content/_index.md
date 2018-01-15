@@ -1,6 +1,9 @@
 ---
 title: "About"
 date: "2017-12-30T00:11:00+09:00"
+blackfriday:
+  extensionsmask:
+    - joinLines
 ---
 
 I am a Ph.D. candidate at [Cybermedia

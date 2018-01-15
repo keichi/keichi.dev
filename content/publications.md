@@ -1,6 +1,9 @@
 ---
 title: Publications
 menu: "main"
+blackfriday:
+  extensionsmask:
+    - joinLines
 ---
 
 ## International Conference

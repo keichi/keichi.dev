@@ -1,6 +1,9 @@
 ---
 title: Projects
 menu: "main"
+blackfriday:
+  extensionsmask:
+    - joinLines
 ---
 
 - [binary-parser](https://github.com/keichi/binary-parser): A high-performance
