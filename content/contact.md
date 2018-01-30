@@ -37,9 +37,3 @@ Cybermedia Center, Osaka University
 ### GPG
 
 [F636 B179 E142 ABCA 2522  199E FD04 0976 86C9 3199](https://pgp.mit.edu/pks/lookup?op=get&search=0xFD04097686C93199)
-
-### Cryptocurrency
-
-![1MBbMcJxSKNNNo7rjRTcEeAisAbsanzMtM](/images/bitcoin.png)
-
-![0x55aB05496c6Fc9B68C79Dc7e790eCfdD79dDD8F6](/images/ethereum.png)
