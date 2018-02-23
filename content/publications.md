@@ -6,7 +6,7 @@ blackfriday:
     - joinLines
 ---
 
-## International Conference
+## International Conference Paper
 
 
 - Hiroaki Morimoto, Khureltulga Dashdavaa, __Keichi Takahashi__, Yoshiyuki
@@ -66,7 +66,7 @@ blackfriday:
   (HPCS2014)_, Jul. 2014.
   [10.1109/HPCSim.2014.6903768](https://doi.org/10.1109/HPCSim.2014.6903768)
 
-## Journal
+## Journal Paper
 
 - Susumu Date, Hirotake Abe, Khureltulga Dashdavaa, __Keichi Takahashi__,
   Yoshiyuki Kido, Yasuhiro Watashiba, Pongsakorn U-chupala, Kohei Ichikawa,
@@ -74,8 +74,11 @@ blackfriday:
   Infrastructure for Scientific Research", International Journal of
   Information Technology, vol. 22, no. 01, 2016.
 
-## Poster
+## Poster and Oral Presentation
 
+- __Keichi Takahashi__, "Towards Realizing a Dynamic and MPI Application-aware
+  Interconnect with SDN", _26th Workshop on Sustained Simulation Performance
+  (WSSP26)_, Oct. 2017.
 - Takuya Yamada, __Keichi Takahashi__, Masaya Muraki, Yoshiyuki Kido, Susumu Date,
   Shimojo Shinji, "A Proposal of Access Control Mechanism for the IoT world",
   _ASEAN IVO Meeting_, Sep. 2016.
