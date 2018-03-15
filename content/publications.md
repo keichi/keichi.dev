@@ -91,5 +91,5 @@ blackfriday:
   of Network Functionality Based on SDN", _PRAGMA 29_, Oct. 2015.
 - __Keichi Takahashi__, Baatarsuren Munkhdorj, Khureltulga Dashdavaa, Susumu
   Date, Yoshiyuki Kido, Shinji Shimojo, "Control Sequence Generator for
-  Generic SDN-­enhanced MPI Framework", PRAGMA 28, Apr. 2015. (Best Poster
+  Generic SDN-enhanced MPI Framework", _PRAGMA 28_, Apr. 2015. (Best Poster
   Award)
