@@ -76,6 +76,9 @@ blackfriday:
 
 ## Poster and Oral Presentation
 
+- __Keichi Takahashi__, "An MPI Framework for HPC Clusters Deployed with
+    Software-Defined Networking", _27th Workshop on Sustained Simulation
+    Performance (WSSP27)_, Mar. 2018.
 - __Keichi Takahashi__, "Towards Realizing a Dynamic and MPI Application-aware
   Interconnect with SDN", _26th Workshop on Sustained Simulation Performance
   (WSSP26)_, Oct. 2017.
