@@ -6,8 +6,19 @@ blackfriday:
     - joinLines
 ---
 
-## International Conference Paper
+## Journal Paper
 
+- __Keichi Takahashi__, Susumu Date, Dashdavaa Khureltulga, Yoshiyuki Kido,
+  Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "UnisonFlow: A
+  Software-Defined Coordination Mechanism for Message-Passing Communication
+  and Computation", IEEE Access, (accepted)
+- Susumu Date, Hirotake Abe, Khureltulga Dashdavaa, __Keichi Takahashi__,
+  Yoshiyuki Kido, Yasuhiro Watashiba, Pongsakorn U-chupala, Kohei Ichikawa,
+  Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "SDN-accelerated HPC
+  Infrastructure for Scientific Research", International Journal of
+  Information Technology, vol. 22, no. 01, 2016.
+
+## International Conference Paper
 
 - Hiroaki Morimoto, Khureltulga Dashdavaa, __Keichi Takahashi__, Yoshiyuki
   Kido, Susumu Date, Shinji Shimojo, "Design and Implementation of
@@ -65,14 +76,6 @@ blackfriday:
   International Conference on High Performance Computing and Simulations
   (HPCS2014)_, Jul. 2014.
   [10.1109/HPCSim.2014.6903768](https://doi.org/10.1109/HPCSim.2014.6903768)
-
-## Journal Paper
-
-- Susumu Date, Hirotake Abe, Khureltulga Dashdavaa, __Keichi Takahashi__,
-  Yoshiyuki Kido, Yasuhiro Watashiba, Pongsakorn U-chupala, Kohei Ichikawa,
-  Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "SDN-accelerated HPC
-  Infrastructure for Scientific Research", International Journal of
-  Information Technology, vol. 22, no. 01, 2016.
 
 ## Poster and Oral Presentation
 
