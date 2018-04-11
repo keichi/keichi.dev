@@ -6,6 +6,9 @@ blackfriday:
     - joinLines
 ---
 
+Some open source software that I have worked on include (but are not limited
+to):
+
 - [binary-parser](https://github.com/keichi/binary-parser): A high-performance
   declarative binary parser generator for node.js
 - [tiny-lldpd](https://github.com/shimojo-lab/tiny-lldpd): A minimal
