@@ -27,7 +27,6 @@ Cybermedia Center, Osaka University
 
 ### Social
 
-- [Blog](https://blog.keichi.net/) (Japanese)
 - [Twitter](https://twitter.com/_keichi_)
 - [Facebook](https://www.facebook.com/keichi.t)
 - [GitHub](https://github.com/keichi)
