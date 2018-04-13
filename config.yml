@@ -16,6 +16,9 @@ menu:
     - name: About
       identifier: about
       url: /
+    - name: CV
+      identifier: cv
+      url: /cv_takahashi.pdf
     - name: Blog
       identifier: blog
       url: /post/
