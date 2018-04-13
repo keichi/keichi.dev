@@ -57,7 +57,7 @@ blackfriday:
   Yoshuyuki Kido, Yasuhiro Watashiba, Pongsakorn U-Chupala, Kohei Ichikawa,
   Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "An Empirical Study of
   SDN-accelerated HPC Infrastructure for Scientific Research", _International
-  Conference Research and Innovation (ICCCRI)_, Oct. 2015.
+  Conference on Cloud Computing Research and Innovation (ICCCRI)_, Oct. 2015.
   [10.1109/ICCCRI.2015.13](https://doi.org/10.1109/ICCCRI.2015.13)
 - Pisit Makpaisit, Kohei Ichikawa, Putchong Uthayopas, Susumu Date, __Keichi
   Takahashi__, Khureltulga Dashdavaa, "An Efficient MPI_Reduce Algorithm for
