@@ -13,7 +13,6 @@ blackfriday:
   Software-Defined Coordination Mechanism for Message-Passing Communication
   and Computation", IEEE Access, 2018.
   [10.1109/ACCESS.2018.2829532](https://doi.org/10.1109/ACCESS.2018.2829532)
-  (accepted)
 - Susumu Date, Hirotake Abe, Khureltulga Dashdavaa, __Keichi Takahashi__,
   Yoshiyuki Kido, Yasuhiro Watashiba, Pongsakorn U-chupala, Kohei Ichikawa,
   Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "SDN-accelerated HPC
