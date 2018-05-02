@@ -20,7 +20,10 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference Paper
-
+- Yohei Takigawa, __Keichi Takahashi__, Susumu Date, Yoshiyuki Kido, Shinji
+  Shimojo, "A Traffic Simulator with Intra-node Parallelism for Designing
+  High-performance Interconnects", International Workshop on High Performance
+  Interconnection Networks and Interconnects (HPINI 2018), July 2018. (accepted)
 - Hiroaki Morimoto, Khureltulga Dashdavaa, __Keichi Takahashi__, Yoshiyuki
   Kido, Susumu Date, Shinji Shimojo, "Design and Implementation of
   SDN-enhanced MPI Broadcast Targeting a Fat-tree Interconnect", _The
