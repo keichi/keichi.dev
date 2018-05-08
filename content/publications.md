@@ -95,11 +95,11 @@ blackfriday:
 - Takuya Yamada, __Keichi Takahashi__, Masaya Muraki, Yoshiyuki Kido, Susumu Date,
   Shimojo Shinji, "A Proposal of Access Control Mechanism Towards
   User-dedicated PRAGMA-ENT for IoT Era", _PRAGMA Workshop 31_, Sep. 2016.
-  (The 2nd Place of the Students Poster Award)
+  (2nd Place of Students Poster Award)
 - Khureltulga Dashdavaa, Munkhdorj Baatarsuren, __Keichi Takahashi__, Susumu
   Date, Yoshiyuki Kido, Shinji Shimojo, "A MPI Concept with Efficient Control
   of Network Functionality Based on SDN", _PRAGMA 29_, Oct. 2015.
 - __Keichi Takahashi__, Baatarsuren Munkhdorj, Khureltulga Dashdavaa, Susumu
   Date, Yoshiyuki Kido, Shinji Shimojo, "Control Sequence Generator for
-  Generic SDN-enhanced MPI Framework", _PRAGMA 28_, Apr. 2015. (Best Poster
-  Award)
+  Generic SDN-enhanced MPI Framework", _PRAGMA 28_, Apr. 2015. (Lightning Talk
+  Best Idea Award)
