@@ -47,11 +47,6 @@ blackfriday:
   Infrastructure”, PhD. Consortium, _8th IEEE International Conference on
   Cloud Computing Technology and Science (CloudCom2016)_, Dec. 2016.
   [10.1109/CloudCom.2016.0076](https://doi.org/10.1109/CloudCom.2016.0076)
-- Susumu Date, Yoshiyuki Kido, Khureltulga Dashdavaa, __Keichi Takahashi__,
-  Yasuhiro Watashiba, Shinji Shimojo, "Toward Flexible Supercomputing and
-  Visualization System", M. M. Resch et al. (eds.), Sustained Simulation
-  Performance 2015, Springer, 2015.
-  [10.1007/978-3-319-20340-9_7](https://doi.org/10.1007/978-3-319-20340-9_7)
 - Baatarsuren Munkhdorj, __Keichi Takahashi__, Khureltulga Dashdavaa, Yasuhiro
   Watashiba, Yoshiyuki Kido, Susumu Date, Shinji Shimojo, "Design and
   Implementation of Control Sequence Generator for SDN-enhanced MPI", _The 5th
@@ -80,6 +75,22 @@ blackfriday:
   International Conference on High Performance Computing and Simulations
   (HPCS2014)_, Jul. 2014.
   [10.1109/HPCSim.2014.6903768](https://doi.org/10.1109/HPCSim.2014.6903768)
+
+## Book Chapter
+
+- Akihiro Misawa, Susumu Date, __Keichi Takahashi__, Takashi Yoshikawa,
+  Masahiko Takahashi, Masaki Kan, Yasuhiro Watashiba, Yoshiyuki Kido, Chonho
+  Lee, Shinji Shimojo, "Dynamic Reconfiguration of Computer Platforms at the
+  Hardware Device Level for High Performance Computing Infrastructure as a
+  Service", Cloud Computing and Service Science, D. Ferguson et al. (eds.),
+  Cloud Computing and Service Science, pp.177-199, Springer, 2018.
+  [10.1007/978-3-319-94959-8_10](http://doi.org/10.1007/978-3-319-94959-8_10)
+- Susumu Date, Yoshiyuki Kido, Khureltulga Dashdavaa, __Keichi Takahashi__,
+  Yasuhiro Watashiba, Shinji Shimojo, "Toward Flexible Supercomputing and
+  Visualization System", M. M. Resch et al. (eds.), Sustained Simulation
+  Performance 2015, pp. 77-93, Springer, 2015.
+  [10.1007/978-3-319-20340-9_7](https://doi.org/10.1007/978-3-319-20340-9_7)
+
 
 ## Poster and Oral Presentation
 
