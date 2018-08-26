@@ -6,19 +6,9 @@ blackfriday:
     - joinLines
 ---
 
-### Address
-
-```
-Keichi Takahashi (高橋 慧智)
-Applied Information Systems Research Division
-Cybermedia Center, Osaka University
-5-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan
-```
-
 ### Tel
 
-- Office: +81 668794411
-- Private (Mobile): +81 8040206553
+- Mobile: +1 (801) 809-2998
 
 ### Email
 
