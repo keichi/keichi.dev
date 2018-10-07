@@ -13,6 +13,12 @@ blackfriday:
   Software-Defined Coordination Mechanism for Message-Passing Communication
   and Computation", IEEE Access, vol. 6, no. 1, pp. 23372-23382, 2018.
   [10.1109/ACCESS.2018.2829532](https://doi.org/10.1109/ACCESS.2018.2829532)
+- Akihiro Misawa, Susumu Date, __Keichi Takahashi__, Takashi Yoshikawa,
+  Masahiko Takahashi, Masaki Kan, Yasuhiro Watashiba, Yoshiyuki Kido, Chonho
+  Lee, Shinji Shimojo, "Dynamic Reconfiguration of Computer Platforms at the
+  Hardware Device Level for High Performance Computing Infrastructure as a
+  Service", Cloud Computing and Service Science, vol. 864, pp.177-199, 2018.
+  [10.1007/978-3-319-94959-8_10](http://doi.org/10.1007/978-3-319-94959-8_10)
 - Susumu Date, Hirotake Abe, Khureltulga Dashdavaa, __Keichi Takahashi__,
   Yoshiyuki Kido, Yasuhiro Watashiba, Pongsakorn U-chupala, Kohei Ichikawa,
   Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "SDN-accelerated HPC
@@ -79,13 +85,6 @@ blackfriday:
 
 ## Book Chapter
 
-- Akihiro Misawa, Susumu Date, __Keichi Takahashi__, Takashi Yoshikawa,
-  Masahiko Takahashi, Masaki Kan, Yasuhiro Watashiba, Yoshiyuki Kido, Chonho
-  Lee, Shinji Shimojo, "Dynamic Reconfiguration of Computer Platforms at the
-  Hardware Device Level for High Performance Computing Infrastructure as a
-  Service", Cloud Computing and Service Science, D. Ferguson et al. (eds.),
-  Cloud Computing and Service Science, pp.177-199, Springer, 2018.
-  [10.1007/978-3-319-94959-8_10](http://doi.org/10.1007/978-3-319-94959-8_10)
 - Susumu Date, Yoshiyuki Kido, Khureltulga Dashdavaa, __Keichi Takahashi__,
   Yasuhiro Watashiba, Shinji Shimojo, "Toward Flexible Supercomputing and
   Visualization System", M. M. Resch et al. (eds.), Sustained Simulation
