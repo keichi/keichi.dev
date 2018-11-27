@@ -9,6 +9,9 @@ blackfriday:
 Some open source software that I have worked on include (but are not limited
 to):
 
+- [ADIOS2](https://github.com/ornladios/ADIOS2): A high-performance data
+    movement middleware developed as a part of the US DoE Exascale Computing
+    Project
 - [binary-parser](https://github.com/keichi/binary-parser): A high-performance
   declarative binary parser generator for node.js
 - [tiny-lldpd](https://github.com/shimojo-lab/tiny-lldpd): A minimal
