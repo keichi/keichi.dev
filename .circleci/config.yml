@@ -7,6 +7,7 @@ jobs:
       - run: apk update && apk add git
       - run: apk add aws-cli --update-cache --allow-untrusted --repository http://dl-3.alpinelinux.org/alpine/edge/testing/
       - checkout
+      - run: git submodule sync && git submodule update --init
       - run: hugo -v
       - deploy:
           name: Deploy to S3
