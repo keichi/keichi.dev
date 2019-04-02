@@ -6,6 +6,8 @@ blackfriday:
     - joinLines
 ---
 
+I am currently an assistant professor at Nara Institute of Science and
+Technology (NAIST).
 I received my Ph.D. in Information Science in 2019 at Osaka University, where
 I worked under the supervision of [Prof. Shinji
 Shimojo](https://sites.google.com/site/sshimojo/) and [Assoc. Prof. Susumu

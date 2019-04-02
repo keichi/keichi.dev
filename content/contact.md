@@ -8,12 +8,34 @@ blackfriday:
 
 ### Tel
 
-- Mobile: +81 80-4020-6553
+- Office: 0743-72-5383
+- Office (intl. call): +81 743-72-5383
 
 ### Email
 
-- Office: takahashi.keichi at ais.cmc.osaka-u.ac.jp
+- Office: keichi at is.naist.jp
 - Private: keichi.t at me.com
+
+### Address
+
+English:
+
+```
+Information Science Bldg. A301
+Takayamacho 8916-5
+Nara Institute of Science and Technology
+Ikoma, Nara
+630-0192 Japan
+```
+
+Japanese:
+
+```
+〒630-0192
+奈良県生駒市高山町8916-5
+奈良先端科学技術大学院大学
+情報科学領域A棟3階 A301
+```
 
 ### Social
 
