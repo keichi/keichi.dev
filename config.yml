@@ -5,6 +5,7 @@ theme: literati
 defaultContentLanguage: ja
 disableHugoGeneratorInject: true
 hasCJKLanguage: true
+enableGitInfo: true
 
 blackfriday:
   fractions: false
