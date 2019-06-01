@@ -38,7 +38,7 @@ GitHubからクローンし，ビルドする．特に依存関係はないの�
 ．
 
 ```
-$ https://github.com/insidegadgets/GBxCart-RW.git
+$ git clone https://github.com/insidegadgets/GBxCart-RW.git
 $ cd GBxCart-RW/Interface_Programs/GBxCart_RW_Console_Interface_v1.20/
 $ make
 ```
@@ -54,7 +54,7 @@ macOS Mojaveではドライバが既に内蔵されているので，別途ド�
 ![ROM吸出しの様子](/images/gbxcart2.jpg)
 
 クライアントをインストールしたら，GBxCartにカートリッジを挿し，PCとUSB接続
-する．そして，クライアントを起動したのち，カートリッジヘッダを読み込み，
+する．そして，クライアントを用いてカートリッジヘッダを読み込んだ後，
 ROM本体を読む．
 
 ```
