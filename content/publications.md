@@ -94,6 +94,9 @@ blackfriday:
 
 ## Poster and Oral Presentation
 
+- Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
+  Nakasan, Hajimu Iida, "Towards Optimal Resource Utilization in Data Centers
+  using Long Short-Term Memory", _PRAGMA Workshop 36_, Apr. 2019.
 - __Keichi Takahashi__, "An MPI Framework for HPC Clusters Deployed with
     Software-Defined Networking", _27th Workshop on Sustained Simulation
     Performance (WSSP27)_, Mar. 2018.
