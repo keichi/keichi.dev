@@ -9,7 +9,7 @@ blackfriday:
 I am an assistant professor at [Nara Institute of Science and
 Technology (NAIST)](http://www.naist.jp/en/), where I am a member of the
 [Software Design and Analysis Laboratory](https://sdlab-web.naist.jp/english).
-I also serve a guest faculty at [Cybermedia
+I also serve as a guest faculty at [Cybermedia
 Center](https://www.cmc.osaka-u.ac.jp/?lang=en), Osaka University.
 
 I received my Ph.D. in Information Science in 2019 at Osaka University, where
