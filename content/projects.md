@@ -6,8 +6,7 @@ blackfriday:
     - joinLines
 ---
 
-Some open source software that I have worked on include (but are not limited
-to):
+Open source software that I have worked on include (but are not limited to):
 
 - [rgb](https://github.com/keichi/rgb): A Game Boy emulator
 - [ADIOS2](https://github.com/ornladios/ADIOS2): A high-performance data
