@@ -11,4 +11,4 @@ jobs:
       - run: hugo -v
       - deploy:
           name: Deploy to S3
-          command: aws s3 sync public/ s3://keichi.net --delete
+          command: aws s3 sync public/ s3://keichi.net --delete --exclude cv_takahashi.pdf
