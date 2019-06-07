@@ -8,8 +8,8 @@ blackfriday:
 
 ### Tel
 
-- Office: 0743-72-5383
-- Office (intl. call): +81 743-72-5383
+- Office (international): +81 743-72-5383
+- Office (domestic): 0743-72-5383
 
 ### Email
 
@@ -18,7 +18,7 @@ blackfriday:
 
 ### Address
 
-English:
+International:
 
 ```
 Information Science Bldg. A301
@@ -28,7 +28,7 @@ Ikoma, Nara
 630-0192 Japan
 ```
 
-Japanese:
+Domestic:
 
 ```
 〒630-0192
