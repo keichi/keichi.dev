@@ -140,7 +140,7 @@ mpi4pyは、 `concurrent.futures.Executor` を継承した `MPIPoolExecutor`
 `ThreadPoolExecutor` や `ProcessPoolExecutor` と同様のインターフェースで、
 embarassingly parallelな計算を簡単に並列分散化することができます。
 
-```
+```python
 from mpi4py.futures import MPIPoolExecutor
 
 def compute(x):

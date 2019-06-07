@@ -6,6 +6,8 @@ defaultContentLanguage: ja
 disableHugoGeneratorInject: true
 hasCJKLanguage: true
 enableGitInfo: true
+pygmentsCodefences: true
+pygmentsUseClasses: true
 
 blackfriday:
   fractions: false
