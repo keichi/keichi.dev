@@ -94,6 +94,9 @@ blackfriday:
 
 ## Poster and Oral Presentation
 
+- Scott Klasky, Norbert Podhorszki Jason Ruonan Wang, Susumu Date, __Keichi
+  Takahashi__, Osamu Tatebe, Taisuke Boku, "Enhancing ADIOS for extreme-scale
+  data movement", _DOE/MEXT meeting_, May. 2019.
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Hajimu Iida, "Towards Optimal Resource Utilization in Data Centers
   using Long Short-Term Memory", _PRAGMA Workshop 36_, Apr. 2019.
