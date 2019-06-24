@@ -48,4 +48,4 @@ Domestic:
 ### GPG
 
 - [3632 7E42 A4D5 FC7C A7E9  8584 475D 357E EA19 76A1](https://pgp.mit.edu/pks/lookup?op=get&search=0x475D357EEA1976A1) (current)
-- [F636 B179 E142 ABCA 2522  199E FD04 0976 86C9 3199](https://pgp.mit.edu/pks/lookup?op=get&search=0xFD04097686C93199) (past)
+- [~~F636 B179 E142 ABCA 2522  199E FD04 0976 86C9 3199~~](https://pgp.mit.edu/pks/lookup?op=get&search=0xFD04097686C93199) (past)
