@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Software
 menu: "main"
 blackfriday:
   extensionsmask:
