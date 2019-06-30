@@ -126,4 +126,4 @@ blackfriday:
 - __Keichi Takahashi__, "Programmable Interconnect Control Adaptive to
   Communication Pattern of Applications", Doctoral Thesis, Graduate School of
   Information Science and Technology, Osaka University, 2019.
-  [10.18910/72595](http://hdl.handle.net/11094/72595)
+  [10.18910/72595](https://doi.org/11094/72595)
