@@ -26,6 +26,11 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference Paper
+- Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
+  Nakasan, Hajimu Iida, "Improving Resource Utilization in Data Centers using
+  an LSTM-based Prediction Model", _Workshop on Monitoring and Analysis for
+  High Performance Computing Systems Plus Applications (HPCMASPA 2019)_ (held
+  in conjunction with IEEE Cluster 2019), Sep. 2019. (accepted)
 - Yohei Takigawa, __Keichi Takahashi__, Susumu Date, Yoshiyuki Kido, Shinji
   Shimojo, "A Traffic Simulator with Intra-node Parallelism for Designing
   High-performance Interconnects", _The International Conference on High
