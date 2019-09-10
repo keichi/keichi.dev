@@ -6,7 +6,7 @@ blackfriday:
     - joinLines
 ---
 
-## Journal Paper
+## Journal
 
 - __Keichi Takahashi__, Susumu Date, Dashdavaa Khureltulga, Yoshiyuki Kido,
   Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "UnisonFlow: A
@@ -25,7 +25,7 @@ blackfriday:
   Infrastructure for Scientific Research", International Journal of
   Information Technology, vol. 22, no. 01, 2016.
 
-## International Conference Paper
+## International Conference
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Hajimu Iida, "Improving Resource Utilization in Data Centers using
   an LSTM-based Prediction Model", _Workshop on Monitoring and Analysis for
@@ -99,12 +99,26 @@ blackfriday:
 
 ## Poster and Oral Presentation
 
+- Wassapon Watanakeesuntorn, Kohei Ichikawa, __Keichi Takahashi__, Hajimu Iida
+  "An Interactive Monitoring Tool for OpenFlow Networks", _PRAGMA
+  Workshop 37_, Sep. 2019.
+- Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
+  Nakasan, Hajimu Iida, "Compressing Recurrent Neural Network Models using
+  Vector Quantization", _PRAGMA Workshop 37_, Sep. 2019.
+- Wassapon Watanakeesuntorn, Kohei Ichikawa, __Keichi Takahashi__, Jason Haga,
+  Gerald Pao "Calculation of Complete Zebrafish Brain Neural Activities on
+  ABCI", _PRAGMA Workshop 37_, Sep. 2019.
+- Vahid Daneshmand, Renato Figueiredo, Kohei Ichikawa, __Keichi Takahashi__,
+  Kundjanasith Thonglek, "Investigating the Performance and Scalability of
+  Kubernetes on Distributed Cluster of Resource-Constrained Edge Devices",
+  _PRAGMA Workshop 37_, Sep. 2019.
 - Scott Klasky, Norbert Podhorszki Jason Ruonan Wang, Susumu Date, __Keichi
   Takahashi__, Osamu Tatebe, Taisuke Boku, "Enhancing ADIOS for extreme-scale
   data movement", _DOE/MEXT meeting_, May. 2019.
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Hajimu Iida, "Towards Optimal Resource Utilization in Data Centers
-  using Long Short-Term Memory", _PRAGMA Workshop 36_, Apr. 2019.
+  using Long Short-Term Memory", _PRAGMA Workshop 36_, Apr. 2019. (Best
+  Presentation Award)
 - __Keichi Takahashi__, "An MPI Framework for HPC Clusters Deployed with
     Software-Defined Networking", _27th Workshop on Sustained Simulation
     Performance (WSSP27)_, Mar. 2018.
