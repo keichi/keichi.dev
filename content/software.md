@@ -8,7 +8,7 @@ blackfriday:
 
 Open source software that I have worked on include (but are not limited to):
 
-- [rgb](https://github.com/keichi/rgb): A Game Boy emulator
+- [gbr](https://github.com/keichi/gbr): A Game Boy emulator written in Rust
 - [ADIOS2](https://github.com/ornladios/ADIOS2): A high-performance data
     movement middleware developed as a part of the US DoE Exascale Computing
     Project
