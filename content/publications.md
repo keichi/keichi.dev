@@ -26,11 +26,16 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Jong
+  Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster and Scott
+  Klasky, "A Codesign Framework for Online Data Analysis and Reduction",
+  _Workflows in Support of Large-Scale Science (WORKS 2019)_, Nov. 2019.
+  (accepted)
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Hajimu Iida, "Improving Resource Utilization in Data Centers using
   an LSTM-based Prediction Model", _Workshop on Monitoring and Analysis for
   High Performance Computing Systems Plus Applications (HPCMASPA 2019)_ (held
-  in conjunction with IEEE Cluster 2019), Sep. 2019. (accepted)
+  in conjunction with IEEE Cluster 2019), Sep. 2019.
 - Yohei Takigawa, __Keichi Takahashi__, Susumu Date, Yoshiyuki Kido, Shinji
   Shimojo, "A Traffic Simulator with Intra-node Parallelism for Designing
   High-performance Interconnects", _The International Conference on High
@@ -140,8 +145,12 @@ blackfriday:
   Generic SDN-enhanced MPI Framework", _PRAGMA 28_, Apr. 2015. (Lightning Talk
   Best Idea Award)
 
-## Dissertation
+## Miscellaneous
 
+- Shinji Shimojo, __Keichi Takahashi__, "Study on Data Staging Technique for
+  Efficient Post-Processing in Large-Scale CFD Computation", JAXA
+  Supercomputer System Annual Report, pp. 228-230, Sep. 2019.
+  [JAXA-SP-19-003E](https://repository.exst.jaxa.jp/dspace/handle/a-is/932794)
 - __Keichi Takahashi__, "Programmable Interconnect Control Adaptive to
   Communication Pattern of Applications", Doctoral Thesis, Graduate School of
   Information Science and Technology, Osaka University, 2019.
