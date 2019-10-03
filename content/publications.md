@@ -27,7 +27,7 @@ blackfriday:
 
 ## International Conference
 - Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Jong
-  Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster and Scott
+  Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster, Scott
   Klasky, "A Codesign Framework for Online Data Analysis and Reduction",
   _Workflows in Support of Large-Scale Science (WORKS 2019)_, Nov. 2019.
   (accepted)
@@ -111,13 +111,13 @@ blackfriday:
   Nakasan, Hajimu Iida, "Compressing Recurrent Neural Network Models using
   Vector Quantization", _PRAGMA Workshop 37_, Sep. 2019.
 - Wassapon Watanakeesuntorn, Kohei Ichikawa, __Keichi Takahashi__, Jason Haga,
-  Gerald Pao "Calculation of Complete Zebrafish Brain Neural Activities on
+  Gerald Pao "Modeling of Complete Zebrafish Brain Neural Activities on
   ABCI", _PRAGMA Workshop 37_, Sep. 2019.
 - Vahid Daneshmand, Renato Figueiredo, Kohei Ichikawa, __Keichi Takahashi__,
   Kundjanasith Thonglek, "Investigating the Performance and Scalability of
   Kubernetes on Distributed Cluster of Resource-Constrained Edge Devices",
   _PRAGMA Workshop 37_, Sep. 2019.
-- Scott Klasky, Norbert Podhorszki Jason Ruonan Wang, Susumu Date, __Keichi
+- Scott Klasky, Norbert Podhorszki, Jason Ruonan Wang, Susumu Date, __Keichi
   Takahashi__, Osamu Tatebe, Taisuke Boku, "Enhancing ADIOS for extreme-scale
   data movement", _DOE/MEXT meeting_, May. 2019.
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
