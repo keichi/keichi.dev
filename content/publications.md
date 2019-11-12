@@ -36,6 +36,7 @@ blackfriday:
   an LSTM-based Prediction Model", _Workshop on Monitoring and Analysis for
   High Performance Computing Systems Plus Applications (HPCMASPA 2019)_ (held
   in conjunction with IEEE Cluster 2019), Sep. 2019.
+  [10.1109/CLUSTER.2019.8891022](https://doi.org/10.1109/CLUSTER.2019.8891022)
 - Yohei Takigawa, __Keichi Takahashi__, Susumu Date, Yoshiyuki Kido, Shinji
   Shimojo, "A Traffic Simulator with Intra-node Parallelism for Designing
   High-performance Interconnects", _The International Conference on High
