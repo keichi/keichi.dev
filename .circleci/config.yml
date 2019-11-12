@@ -4,8 +4,7 @@ jobs:
     docker:
       - image: cibuilds/hugo:latest
     steps:
-      - run: apt update && apt install -y git python3 python3-dev
-      - run: pip3 install awscli
+      - run: apt update && apt install -y git awscli
       - checkout
       - run: git submodule sync && git submodule update --init
       - run: hugo -v
