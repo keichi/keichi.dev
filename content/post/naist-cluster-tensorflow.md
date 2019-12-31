@@ -1,17 +1,17 @@
 ---
 title: NAISTの小規模計算サーバでTensorFlow 2.0を動かす
-date: 2019-12-31T10:53:09+09:00
+date: 2020-01-03T00:01:44+09:00
 description:
 tags: []
-draft: true
 ---
 
 NAISTには，構成員が無料で利用できる計算用クラスタが設置されており
 ([参考](https://itcw3.naist.jp/ITC-local/manual/h29computing/document.html))，
-Tesla P100を搭載した計算ノードも無料で使用できるのですが，
-ソフトウェア環境が古く，最新のTensorFlowを使用するためには
-Pythonを始めとして様々なソフトウェアを自力でインストールする必要があります．
-小規模計算サーバ上でのインストール作業には色々と罠があるので，ここに手順をまとめておきます．
+NVIDIA Tesla P100を搭載した計算ノードも無料で使用できます．
+しかし，準備されているソフトウェア環境が古く，最新のTensorFlowを使用するためには，
+Pythonを始めとして多数のソフトウェアを自力でインストールする必要があります．
+小規模計算サーバ上でのソフトウェアのインストールには色々と罠があり，
+困っている人を見かけたので，ここに手順をまとめておきます．
 構築する環境は次の通りです:
 
 - Python 3.7.4
@@ -24,17 +24,19 @@ Pythonを始めとして様々なソフトウェアを自力でインストー�
 ログインノードでは`/home/is/<user>`がホームディレクトリとなりますが，
 計算ノードは`/home`をマウントしておらず，`/work/<user>`がホームディレクトリとなります．
 そのため，計算ノードで使用するソフトウェアは全て`/work`以下にインストールする
-必要があります．また，`.bash_profile`，`.bashrc`等のシェルの設定ファイルは
+必要があります．また，`.bash_profile`等のシェルの設定ファイルは
 `/home/is/<user>`と`/work/<user>`の両方で編集する必要があります．
 
 ## Python 3をインストールする
 
-小規模計算サーバ上にプリインストールされているPythonは，Python 2.7のみです．
-Python 2のサポートは既に終了し，ほとんどのライブラリもPython 2のサポートを切った
-ため，Python 3をインストールします．
+小規模計算サーバにプリインストールされているPythonは，残念ながらPython 2.7のみです．
+Python 2のサポートは既に終了し，多くのライブラリもPython 2のサポートを切った
+ため ([参考](https://python3statement.org/))，Python 3をインストールします．
 Pythonをインストールするには様々な方法がありますが，ここでは
 [pyenv](https://github.com/pyenv/pyenv)というPythonのバージョン管理ツールを使用します．
 以下ではパスの`keichi`を自分のユーザ名に置き換えてください．
+
+Pyenvのソースコードをcloneします．
 
 ```bash
 $ git clone https://github.com/pyenv/pyenv.git /work/keichi/.pyenv
@@ -59,7 +61,7 @@ fi
 $ pyenv install 3.7.4
 ```
 
-インストール完了後，Pythonのバージョンを確認します．
+インストール完了後，Pythonのバージョンが3.7.4になっていることを確認します．
 
 ```
 $ python --version
@@ -116,10 +118,12 @@ Enter CUDA Samples Location
  [ default is /home/is/keichi ]:
 ```
 
-下記の1行を`/work/keichi/.bash_profile`および`/home/is/keichi/.bash_profile`
-に追記し，CUDAの共有ライブラリが見えるようにします．
+下記のシェルスクリプトを`/work/keichi/.bash_profile`および
+`/home/is/keichi/.bash_profile`の**両方**に追記し，アプリケーションから
+CUDAの共有ライブラリが見えるようにします．
 
 ```bash
+export PATH=/work/keichi/cuda-10.0/bin:$PATH
 export LD_LIBRARY_PATH=/work/keichi/cuda-10.0/lib64:$LD_LIBRARY_PATH
 ```
 
@@ -148,7 +152,7 @@ $ cp -a cuda/include/cudnn.h /work/keichi/cuda-10.0/include/
 ## TensorFlowをインストールする
 
 pipでTensorFlowをインストールします．
-ここで重要なのが，テンポラリディレクトリをホームディレクトリ上に置くことです．
+ここで重要なのが，**テンポラリディレクトリをホームディレクトリ上に置く**ことです．
 詳細は省きますが，GPFSとSELinuxに起因する問題により，テンポラリディレクトリが
 デフォルトの`/tmp`のままだとインストールが途中で失敗します．
 
