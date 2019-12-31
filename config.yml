@@ -9,10 +9,12 @@ enableGitInfo: true
 pygmentsCodefences: true
 pygmentsUseClasses: true
 
-blackfriday:
-  fractions: false
-  extensions:
-    - joinLines
+markup:
+  defaultMarkdownHandler: blackfriday
+  blackfriday:
+    fractions: false
+    extensions:
+      - joinLines
 
 menu:
   main:
