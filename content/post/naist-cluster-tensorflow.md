@@ -44,7 +44,7 @@ $ git clone https://github.com/pyenv/pyenv.git /work/keichi/.pyenv
 
 下記のシェルスクリプトを`/work/keichi/.bash_profile`および
 `/home/is/keichi/.bash_profile`
-に追記してください．
+に追記してください．(これらのファイルが存在しなければ新規作成してください)
 
 ```bash
 export PYENV_ROOT="$HOME/.pyenv"
@@ -76,7 +76,9 @@ GPU上で計算を行うためのライブラリCUDA，および，DNN計算用�
 
 必要なCUDAおよびcuDNNのバージョンはTensorFlowのバージョンに依存します．
 ここでは，TensorFlow 2.0をインストールすると仮定し，CUDA 10.0およびcuDNN 7.4
-をインストールします．
+をインストールします．異なるバージョンのCUDAとcuDNNでも動く可能性はありま
+すが，[TensorFlowの公式ドキュメント](https://www.tensorflow.org/install/source#gpu)
+に記載されているバージョンを使用するのが無難だと思います．
 
 ### CUDA
 
