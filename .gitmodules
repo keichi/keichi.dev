@@ -1,3 +1,3 @@
 [submodule "themes/literati"]
 	path = themes/literati
-	url = git@github.com:keichi/literati.git
+	url = git://github.com/keichi/literati.git
