@@ -23,7 +23,7 @@ menu:
       url: /
     - name: CV
       identifier: cv
-      url: /cv_takahashi.pdf
+      url: https://s3-ap-northeast-1.amazonaws.com/keichi.net/cv_takahashi.pdf
     - name: Blog
       identifier: blog
       url: /post/
