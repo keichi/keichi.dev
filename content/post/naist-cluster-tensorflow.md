@@ -166,7 +166,7 @@ $ TMPDIR=$HOME/tmp pip install tensorflow-gpu==2.0.0
 ## 動作確認する
 
 以上でTensorFlowおよびその依存関係のインストールは完了です．
-最後に，TensorFlowでGPUを用いて学習できるか確認します．
+TensorFlowでGPUを用いて学習できるか確認します．
 Tesla P100を備える超並列演算ノード上でインタラクティブジョブを開始します．
 
 ```bash
@@ -227,3 +227,26 @@ Epoch 5/5
 60000/60000 [==============================] - 4s 66us/sample - loss: 0.0779 - accuracy: 0.9761
 10000/1 - 1s - loss: 0.0369 - accuracy: 0.9782
 ```
+
+## Jupyter Notebook から使う
+
+最後にJupyter Notebookの使用方法を示します．小規模計算サーバの各計算ノードは
+NAISTの`163.221.0.0/16`のアドレスを持っており，学内のネットワークからはファイ
+アウォールを介さずアクセスできます．そのため，簡単にJupyter Notebookを使用
+できます．
+
+pipでJupyter Notebookをインストールします:
+```
+$ TMPDIR=$HOME/tmp pip install jupyter
+```
+
+Jupyter Notebookのサーバを起動します:
+```
+$ jupyter-notebook --ip=0.0.0.0
+```
+
+起動後のメッセージに表示される`http://h29pascalX.naist.jp:8888/?token=xxxxxx`
+というURLを手元のPCのブラウザで開けば，Jupyter Notebookを使用することができま
+す．参考までに，TensorFlowのチュートリアルを実行したNotebookを
+[ここ](https://gist.github.com/keichi/ebb5f43ef823d0c404d8631db61b1c74)に
+貼っておきます．
