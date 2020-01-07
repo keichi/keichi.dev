@@ -6,8 +6,12 @@ blackfriday:
     - joinLines
 ---
 
-Open source software that I have worked on include (but are not limited to):
+## Open source software
 
+Here are some of the open source software that I have worked on:
+
+- [cuEDM](https://github.com/keichi/cuEDM): A GPU-accelerated implementation
+  of Empirical Dynamic Modeling
 - [gbr](https://github.com/keichi/gbr): A Game Boy emulator written in Rust
 - [ADIOS2](https://github.com/ornladios/ADIOS2): A high-performance data
     movement middleware developed as a part of the US DoE Exascale Computing
@@ -30,3 +34,10 @@ Open source software that I have worked on include (but are not limited to):
   RaspberryPi disk images
 - [IsosurfaceGenerator](https://github.com/keichi/IsosurfaceGenerator):
   Generate isosurface mesh of phased-array radar output
+
+
+## Programming stats
+
+<figure><embed src="https://wakatime.com/share/@keichi/33b30843-bc2a-4588-be52-43539fd82a2d.svg"></embed></figure>
+
+<figure><embed src="https://wakatime.com/share/@keichi/3e01f0d5-8c0f-45e9-be89-441d6c51eee2.svg"></embed></figure>
