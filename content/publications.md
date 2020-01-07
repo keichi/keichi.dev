@@ -30,7 +30,7 @@ blackfriday:
   Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster, Scott
   Klasky, "A Codesign Framework for Online Data Analysis and Reduction",
   _Workflows in Support of Large-Scale Science (WORKS 2019)_, Nov. 2019.
-  (accepted)
+  [10.1109/WORKS49585.2019.00007](https://doi.org/10.1109/WORKS49585.2019.00007)
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Hajimu Iida, "Improving Resource Utilization in Data Centers using
   an LSTM-based Prediction Model", _Workshop on Monitoring and Analysis for
