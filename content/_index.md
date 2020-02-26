@@ -12,10 +12,10 @@ Technology (NAIST)](http://www.naist.jp/en/), where I am a member of the
 I also serve as a guest faculty at [Cybermedia
 Center](https://www.cmc.osaka-u.ac.jp/?lang=en), Osaka University.
 
-I received my Ph.D. in Information Science in 2019 at Osaka University, where
+I received my Ph.D. in Computer Science in 2019 at Osaka University, where
 I worked under the supervision of Prof. Shinji Shimojo and Prof. Susumu
 Date. Before starting my Ph.D. program, I received my Master’s degree in
-Information Science and Bachelor’s degree in Electronic and Information
+Computer Science and Bachelor’s degree in Electronics and Computer
 Engineering at Osaka University.
 
 My research mainly focuses on middleware for high-performance computing. In
