@@ -105,6 +105,11 @@ blackfriday:
 
 ## Poster and Oral Presentation
 
+- Seiji Tsutsumi, Naoyuki Fujita, Hiroyuki Ito, Daichi Obinata, Keisuke Inoue,
+  Yosuke Matsumura, __Keichi Takahashi__, Greg Eisenhauer, Norbert Podhorszki,
+  Scott Klasky, "In Situ and In Transit Visualization for Numerical
+  Simulations in HPC", In Situ Infrastructures for Enabling Extreme-scale
+  Analysis and Visualization (ISAV 2019).
 - Wassapon Watanakeesuntorn, Kohei Ichikawa, __Keichi Takahashi__, Hajimu Iida
   "An Interactive Monitoring Tool for OpenFlow Networks", _PRAGMA
   Workshop 37_, Sep. 2019.
