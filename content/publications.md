@@ -26,6 +26,10 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
+  Nakasan, Hidemoto Nakada, Ryousei Takano, Hajimu Iida, "Retraining Quantized
+  Neural Network Models with Unlabeled Data", _International Joint Conference
+  on Neural Networks (IJCNN 2019)_ (accepted).
 - Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Jong
   Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster, Scott
   Klasky, "A Codesign Framework for Online Data Analysis and Reduction",
@@ -108,8 +112,8 @@ blackfriday:
 - Seiji Tsutsumi, Naoyuki Fujita, Hiroyuki Ito, Daichi Obinata, Keisuke Inoue,
   Yosuke Matsumura, __Keichi Takahashi__, Greg Eisenhauer, Norbert Podhorszki,
   Scott Klasky, "In Situ and In Transit Visualization for Numerical
-  Simulations in HPC", In Situ Infrastructures for Enabling Extreme-scale
-  Analysis and Visualization (ISAV 2019).
+  Simulations in HPC", _In Situ Infrastructures for Enabling Extreme-scale
+  Analysis and Visualization (ISAV 2019)_ (lightning presentation).
 - Wassapon Watanakeesuntorn, Kohei Ichikawa, __Keichi Takahashi__, Hajimu Iida
   "An Interactive Monitoring Tool for OpenFlow Networks", _PRAGMA
   Workshop 37_, Sep. 2019.
