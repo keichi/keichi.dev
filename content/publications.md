@@ -100,6 +100,10 @@ blackfriday:
 
 ## Book Chapter
 
+- __Keichi Takahashi__, Susumu Date, Yasuhiro Watashiba, Yoshiyuki Kido,
+  Shinji Shimojo "Integrating SDN-enhanced MPI with Job Scheduler to Support
+  Shared Clusters", M. M. Resch et al. (eds.), Sustained Simulation
+  Performance 2018 and 2019, Springer, 2020 (in print).
 - Susumu Date, Yoshiyuki Kido, Khureltulga Dashdavaa, __Keichi Takahashi__,
   Yasuhiro Watashiba, Shinji Shimojo, "Toward Flexible Supercomputing and
   Visualization System", M. M. Resch et al. (eds.), Sustained Simulation
