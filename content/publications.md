@@ -29,7 +29,7 @@ blackfriday:
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hidemoto Nakada, Ryousei Takano, Hajimu Iida, "Retraining Quantized
   Neural Network Models with Unlabeled Data", _International Joint Conference
-  on Neural Networks (IJCNN 2019)_ (accepted).
+  on Neural Networks (IJCNN 2020)_ (accepted).
 - Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Jong
   Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster, Scott
   Klasky, "A Codesign Framework for Online Data Analysis and Reduction",
