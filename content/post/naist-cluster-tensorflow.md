@@ -1,5 +1,5 @@
 ---
-title: NAISTの小規模計算サーバでTensorFlow 2.0を動かす
+title: NAIST小規模計算クラスタでTensorFlow 2.0を動かす
 date: 2020-01-03T00:01:44+09:00
 description:
 tags: []
@@ -7,7 +7,7 @@ tags: []
 
 NAISTには，構成員が無料で利用できる計算用クラスタが設置されており
 ([参考](https://itcw3.naist.jp/ITC-local/manual/h29computing/document.html))，
-NVIDIA Tesla P100を搭載した計算ノードも無料で使用できます．
+NVIDIA Tesla P100を搭載した計算ノードも全員が無料で使用できます．
 しかし，準備されているソフトウェア環境が古く，最新のTensorFlowを使用するためには，
 Pythonを始めとして多数のソフトウェアを自力でインストールする必要があります．
 小規模計算サーバ上でのソフトウェアのインストールには色々と罠があり，
