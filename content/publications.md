@@ -8,17 +8,27 @@ blackfriday:
 
 ## Journal
 
-- __Keichi Takahashi__, Susumu Date, Dashdavaa Khureltulga, Yoshiyuki Kido,
-  Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "UnisonFlow: A
-  Software-Defined Coordination Mechanism for Message-Passing Communication
-  and Computation", IEEE Access, vol. 6, no. 1, pp. 23372-23382, 2018.
-  [10.1109/ACCESS.2018.2829532](https://doi.org/10.1109/ACCESS.2018.2829532)
+- William F. Godoy, Norbert Podhorszki, Ruonan Wang, Chuck Atkins, Greg
+  Eisenhauer, Junmin Gu, Philip Davis, Jong Choi, Kai Germaschewski, Kevin
+  Huck, Axel Huebl, Mark Kim, James Kress, Tahsin Kurc, Qing Liu, Jeremy
+  Logan, Kshitij Mehta, George Ostrouchov, Manish Parashar, Franz Poeschel,
+  David Pugmire, Eric Suchyta, __Keichi Takahashi__, Nick Thompson, Seiji
+  Tsutsumi, Lipeng Wan, Matthew Wolf, Kesheng Wu, Scott KlaskyS, "ADIOS 2: The
+  Adaptable Input Output System. A framework for high-performance data
+  management", SoftwareX, vol. 12, Jul. 2020.
+  [10.1016/j.softx.2020.100561](https://doi.org/10.1016/j.softx.2020.100561)
 - Akihiro Misawa, Susumu Date, __Keichi Takahashi__, Takashi Yoshikawa,
   Masahiko Takahashi, Masaki Kan, Yasuhiro Watashiba, Yoshiyuki Kido, Chonho
   Lee, Shinji Shimojo, "Dynamic Reconfiguration of Computer Platforms at the
   Hardware Device Level for High Performance Computing Infrastructure as a
-  Service", Cloud Computing and Service Science, vol. 864, pp.177-199, 2018.
+  Service", Cloud Computing and Service Science, vol. 864, pp.177-199, Jul.
+  2018.
   [10.1007/978-3-319-94959-8_10](http://doi.org/10.1007/978-3-319-94959-8_10)
+- __Keichi Takahashi__, Susumu Date, Dashdavaa Khureltulga, Yoshiyuki Kido,
+  Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "UnisonFlow: A
+  Software-Defined Coordination Mechanism for Message-Passing Communication
+  and Computation", IEEE Access, vol. 6, no. 1, pp. 23372-23382, Apr. 2018.
+  [10.1109/ACCESS.2018.2829532](https://doi.org/10.1109/ACCESS.2018.2829532)
 - Susumu Date, Hirotake Abe, Khureltulga Dashdavaa, __Keichi Takahashi__,
   Yoshiyuki Kido, Yasuhiro Watashiba, Pongsakorn U-chupala, Kohei Ichikawa,
   Hiroaki Yamanaka, Eiji Kawai, Shinji Shimojo, "SDN-accelerated HPC
