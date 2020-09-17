@@ -37,9 +37,13 @@ blackfriday:
 
 ## International Conference
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
+  Nakasan, Hajimu Iida, "Federated Learning of Neural Network Models with
+  Heterogeneous Structures", _19th International Conference on Machine
+  Learning and Applications (ICMLA 2020)_, Dec. 2020. (accepted)
+- Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hidemoto Nakada, Ryousei Takano, Hajimu Iida, "Retraining Quantized
   Neural Network Models with Unlabeled Data", _International Joint Conference
-  on Neural Networks (IJCNN 2020)_ (accepted).
+  on Neural Networks (IJCNN 2020)_, Jul. 2020.
 - Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Jong
   Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster, Scott
   Klasky, "A Codesign Framework for Online Data Analysis and Reduction",
