@@ -36,6 +36,11 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Wassapon Watanakeesuntorn, __Keichi Takahashi__, Kohei Ichikawa, Joseph Park,
+  George Sugihara, Ryousei Takano, Jason Haga, Gerald M. Pao, "Massively
+  Parallel Causal Inference of Whole Brain Dynamics at Single Neuron Resolution",
+  _26th International Conference on Parallel and Distributed Systems (ICPADS
+  2020)_, Dec. 2020. (accepted)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hajimu Iida, "Federated Learning of Neural Network Models with
   Heterogeneous Structures", _19th International Conference on Machine
