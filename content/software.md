@@ -10,6 +10,8 @@ blackfriday:
 
 Here are some of the open source software that I have worked on:
 
+- [mpEDM](https://github.com/keichi/mpEDM): A GPU-accelerated implementation
+  of Empirical Dynamic Modeling
 - [gbr](https://github.com/keichi/gbr): A Game Boy emulator written in Rust
 - [ADIOS2](https://github.com/ornladios/ADIOS2): A high-performance data
     movement middleware developed as a part of the US DoE Exascale Computing
