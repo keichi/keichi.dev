@@ -10,6 +10,8 @@ blackfriday:
 
 Here are some of the open source software that I have worked on:
 
+- [kEDM](https://github.com/keichi/kEDM): A performance portable
+  implementation of Empirical Dynamic Modeling
 - [mpEDM](https://github.com/keichi/mpEDM): A GPU-accelerated implementation
   of Empirical Dynamic Modeling
 - [gbr](https://github.com/keichi/gbr): A Game Boy emulator written in Rust
