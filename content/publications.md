@@ -49,6 +49,7 @@ blackfriday:
   Nakasan, Hidemoto Nakada, Ryousei Takano, Hajimu Iida, "Retraining Quantized
   Neural Network Models with Unlabeled Data", _International Joint Conference
   on Neural Networks (IJCNN 2020)_, Jul. 2020.
+  [10.1109/IJCNN48605.2020.9207190](https://doi.org/10.1109/IJCNN48605.2020.9207190)
 - Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Jong
   Choi, __Keichi Takahashi__, Igor Yakushin, Todd Munson, Ian Foster, Scott
   Klasky, "A Codesign Framework for Online Data Analysis and Reduction",
