@@ -1,6 +1,6 @@
-baseurl: "https://keichi.net/"
+baseurl: "https://keichi.dev/"
 title: "Keichi Takahashi"
-copyright: "&copy; 2019-2020 Keichi Takahashi"
+copyright: "&copy; 2019-2021 Keichi Takahashi"
 theme: literati
 defaultContentLanguage: ja
 disableHugoGeneratorInject: true
