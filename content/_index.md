@@ -6,7 +6,7 @@ blackfriday:
     - joinLines
 ---
 
-<img src="/images/avatar.jpg" style="margin-left: 0;">
+<img src="/images/avatar.jpg" style="margin-left: 0;" width="200" height="200">
 
 I am an Assistant Professor of Computer Science at [Nara Institute of Science
 and Technology (NAIST)](http://www.naist.jp/en/), where I am a member of the
