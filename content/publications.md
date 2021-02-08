@@ -36,15 +36,20 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Guoqing Li, __Keichi Takahashi__, Kohei Ichikawa, Hajimu Iida, Pree
+  Thiengburanathum, Passakorn Phannachitta, “Comparative Performance Study
+  of Lightweight Hypervisors Used in Container Environment,” 11th
+  International Conference on Cloud Computing and Services Science (CLOSER
+  2021), Apr. 2021. (accepted)
 - Wassapon Watanakeesuntorn, __Keichi Takahashi__, Kohei Ichikawa, Joseph Park,
   George Sugihara, Ryousei Takano, Jason Haga, Gerald M. Pao, "Massively
   Parallel Causal Inference of Whole Brain Dynamics at Single Neuron Resolution",
   _26th International Conference on Parallel and Distributed Systems (ICPADS
-  2020)_, Dec. 2020. (accepted)
+  2020)_, Dec. 2020.
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hajimu Iida, "Federated Learning of Neural Network Models with
   Heterogeneous Structures", _19th International Conference on Machine
-  Learning and Applications (ICMLA 2020)_, Dec. 2020. (accepted)
+  Learning and Applications (ICMLA 2020)_, Dec. 2020.
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hidemoto Nakada, Ryousei Takano, Hajimu Iida, "Retraining Quantized
   Neural Network Models with Unlabeled Data", _International Joint Conference
