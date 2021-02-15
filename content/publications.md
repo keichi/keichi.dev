@@ -45,7 +45,7 @@ blackfriday:
   George Sugihara, Ryousei Takano, Jason Haga, Gerald M. Pao, "Massively
   Parallel Causal Inference of Whole Brain Dynamics at Single Neuron Resolution",
   _26th International Conference on Parallel and Distributed Systems (ICPADS
-  2020)_, Dec. 2020.
+  2020)_, Dec. 2020. [arXiv:2011.11082](https://arxiv.org/abs/2011.11082)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hajimu Iida, "Federated Learning of Neural Network Models with
   Heterogeneous Structures", _19th International Conference on Machine
