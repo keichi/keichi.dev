@@ -8,34 +8,32 @@ blackfriday:
 
 ## Open source software
 
-Here are some of the open source software that I have worked on:
+Here are some of the open source software that I have contributed to:
 
-- [kEDM](https://github.com/keichi/kEDM): A performance portable
+- [OpenMNT/CTranslate2](https://github.com/OpenNMT/CTranslate2): Fast
+  inference engine for [OpenNMT](https://opennmt.net/) models
+- [keichi/kEDM](https://github.com/keichi/kEDM): A performance portable
   implementation of Empirical Dynamic Modeling
-- [mpEDM](https://github.com/keichi/mpEDM): A GPU-accelerated implementation
+- [keichi/mpEDM](https://github.com/keichi/mpEDM): A GPU-accelerated implementation
   of Empirical Dynamic Modeling
-- [gbr](https://github.com/keichi/gbr): A Game Boy emulator written in Rust
-- [ADIOS2](https://github.com/ornladios/ADIOS2): A high-performance data
+- [keichi/gbr](https://github.com/keichi/gbr): A Game Boy emulator written in Rust
+- [ornladios/adios2](https://github.com/ornladios/ADIOS2): A high-performance data
     movement middleware developed as a part of the US DoE Exascale Computing
     Project
-- [binary-parser](https://github.com/keichi/binary-parser): A high-performance
+- [keichi/binary-parser](https://github.com/keichi/binary-parser): A high-performance
   declarative binary parser generator for node.js
-- [tiny-lldpd](https://github.com/shimojo-lab/tiny-lldpd): A minimal
-  implementation of 802.1AB (LLDP)
-- [FlowSieve](https://github.com/shimojo-lab/flowsieve): Role-based network
+- [shimojo-lab/flowsieve](https://github.com/shimojo-lab/flowsieve): Role-based network
   access control over OpenFlow networks
-- [topospec](https://github.com/shimojo-lab/topospec): A simple tool to check
-  if the topology of a network conforms to specification
-- [vienna](https://github.com/keichi/vienna): Simple and clean theme for
-  [hugo](https://gohugo.io/) (static website generator)
-- [osx-tag](https://github.com/keichi/osx-tag): A node.js module to operate
+- [keichi/vienna](https://github.com/keichi/vienna): Simple and clean theme for
+  [hugo](https://gohugo.io/)
+- [keichi/osx-tag](https://github.com/keichi/osx-tag): A node.js module to operate
   tags on macOS Mavericks or later
-- [arachne](https://github.com/keichi/arachne-mk2): High-performance
+- [keichi/arachne-mk2](https://github.com/keichi/arachne-mk2): High-performance
   BitTorrent DHT crawler
-- [pi-oven](https://github.com/keichi/pi-oven): Automated provisioning of
+- [keichi/pi-oven](https://github.com/keichi/pi-oven): Automated provisioning of
   RaspberryPi disk images
-- [IsosurfaceGenerator](https://github.com/keichi/IsosurfaceGenerator):
-  Generate isosurface mesh of phased-array radar output
+- [keichi/IsosurfaceGenerator](https://github.com/keichi/IsosurfaceGenerator):
+  Generate isosurface mesh for phased-array radar output
 
 
 ## Programming stats
