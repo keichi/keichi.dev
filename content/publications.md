@@ -50,6 +50,7 @@ blackfriday:
   Nakasan, Hajimu Iida, "Federated Learning of Neural Network Models with
   Heterogeneous Structures", _19th International Conference on Machine
   Learning and Applications (ICMLA 2020)_, Dec. 2020.
+  [10.1109/ICMLA51294.2020.00120](https://doi.org/10.1109/ICMLA51294.2020.00120)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hidemoto Nakada, Ryousei Takano, Hajimu Iida, "Retraining Quantized
   Neural Network Models with Unlabeled Data", _International Joint Conference
