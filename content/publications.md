@@ -46,6 +46,7 @@ blackfriday:
   Parallel Causal Inference of Whole Brain Dynamics at Single Neuron Resolution",
   _26th International Conference on Parallel and Distributed Systems (ICPADS
   2020)_, Dec. 2020. [arXiv:2011.11082](https://arxiv.org/abs/2011.11082)
+  [10.1109/ICPADS51040.2020.00035](https://doi.org/10.1109/ICPADS51040.2020.00035)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hajimu Iida, "Federated Learning of Neural Network Models with
   Heterogeneous Structures", _19th International Conference on Machine
