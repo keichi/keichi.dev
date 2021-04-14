@@ -36,6 +36,11 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- __Keichi Takahashi__, Wassapon Watanakeesuntorn, Kohei Ichikawa, Joseph Park,
+  Ryousei Takano, Jason Haga, George Sugihara, Gerald M. Pao, "kEDM: A
+  Performance-portable Implementation of Empirical Dynamic Modeling using
+  Kokkos", _Practice & Experience in Advanced Research Computing (PEARC 2021)_,
+  Jul. 2021. (accepted)
 - Guoqing Li, __Keichi Takahashi__, Kohei Ichikawa, Hajimu Iida, Pree
   Thiengburanathum, Passakorn Phannachitta, “Comparative Performance Study
   of Lightweight Hypervisors Used in Container Environment,” 11th
