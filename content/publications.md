@@ -43,9 +43,10 @@ blackfriday:
   Jul. 2021. (accepted)
 - Guoqing Li, __Keichi Takahashi__, Kohei Ichikawa, Hajimu Iida, Pree
   Thiengburanathum, Passakorn Phannachitta, “Comparative Performance Study
-  of Lightweight Hypervisors Used in Container Environment,” 11th
+  of Lightweight Hypervisors Used in Container Environment,” _11th
   International Conference on Cloud Computing and Services Science (CLOSER
-  2021), Apr. 2021. (accepted)
+  2021)_, Apr. 2021.
+  [10.5220/0010440502150223](https://doi.org/10.5220/0010440502150223)
 - Wassapon Watanakeesuntorn, __Keichi Takahashi__, Kohei Ichikawa, Joseph Park,
   George Sugihara, Ryousei Takano, Jason Haga, Gerald M. Pao, "Massively
   Parallel Causal Inference of Whole Brain Dynamics at Single Neuron Resolution",
