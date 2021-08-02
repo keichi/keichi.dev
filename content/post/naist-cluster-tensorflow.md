@@ -1,5 +1,5 @@
 ---
-title: NAIST小規模計算クラスタでTensorFlow 2.0を動かす
+title: NAIST小規模計算クラスタでTensorFlow 2.5.0を動かす
 date: 2020-01-03T00:01:44+09:00
 description:
 tags: []
@@ -9,15 +9,15 @@ NAISTには，構成員が無料で利用できる計算用クラスタが設置
 ([参考](https://itcw3.naist.jp/ITC-local/manual/h29computing/document.html))，
 NVIDIA Tesla P100を搭載した計算ノードも全員が無料で使用できます．
 しかし，準備されているソフトウェア環境が古く，最新のTensorFlowを使用するためには，
-Pythonを始めとして多数のソフトウェアを自力でインストールする必要があります．
+いくつかのソフトウェアを自力でインストールする必要があります．
 小規模計算サーバ上でのソフトウェアのインストールには色々と罠があり，
 困っている人を見かけたので，ここに手順をまとめておきます．
 構築する環境は次の通りです:
 
-- Python 3.7.4
-- CUDA 10.0
-- cuDNN 7.4
-- TensorFlow 2.0.0
+- Python 3.9.6
+- CUDA 11.4
+- cuDNN 8.2
+- TensorFlow 2.5.0
 
 小規模計算サーバにソフトウェアをインストールする際の注意点として，計算ノードから
 `/home`が見えないことがあります．
@@ -29,9 +29,10 @@ Pythonを始めとして多数のソフトウェアを自力でインストー�
 
 ## Python 3をインストールする
 
-小規模計算サーバにプリインストールされているPythonは，残念ながらPython 2.7のみです．
-Python 2のサポートは既に終了し，多くのライブラリもPython 2のサポートを切った
-ため ([参考](https://python3statement.org/))，Python 3をインストールします．
+小規模計算サーバにプリインストールされているPythonは，Python 2.7と3.6のみです．
+Python 3.6は2021年12月にはEOLを迎えるので，
+ここでは最新のPythonをインストールする方法を紹介します．
+
 Pythonをインストールするには様々な方法がありますが，ここでは
 [pyenv](https://github.com/pyenv/pyenv)というPythonのバージョン管理ツールを使用します．
 以下ではパスの`keichi`を自分のユーザ名に置き換えてください．
@@ -50,74 +51,45 @@ $ git clone https://github.com/pyenv/pyenv.git /work/keichi/.pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
+  eval "$(pyenv init --path)"
 fi
 ```
 
-再ログインか`.bash_profile`をsourceしたのち，pyenvを用いてPython 3.7.4をインス
+再ログインか`.bash_profile`をsourceしたのち，pyenvを用いてPython 3.9.6をインス
 トールします．
 
 ```bash
-$ pyenv install 3.7.4
+$ pyenv install 3.9.6
 ```
 
-インストール完了後，Pythonのバージョンが3.7.4になっていることを確認します．
+インストール完了後，Pythonのバージョンが3.9.6になっていることを確認します．
 
 ```
 $ python --version
-Python 3.7.4
+Python 3.9.6
 ```
 
 ## CUDAとcuDNNをインストールする
 
 GPU上で計算を行うためのライブラリCUDA，および，DNN計算用ライブラリcuDNNを
-インストールします．小規模計算サーバにはCUDA 9.1がプリインストールされています
-が，最新のTensorFlowで使うには古いので自分でインストールする必要があります．
-
+インストールします．
 必要なCUDAおよびcuDNNのバージョンはTensorFlowのバージョンに依存します．
-ここでは，TensorFlow 2.0をインストールすると仮定し，CUDA 10.0およびcuDNN 7.4
-をインストールします．異なるバージョンのCUDAとcuDNNでも動く可能性はありま
-すが，[TensorFlowの公式ドキュメント](https://www.tensorflow.org/install/source#gpu)
-に記載されているバージョンを使用するのが無難だと思います．
+[TensorFlowの公式ドキュメント](https://www.tensorflow.org/install/source#gpu)
+に記載されている動作検証済みのバージョンの組み合わせを使用するのが無難ですが，
+ここでは，2021年7月時点で最新のCUDA 11.4とcuDNN 8.2をインストールします．
 
 ### CUDA
 
-[NVIDIAのウェブサイト](https://developer.nvidia.com/cuda-10.0-download-archive)
-から，Linux > x86_64 > CentOS > 7 > runfile (local) と進み，CUDA Toolkit
-10.0のインストーラをダウンロードします．
-ダウンロードにはNVIDIAのデベロッパアカウントが必要です．
+[NVIDIAのウェブサイト](https://developer.nvidia.com/cuda-downloads)
+から，Linux > x86_64 > CentOS > 7 > runfile (local) と進み，CUDA Toolkit 11.4
+のインストーラへのリンクを取得します．
 
-ダウンロードしたインストーラを小規模計算サーバのホームディレクトリにscpした後
-，起動します．
+インストーラを小規模計算サーバのホームディレクトリにダウンロードした後，
+起動します．ここでは，`/work/cuda-11.4`以下にインストールします．
 
 ```bash
-$ sh cuda_10.0.130_410.48_linux.run
-```
-
-画面の表示に従い，インストールします．`/work`以下にインストールすることに注意
-してください．
-
-```text
-Do you accept the previously read EULA?
-accept/decline/quit: accept
-
-Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 410.48?
-(y)es/(n)o/(q)uit: n
-
-Install the CUDA 10.0 Toolkit?
-(y)es/(n)o/(q)uit: y
-
-Enter Toolkit Location
- [ default is /usr/local/cuda-10.0 ]: /work/keichi/cuda-10.0
-
-Do you want to install a symbolic link at /usr/local/cuda?
-(y)es/(n)o/(q)uit: n
-
-Install the CUDA 10.0 Samples?
-(y)es/(n)o/(q)uit: y
-
-Enter CUDA Samples Location
- [ default is /home/is/keichi ]:
+$ wget https://developer.download.nvidia.com/compute/cuda/11.4.0/local_installers/cuda_11.4.0_470.42.01_linux.run
+$ sh cuda_11.4.0_470.42.01_linux.run --silent --toolkit --toolkitpath=/work/keichi/cuda-11.4
 ```
 
 下記のシェルスクリプトを`/work/keichi/.bash_profile`および
@@ -125,31 +97,20 @@ Enter CUDA Samples Location
 CUDAの共有ライブラリが見えるようにします．
 
 ```bash
-export PATH=/work/keichi/cuda-10.0/bin:$PATH
-export LD_LIBRARY_PATH=/work/keichi/cuda-10.0/lib64:$LD_LIBRARY_PATH
+export PATH=/work/keichi/cuda-11.4/bin:$PATH
+export LD_LIBRARY_PATH=/work/keichi/cuda-11.4/lib64:$LD_LIBRARY_PATH
 ```
 
 ## cuDNN
 
-[NVIDIAのウェブサイト](https://developer.nvidia.com/rdp/cudnn-archive)
-から，cuDNN v7.4.2 (Dec 14, 2018), for CUDA 10.0のcuDNN Library for Linux
+同じく[NVIDIAのウェブサイト](https://developer.nvidia.com/rdp/cudnn-archive)
+から，cuDNN v8.2.1 (June 7th, 2021), for CUDA 11.x
 をダウンロードします．ダウンロードしたtarボールをscpで小規模計算サーバの
-ホームディレクトリにscpし，解凍します．
+ホームディレクトリにコピーした後，CUDAをインストールしたディレクトリに解凍します．
 
 ```bash
-$ tar xzvf cudnn-10.0-linux-x64-v7.4.2.24.tgz
+$ tar xvf cudnn-11.3-linux-x64-v8.2.1.32.tgz --directory=/work/keichi/cuda-11.4 --strip-components=1
 ```
-
-解凍後のディレクトリから，共有ライブラリとヘッダファイルをCUDAのインストール先
-にコピーします．
-シンボリックリンクを維持するため，`-a`オプションを付与していることに注意して
-ください．
-
-```bash
-$ cp -a cuda/lib64/libcudnn* /work/keichi/cuda-10.0/lib64/
-$ cp -a cuda/include/cudnn.h /work/keichi/cuda-10.0/include/
-```
-
 
 ## TensorFlowをインストールする
 
@@ -160,7 +121,7 @@ pipでTensorFlowをインストールします．
 
 ```
 $ mkdir $HOME/tmp
-$ TMPDIR=$HOME/tmp pip install tensorflow-gpu==2.0.0
+$ TMPDIR=$HOME/tmp pip install tensorflow==2.5.0
 ```
 
 ## 動作確認する
