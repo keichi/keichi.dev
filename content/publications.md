@@ -8,6 +8,15 @@ blackfriday:
 
 ## Journal
 
+- Wassapon Watanakeesuntorn, __Keichi Takahashi__, Chawanat Nakasan, Kohei
+  Ichikawa, Hajimu Iida, "Opimon: A Transparent, Low-overhead Monitoring
+  System for OpenFlow Networks", IEICE Transactions on Communications,
+  Oct. 2021. (in printing)
+- Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Swati
+  Singhal, Jong Y. Choi, __Keichi Takahashi__, Kevin Huck, Igor Yakushin, Alan
+  Sussman, Todd Munson, Ian Foster, Scott Klasky, "A codesign framework for
+  online data analysis and reduction", Concurrency and Computation: Practice
+  and Experience, Aug. 2021. [10.1002/cpe.6519](https://doi.org/10.1002/cpe.6519)
 - William F. Godoy, Norbert Podhorszki, Ruonan Wang, Chuck Atkins, Greg
   Eisenhauer, Junmin Gu, Philip Davis, Jong Choi, Kai Germaschewski, Kevin
   Huck, Axel Huebl, Mark Kim, James Kress, Tahsin Kurc, Qing Liu, Jeremy
@@ -36,6 +45,11 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
+  Nakasan, Kazufumi Yuasa, Tadatoshi Babasaki, Hajimu Iida, “Enhancing the
+  Prediction Accuracy of Solar Power Generation using a Generative Adversarial
+  Network”, _IEEE Green Energy and Smart Systems Conference (IGESSC 2021)_,
+  Nov. 2021. (accepted)
 - __Keichi Takahashi__, Wassapon Watanakeesuntorn, Kohei Ichikawa, Joseph Park,
   Ryousei Takano, Jason Haga, George Sugihara, Gerald M. Pao, "kEDM: A
   Performance-portable Implementation of Empirical Dynamic Modeling using
