@@ -11,7 +11,7 @@ blackfriday:
 - Wassapon Watanakeesuntorn, __Keichi Takahashi__, Chawanat Nakasan, Kohei
   Ichikawa, Hajimu Iida, "Opimon: A Transparent, Low-overhead Monitoring
   System for OpenFlow Networks", IEICE Transactions on Communications,
-  Oct. 2021. (in printing)
+  vol. E105-B, no. 4, Apr. 2022. (in printing)
 - Kshitij Mehta, Bryce Allen, Matthew Wolf, Jeremy Logan, Eric Suchyta, Swati
   Singhal, Jong Y. Choi, __Keichi Takahashi__, Kevin Huck, Igor Yakushin, Alan
   Sussman, Todd Munson, Ian Foster, Scott Klasky, "A codesign framework for
