@@ -8,13 +8,13 @@ blackfriday:
 
 ### Tel
 
-- Office (international): +81 743-72-5383
-- Office (domestic): 0743-72-5383
+- Work (international): +81 743-72-5383
+- Work (domestic): 0743-72-5383
 
 ### Email
 
-- Office: keichi at is.naist.jp
-- Private: keichi.t at me.com
+- Work: keichi at is.naist.jp
+- Personal: keichi.t at me.com
 
 ### Address
 
