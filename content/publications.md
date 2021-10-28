@@ -162,6 +162,10 @@ blackfriday:
 
 ## Poster and Oral Presentation
 
+- Tomoki Sugiura, __Keich Takahashi__, Kohei Ichikawa, Hajimu Iida,
+  "Acar: An application-aware network routing system using SRv6",
+  _IEEE Consumer Communications & Networking Conference (CCNC 20222)_, Jan.
+  2022.
 - Seiji Tsutsumi, Naoyuki Fujita, Hiroyuki Ito, Daichi Obinata, Keisuke Inoue,
   Yosuke Matsumura, __Keichi Takahashi__, Greg Eisenhauer, Norbert Podhorszki,
   Scott Klasky, "In Situ and In Transit Visualization for Numerical
