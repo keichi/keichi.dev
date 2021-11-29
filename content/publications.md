@@ -50,7 +50,7 @@ blackfriday:
   Nakasan, Kazufumi Yuasa, Tadatoshi Babasaki, Hajimu Iida, “Enhancing the
   Prediction Accuracy of Solar Power Generation using a Generative Adversarial
   Network”, _IEEE Green Energy and Smart Systems Conference (IGESSC 2021)_,
-  Nov. 2021. (accepted)
+  Nov. 2021. [10.1109/IGESSC53124.2021.9618702](https://doi.org/10.1109/IGESSC53124.2021.9618702)
 - __Keichi Takahashi__, Wassapon Watanakeesuntorn, Kohei Ichikawa, Joseph Park,
   Ryousei Takano, Jason Haga, George Sugihara, Gerald M. Pao, "kEDM: A
   Performance-portable Implementation of Empirical Dynamic Modeling using
