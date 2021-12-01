@@ -8,8 +8,8 @@ blackfriday:
 
 ### Tel
 
-- Work (international): +81 743-72-5383
-- Work (domestic): 0743-72-5383
+- Work (international): +81 22-795-3416
+- Work (domestic): 022-795-3416
 
 ### Email
 
