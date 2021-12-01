@@ -13,7 +13,7 @@ blackfriday:
 
 ### Email
 
-- Work: keichi at is.naist.jp
+- Work: keichi at tohoku.ac.jp
 - Personal: keichi.t at me.com
 
 ### Address
@@ -21,19 +21,18 @@ blackfriday:
 International:
 
 ```
-Information Science Bldg. A301
-Takayamacho 8916-5
-Nara Institute of Science and Technology
-Ikoma, Nara
-630-0192 Japan
+Cyberscience Center, Tohoku University
+6-3 Aramaki Aza Aoba, Aoba Ward
+Sendai, Miyagi
+980-8578 Japan
 ```
 
 Domestic:
 
 ```
-〒630-0192
-奈良県生駒市高山町8916-5
-奈良先端科学技術大学院大学 A棟 A301
+〒980-8578
+宮城県仙台市青葉区荒巻字青葉6番3号
+東北大学サイバーサイエンスセンター
 ```
 
 ### Social

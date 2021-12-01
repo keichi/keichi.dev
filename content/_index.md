@@ -8,10 +8,12 @@ blackfriday:
 
 <img src="/images/avatar.jpg" style="margin-left: 0;" width="200" height="200">
 
-I am an Assistant Professor of Computer Science at [Nara Institute of Science
-and Technology (NAIST)](http://www.naist.jp/en/), where I am a member of the
-[Software Design and Analysis Laboratory](https://sdlab.naist.jp/).
-I also serve as a guest faculty at [Cybermedia
+I am currently an assistant professor at
+the [High Performance Computing Laboratory](https://www.hpc.is.tohoku.ac.jp/home-en/)
+at Cyberscience Center, [Tohoku University](http://www.tohoku.ac.jp/en/).
+Before joining Tohoku University, I was an assistant professor at the Nara
+Institute of Science and Technology (NAIST) and a member of the Software
+Design and Analysis Laboratory. I also serve as a guest faculty at [Cybermedia
 Center](https://www.cmc.osaka-u.ac.jp/?lang=en), Osaka University.
 
 I received my Ph.D. in Computer Science in 2019 at Osaka University, where
