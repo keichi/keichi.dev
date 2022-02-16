@@ -46,6 +46,10 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Tomoki Sugiura, __Keichi Takahashi__, Kohei Ichikawa, Hajimu Iida,
+  "Acar: An application-aware network routing system using SRv6",
+  _19th Annual Consumer Communications & Networking Conference (CCNC)_,
+  Jan. 2022. [10.1109/CCNC49033.2022.9700608](https://doi.org/10.1109/CCNC49033.2022.9700608)
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Kazufumi Yuasa, Tadatoshi Babasaki, Hajimu Iida, “Enhancing the
   Prediction Accuracy of Solar Power Generation using a Generative Adversarial
