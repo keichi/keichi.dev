@@ -46,6 +46,10 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
+  Nakasan, Pattara Leelaprute and Hajimu Iida, "Sparse Communication for
+  Federated Learning", 6th IEEE International Conference on Fog and Edge
+  Computing (ICFEC 2022), May. 2022. (accepted)
 - Tomoki Sugiura, __Keichi Takahashi__, Kohei Ichikawa, Hajimu Iida,
   "Acar: An application-aware network routing system using SRv6",
   _19th Annual Consumer Communications & Networking Conference (CCNC)_,
