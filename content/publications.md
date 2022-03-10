@@ -46,6 +46,13 @@ blackfriday:
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Yuta Sasaki, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "A
+  Cost Model for Compilers Based on Transfer Learning", _The 17th International
+  Workshop on Automatic Performance Tuning (iWAPT 2022)_, June 2022. (accepted)
+- Reo Furuhata, Minglu Zhao, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
+  Takizawa, "Automated Selection of Build Configuration Based on Machine
+  Learning", _The 17th International Workshop on Automatic Performance Tuning
+  (iWAPT 2022)_, June 2022. (accepted)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Pattara Leelaprute and Hajimu Iida, "Sparse Communication for
   Federated Learning", 6th IEEE International Conference on Fog and Edge
