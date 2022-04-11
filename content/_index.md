@@ -10,11 +10,12 @@ blackfriday:
 
 I am currently an assistant professor at
 the [High Performance Computing Laboratory](https://www.hpc.is.tohoku.ac.jp/home-en/)
-at Cyberscience Center, [Tohoku University](http://www.tohoku.ac.jp/en/).
-Before joining Tohoku University, I was an assistant professor at the Nara
+lead by Prof. Hiroyuki Takizawa
+at the Cyberscience Center, [Tohoku University](http://www.tohoku.ac.jp/en/).
+Prior to joining Tohoku University, I was an assistant professor at the Nara
 Institute of Science and Technology (NAIST) and a member of the Software
-Design and Analysis Laboratory. I also serve as a guest faculty at [Cybermedia
-Center](https://www.cmc.osaka-u.ac.jp/?lang=en), Osaka University.
+Design and Analysis Laboratory. I also served as a guest faculty at the
+[Cybermedia Center](https://www.cmc.osaka-u.ac.jp/?lang=en), Osaka University.
 
 I received my Ph.D. in Computer Science in 2019 at Osaka University, where
 I worked under the supervision of Prof. Shinji Shimojo and Prof. Susumu
