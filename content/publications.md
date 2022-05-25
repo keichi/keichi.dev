@@ -17,7 +17,7 @@ blackfriday:
   Singhal, Jong Y. Choi, __Keichi Takahashi__, Kevin Huck, Igor Yakushin, Alan
   Sussman, Todd Munson, Ian Foster, Scott Klasky, "A codesign framework for
   online data analysis and reduction", Concurrency and Computation: Practice
-  and Experience, Aug. 2021. [10.1002/cpe.6519](https://doi.org/10.1002/cpe.6519)
+  and Experience, vol. 34, no. 14, Aug. 2021. [10.1002/cpe.6519](https://doi.org/10.1002/cpe.6519)
 - William F. Godoy, Norbert Podhorszki, Ruonan Wang, Chuck Atkins, Greg
   Eisenhauer, Junmin Gu, Philip Davis, Jong Choi, Kai Germaschewski, Kevin
   Huck, Axel Huebl, Mark Kim, James Kress, Tahsin Kurc, Qing Liu, Jeremy
