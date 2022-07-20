@@ -10,7 +10,7 @@ blackfriday:
 
 I am currently an assistant professor at
 the [High Performance Computing Laboratory](https://www.hpc.is.tohoku.ac.jp/home-en/)
-lead by Prof. Hiroyuki Takizawa
+led by Prof. Hiroyuki Takizawa
 at the Cyberscience Center, [Tohoku University](http://www.tohoku.ac.jp/en/).
 Prior to joining Tohoku University, I was an assistant professor at the Nara
 Institute of Science and Technology (NAIST) and a member of the Software
