@@ -10,7 +10,8 @@ blackfriday:
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Hidemoto Nakada, Ryousei Takano, Pattara Leelaprute, Hajimu Iida,
   "Automated Quantization and Retraining for Neural Network Models without
-  Labeled Data", IEEE Access, 2022. [10.1109/ACCESS.2022.3190627](https://doi.org/10.1109/ACCESS.2022.3190627)
+  Labeled Data", IEEE Access, vol. 10, pp. 73818-73834, Jul. 2022. 
+  [10.1109/ACCESS.2022.3190627](https://doi.org/10.1109/ACCESS.2022.3190627)
 - Wassapon Watanakeesuntorn, __Keichi Takahashi__, Chawanat Nakasan, Kohei
   Ichikawa, Hajimu Iida, "Opimon: A Transparent, Low-overhead Monitoring
   System for OpenFlow Networks", IEICE Transactions on Communications,
