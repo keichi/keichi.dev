@@ -10,11 +10,9 @@ pygmentsCodefences: true
 pygmentsUseClasses: true
 
 markup:
-  defaultMarkdownHandler: blackfriday
-  blackfriday:
-    fractions: false
-    extensions:
-      - joinLines
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:

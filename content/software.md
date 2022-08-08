@@ -1,9 +1,6 @@
 ---
 title: Software
 menu: "main"
-blackfriday:
-  extensionsmask:
-    - joinLines
 ---
 
 ## Open source software

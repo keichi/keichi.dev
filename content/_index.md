@@ -1,12 +1,11 @@
 ---
 title: "Biography"
 date: "2017-12-30T00:11:00+09:00"
-blackfriday:
-  extensionsmask:
-    - joinLines
 ---
 
-<img src="/images/avatar.jpg" style="margin-left: 0;" width="200" height="200">
+<p>
+  <img src="/images/avatar.jpg" style="margin-left: 0;" width="200" height="200">
+</p>
 
 I am currently an assistant professor at
 the [High Performance Computing Laboratory](https://www.hpc.is.tohoku.ac.jp/home-en/)

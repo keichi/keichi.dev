@@ -1,9 +1,6 @@
 ---
 title: Contact
 menu: "main"
-blackfriday:
-  extensionsmask:
-    - joinLines
 ---
 
 ### Tel

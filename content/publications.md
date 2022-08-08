@@ -1,9 +1,6 @@
 ---
 title: Publications
 menu: "main"
-blackfriday:
-  extensionsmask:
-    - joinLines
 ---
 
 ## Journal
