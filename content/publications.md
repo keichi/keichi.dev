@@ -49,11 +49,13 @@ menu: "main"
 ## International Conference
 - Yuta Sasaki, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "A
   Cost Model for Compilers Based on Transfer Learning", _The 17th International
-  Workshop on Automatic Performance Tuning (iWAPT 2022)_, June 2022. (accepted)
+  Workshop on Automatic Performance Tuning (iWAPT 2022)_, June 2022.
+  [10.1109/IPDPSW55747.2022.00152](https://doi.org/10.1109/IPDPSW55747.2022.00152)
 - Reo Furuhata, Minglu Zhao, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
   Takizawa, "Automated Selection of Build Configuration Based on Machine
   Learning", _The 17th International Workshop on Automatic Performance Tuning
-  (iWAPT 2022)_, June 2022. (accepted)
+  (iWAPT 2022)_, June 2022.
+  [10.1109/IPDPSW55747.2022.00151](https://doi.org/10.1109/IPDPSW55747.2022.00151)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Pattara Leelaprute and Hajimu Iida, "Sparse Communication for
   Federated Learning", 6th IEEE International Conference on Fog and Edge
