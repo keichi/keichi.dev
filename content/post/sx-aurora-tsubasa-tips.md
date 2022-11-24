@@ -28,7 +28,8 @@ NECのマニュアルを参照するのが面倒なので，自分用に雑多�
 
 - エラー時にスタックトレースを表示するには，実行時に環境変数`VE_TRACEBACK=ALL`を設定する
 - スタックトレースにファイル名や行番号を表示するには，
-  コンパイル時にオプション`-traceback=verbose`を指定した上で，実行時に環境変数`VE_TRACEBACK=VERBOSE`を設定する
+  コンパイル時にオプション`-traceback=verbose -g`を指定した上で，実行時に環境変数`VE_TRACEBACK=VERBOSE`を設定する
+    - MPIプログラムの場合は環境変数`NMPI_VE_TRACEBACK=ON`を設定する
 
 ### 監視ツール
 - `/opt/nec/ve/bin`以下の`top`, `ps`, `free`, `vmstat`, `strace`でVE上のプロセスを確認できる
