@@ -7,6 +7,8 @@ menu: "main"
 
 Here are some of the open source software that I have contributed to:
 
+- [neoSYCL](https://github.com/Tohoku-University-Takizawa-Lab/neoSYCL):
+  A SYCL Implementation for CPU and NEC SX-Aurora TSUBASA (SX-AT)
 - [OpenMNT/CTranslate2](https://github.com/OpenNMT/CTranslate2): Fast
   inference engine for [OpenNMT](https://opennmt.net/) models
 - [keichi/kEDM](https://github.com/keichi/kEDM): A performance portable
