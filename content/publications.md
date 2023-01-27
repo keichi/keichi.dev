@@ -47,19 +47,23 @@ menu: "main"
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Yoichi Shimomura, Akihiro Musa, Yoshihiko Sato, Atsuhiko Konja, Guoqing Cui,
+  Rei Aoyagi, __Keichi Takahashi__, Hiroyuki Takizawa, "A Real-time Flood
+  Inundation Prediction on SX-Aurora TSUBASA", 29th International Conference
+  on High Performance Computing, Data, and Analytics (HiPC), Dec. 2022.
 - Yuta Sasaki, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "A
   Cost Model for Compilers Based on Transfer Learning", _The 17th International
-  Workshop on Automatic Performance Tuning (iWAPT 2022)_, June 2022.
+  Workshop on Automatic Performance Tuning (iWAPT 2022)_, Jun. 2022.
   [10.1109/IPDPSW55747.2022.00152](https://doi.org/10.1109/IPDPSW55747.2022.00152)
 - Reo Furuhata, Minglu Zhao, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
   Takizawa, "Automated Selection of Build Configuration Based on Machine
   Learning", _The 17th International Workshop on Automatic Performance Tuning
-  (iWAPT 2022)_, June 2022.
+  (iWAPT 2022)_, Jun. 2022.
   [10.1109/IPDPSW55747.2022.00151](https://doi.org/10.1109/IPDPSW55747.2022.00151)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
   Nakasan, Pattara Leelaprute and Hajimu Iida, "Sparse Communication for
   Federated Learning", 6th IEEE International Conference on Fog and Edge
-  Computing (ICFEC 2022), May. 2022.
+  Computing (ICFEC 2022), May 2022.
   [10.1109/ICFEC54809.2022.00008](https://doi.org/10.1109/ICFEC54809.2022.00008)
 - Tomoki Sugiura, __Keichi Takahashi__, Kohei Ichikawa, Hajimu Iida,
   "Acar: An application-aware network routing system using SRv6",
