@@ -47,6 +47,10 @@ menu: "main"
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- __Keichi Takahashi__, Soya Fujimoto, Satoru Nagase, Yoko Isobe, Yoichi
+  Shimomura, Ryusuke Egawa, Hiroyuki Takizawa, "Performance Evaluation of a
+  Next-Generation SX-Aurora TSUBASA Vector Supercomputer", _ISC High
+  Performance 2023_, May 2023. (accepted)
 - Yoichi Shimomura, Akihiro Musa, Yoshihiko Sato, Atsuhiko Konja, Guoqing Cui,
   Rei Aoyagi, __Keichi Takahashi__, Hiroyuki Takizawa, "A Real-time Flood
   Inundation Prediction on SX-Aurora TSUBASA", 29th International Conference
