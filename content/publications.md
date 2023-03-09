@@ -47,6 +47,10 @@ menu: "main"
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Moto Satake, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
+  "Balancing exploitation and exploration in parallel Bayesian optimization
+  under computing resource constraint", _The 18th International Workshop on
+  Automatic Performance Tuning (iWAPT 2023)_, May 2023. (accepted)
 - __Keichi Takahashi__, Soya Fujimoto, Satoru Nagase, Yoko Isobe, Yoichi
   Shimomura, Ryusuke Egawa, Hiroyuki Takizawa, "Performance Evaluation of a
   Next-Generation SX-Aurora TSUBASA Vector Supercomputer", _ISC High
