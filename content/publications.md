@@ -59,6 +59,21 @@ menu: "main"
   Rei Aoyagi, __Keichi Takahashi__, Hiroyuki Takizawa, "A Real-time Flood
   Inundation Prediction on SX-Aurora TSUBASA", 29th International Conference
   on High Performance Computing, Data, and Analytics (HiPC), Dec. 2022.
+- Yifan Jin, Mulya Agung, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
+  Takizawa, "Towards Priority-Flexible Task Mapping for Heterogeneous
+  Multi-core NUMA Systems", _23rd International Conference on Parallel and
+  Distributed Computing, Applications and Technologies (PDCAT 2022)_,
+  Dec. 2022. [10.1007/978-3-031-29927-8_1](https://doi.org/10.1007/978-3-031-29927-8_1)
+- Kazuki Ide, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
+  Takizawa, "A Task-Parallel Runtime for Heterogeneous Multi-node Vector
+  Systems", _23rd International Conference on Parallel and
+  Distributed Computing, Applications and Technologies (PDCAT 2022)_,
+  Dec. 2022. [10.1007/978-3-031-29927-8_26](https://doi.org/10.1007/978-3-031-29927-8_26)
+- Shunpei Sugawara, __Keichi Takahashi__, Yoichi Shimomura, Ryusuke Egawa,
+  Hiroyuki Takizawa, "Equivalence Checking of Code Transformation by Numerical
+  and Symbolic Approaches", _23rd International Conference on Parallel and
+  Distributed Computing, Applications and Technologies (PDCAT 2022)_,
+  Dec. 2022. [10.1007/978-3-031-29927-8_29](https://doi.org/10.1007/978-3-031-29927-8_29)
 - Yuta Sasaki, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "A
   Cost Model for Compilers Based on Transfer Learning", _The 17th International
   Workshop on Automatic Performance Tuning (iWAPT 2022)_, Jun. 2022.
