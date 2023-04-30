@@ -59,6 +59,7 @@ menu: "main"
   Rei Aoyagi, __Keichi Takahashi__, Hiroyuki Takizawa, "A Real-time Flood
   Inundation Prediction on SX-Aurora TSUBASA", 29th International Conference
   on High Performance Computing, Data, and Analytics (HiPC), Dec. 2022.
+  [10.1109/HiPC56025.2022.00035](https://doi.org/10.1109/HiPC56025.2022.00035)
 - Yifan Jin, Mulya Agung, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
   Takizawa, "Towards Priority-Flexible Task Mapping for Heterogeneous
   Multi-core NUMA Systems", _23rd International Conference on Parallel and
