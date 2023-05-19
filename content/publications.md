@@ -4,6 +4,11 @@ menu: "main"
 ---
 
 ## Journal
+- Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
+  Nakasan, Kazufumi Yuasa, Tadatoshi Babasaki, Hajimu Iida, "Toward Predictive
+  Modeling of Solar Power Generation for Multiple Power Plants," IEICE
+  Transactions on Communications, vol. E106-B, no. 7, July 2023.
+  [10.1587/transcom.2022EBT0003](https://doi.org/10.1587/transcom.2022EBT0003)
 - Guoqing Li, __Keichi Takahashi__, Kohei Ichikawa, Hajimu Iida, Chawanat
   Nakasan, Pattara Leelaprute, Pree Thiengburanathum, Passakorn Phannachitta,
   "The Convergence of Container and Traditional Virtualization: Strengths and
