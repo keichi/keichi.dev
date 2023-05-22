@@ -66,6 +66,7 @@ menu: "main"
   Next-Generation SX-Aurora TSUBASA Vector Supercomputer," _ISC High
   Performance 2023_, May 2023. [arXiv:2304.11921](https://arxiv.org/abs/2304.11921)
   [10.1007/978-3-031-32041-5_19](https://doi.org/10.1007/978-3-031-32041-5_19)
+  [slides](https://speakerdeck.com/keichi/performance-evaluation-of-a-next-generation-sx-aurora-tsubasa-vector-supercomputer)
 - Yoichi Shimomura, Akihiro Musa, Yoshihiko Sato, Atsuhiko Konja, Guoqing Cui,
   Rei Aoyagi, __Keichi Takahashi__, Hiroyuki Takizawa, "A Real-time Flood
   Inundation Prediction on SX-Aurora TSUBASA," 29th International Conference
