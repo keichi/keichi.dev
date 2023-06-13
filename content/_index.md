@@ -7,6 +7,8 @@ date: "2017-12-30T00:11:00+09:00"
   <img src="/images/avatar.jpg" style="margin-left: 0;" width="200" height="200">
 </p>
 
+日本語は[こちら](https://researchmap.jp/keichi)
+
 I am currently an assistant professor at
 the [High Performance Computing Laboratory](https://www.hpc.is.tohoku.ac.jp/home-en/)
 led by Prof. Hiroyuki Takizawa
