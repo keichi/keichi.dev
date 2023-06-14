@@ -5,7 +5,8 @@ description:
 tags: []
 ---
 
-NECのマニュアルを参照するのが面倒なので，自分用に雑多な情報をまとめたメモです．
+NECのマニュアル (PDF) を毎回参照するのが面倒なので，自分用に雑多な情報をまとめたメモです．
+適宜更新しています．
 
 
 ## ツールチェーン
@@ -20,6 +21,7 @@ NECのマニュアルを参照するのが面倒なので，自分用に雑多�
   `-finline-functions`をつけて自動インライン化を有効にするとベクトル化が促進される．
 - コンパイラを実行する際に`-report-all`というオプションをつけると`ソースコード.L`
   というファイルが生成され，どのようにベクトル化・最適化されたのか確認できる．
+    - 標準ライブラリ (STLなど) の中身のベクトル化状況も確認したい場合は，`-report-system-header`オプションを足す
 - 非常に大きいコードをコンパイル時するとスタック不足でコンパイラが落ちることがある．
   その場合は`ulimit -s`でスタックサイズを増やすと成功するかもしれない．
 - NECコンパイラでは`__NEC__`マクロが定義される
@@ -32,7 +34,7 @@ NECのマニュアルを参照するのが面倒なので，自分用に雑多�
     - MPIプログラムの場合は環境変数`NMPI_VE_TRACEBACK=ON`を設定する
 
 ### 監視ツール
-- `/opt/nec/ve/bin`以下の`top`, `ps`, `free`, `vmstat`, `strace`でVE上のプロセスを確認できる
+- `/opt/nec/ve/bin`以下の`ve-top`, `ve-ps`, `ve-free`, `ve-vmstat`, `ve-strace`でVE上のプロセスを確認できる
 - `ve_exec`でプログラムを実行するVEとコアを指定可能
 
 ## 性能測定
@@ -44,15 +46,16 @@ NECのマニュアルを参照するのが面倒なので，自分用に雑多�
 ### FTRACE
 
 - `-ftrace`オプションをつけてコンパイル後，実行する．`ftrace.out`というファイルができるので，`ftrace`コマンドを同じディレクトリで実行
-- ルーフライン解析
-	- REQ B/F: REQ. B/F そのまま
-	- ACT B/F: REQ.ST B/F + ACT.VLD B/F
-- ベクトル化率V.OP RATIOはベクトル命令数/全命令数 (実行時間ではないことに注意)
-    - 実行時間での内訳はEXCLUSIVE TIMEとVECTOR TIMEを見る
+- ルーフライン解析を行うには，ftrace実行に `VE_PERF_MODE`環境変数に`VECTOR-MEM`を設定し，
+  メモリアクセスのプロファイルを収集する
+    - LLCにおけるB/F (NEC用語ではREQ B/F) = REQ. B/F
+    - HBMにおけるB/F (NEC用語ではACT B/F) = REQ.ST B/F + ACT.VLD B/F
+- ベクトル化率V.OP RATIOはベクトル命令数/全命令数で算出されている (実行時間ベースではないことに注意)
+    - 実行時間ベースでの内訳はEXCLUSIVE TIMEとVECTOR TIMEを見る
 - `ftrace_region_begin()`と`ftrace_region_end()`でコードを囲むとその部分の
   性能を測定することができる．ヘッダファイル (`ftrace.h`) のincludeが必要．
 - `-ftrace`オプションをつけてコンパイルすると`_FTRACE`というマクロが定義される
-    ので，`ftrace_region_*()`の呼び出しは`#ifdef _FTRACE`で囲むといい．
+    ので，`ftrace_region_*()`の呼び出しは`#ifdef _FTRACE`で囲むと便利
 
 ## 並列化
 
