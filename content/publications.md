@@ -4,6 +4,10 @@ menu: "main"
 ---
 
 ## Journal
+- __Keichi Takahashi__, Kohei Ichikawa, Joseph Park, Gerald M. Pao, "Scalable
+  Empirical Dynamic Modeling with Parallel Computing and Approximate k-NN Search,"
+  IEEE Access. [10.1109/ACCESS.2023.3289836](https://doi.org/10.1109/ACCESS.2023.3289836)
+  (in print)
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Kazufumi Yuasa, Tadatoshi Babasaki, Hajimu Iida, "Toward Predictive
   Modeling of Solar Power Generation for Multiple Power Plants," IEICE
@@ -97,7 +101,7 @@ menu: "main"
   (iWAPT 2022)_, Jun. 2022.
   [10.1109/IPDPSW55747.2022.00151](https://doi.org/10.1109/IPDPSW55747.2022.00151)
 - Kundjanasith Thonglek, __Keichi Takahashi__, Kohei Ichikawa, Chawanat
-  Nakasan, Pattara Leelaprute and Hajimu Iida, "Sparse Communication for
+  Nakasan, Pattara Leelaprute, Hajimu Iida, "Sparse Communication for
   Federated Learning," 6th IEEE International Conference on Fog and Edge
   Computing (ICFEC 2022), May 2022.
   [10.1109/ICFEC54809.2022.00008](https://doi.org/10.1109/ICFEC54809.2022.00008)
