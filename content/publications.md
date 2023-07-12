@@ -6,8 +6,8 @@ menu: "main"
 ## Journal
 - __Keichi Takahashi__, Kohei Ichikawa, Joseph Park, Gerald M. Pao, "Scalable
   Empirical Dynamic Modeling with Parallel Computing and Approximate k-NN Search,"
-  IEEE Access. [10.1109/ACCESS.2023.3289836](https://doi.org/10.1109/ACCESS.2023.3289836)
-  (in print)
+  IEEE Access, vol. 11, pp. 68171--68183, Jun. 2023.
+  [10.1109/ACCESS.2023.3289836](https://doi.org/10.1109/ACCESS.2023.3289836)
 - Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat
   Nakasan, Kazufumi Yuasa, Tadatoshi Babasaki, Hajimu Iida, "Toward Predictive
   Modeling of Solar Power Generation for Multiple Power Plants," IEICE
