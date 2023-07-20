@@ -61,10 +61,14 @@ menu: "main"
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
+  Iida, "Parallelizable Loop Detection using Pre-trained Transformer Models for Code Understanding,"
+  _24th International Conference on Parallel and Distributed Computing, Applications and
+  Technologies (PDCAT 2023)_, Aug. 2023. (accepted)
 - Moto Satake, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
   "Balancing exploitation and exploration in parallel Bayesian optimization
   under computing resource constraint," _The 18th International Workshop on
-  Automatic Performance Tuning (iWAPT 2023)_, May 2023. (accepted)
+  Automatic Performance Tuning (iWAPT 2023)_, May 2023.
 - __Keichi Takahashi__, Soya Fujimoto, Satoru Nagase, Yoko Isobe, Yoichi
   Shimomura, Ryusuke Egawa, Hiroyuki Takizawa, "Performance Evaluation of a
   Next-Generation SX-Aurora TSUBASA Vector Supercomputer," _ISC High
