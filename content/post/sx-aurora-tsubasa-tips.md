@@ -72,7 +72,11 @@ NECのマニュアル (PDF) を毎回参照するのが面倒なので，自分�
 - `mpincc/nc++/fort`に`-mpiprof`をつけるとMPIプロファイラが有効になる．
   このオプションがないとPMPIのシンボルが定義されないため，
   外部のMPIプロファイラを使用する際も付ける必要がある．
+- `NMPI_PROGINF=YES`を設定すると，PROGINF情報が全ランクに渡って集計されて表示される．`VE_PROGINF=DETAIL`では各ランクが独立にPROGINF情報を出力してしまうので注意．
 - `NMPI_COMMINF=YES`を設定すると，MPI通信のプロファイリング結果が表示される．
+- FTRACEも使用可能
+    - `ftrace.out.*.*`という名前でランクごとにFTRACEファイルが出力される．
+    - FTRACEファイルはランクごとに分析できる他，`ftrace -f ftrace.out.*`と全ランクのファイルをftraceコマンドの引数に渡すと，全ランクの情報が集計される．
 
 ## NUMAモード
 
