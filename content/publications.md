@@ -4,6 +4,9 @@ menu: "main"
 ---
 
 ## Journal
+- Michael Zielewski, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "Efficient Pause
+  Location Prediction using Quantum Annealing Simulations and Machine Learning," IEEE Access,
+  Sep. 2023. [10.1109/ACCESS.2023.3317698](https://doi.org/10.1109/ACCESS.2023.3317698)
 - __Keichi Takahashi__, Kohei Ichikawa, Joseph Park, Gerald M. Pao, "Scalable
   Empirical Dynamic Modeling with Parallel Computing and Approximate k-NN Search,"
   IEEE Access, vol. 11, pp. 68171--68183, Jun. 2023.
@@ -61,6 +64,10 @@ menu: "main"
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Xingyuan Kang, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, and Hajimu
+  Iida, "Multi-Objective Optimization of Controller Placement in Distributed ONOS Networks,"
+  _The Eleventh International Symposium on Computing and Networking (CANDAR 2023)_, Nov. 2023.
+  (accepted)
 - __Keichi Takahashi__, Toshio Mori, Hiroyuki Takizawa, "Prototype of a Batched Quantum Circuit
   Simulator for the Vector Engine," _Fourth International Workshop on Quantum Computing Software_
   held in conjunction with SC23: The International Conference for High Performance Computing,
@@ -73,6 +80,7 @@ menu: "main"
   "Balancing exploitation and exploration in parallel Bayesian optimization
   under computing resource constraint," _The 18th International Workshop on
   Automatic Performance Tuning (iWAPT 2023)_, May 2023.
+  [10.1109/IPDPSW59300.2023.00122](https://doi.org/10.1109/IPDPSW59300.2023.00122)
 - __Keichi Takahashi__, Soya Fujimoto, Satoru Nagase, Yoko Isobe, Yoichi
   Shimomura, Ryusuke Egawa, Hiroyuki Takizawa, "Performance Evaluation of a
   Next-Generation SX-Aurora TSUBASA Vector Supercomputer," _ISC High
