@@ -6,7 +6,8 @@ menu: "main"
 ## Journal
 - Michael Zielewski, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "Efficient Pause
   Location Prediction using Quantum Annealing Simulations and Machine Learning," IEEE Access,
-  Sep. 2023. [10.1109/ACCESS.2023.3317698](https://doi.org/10.1109/ACCESS.2023.3317698)
+  vol. 11, pp. 104285-104294, Sep. 2023.
+  [10.1109/ACCESS.2023.3317698](https://doi.org/10.1109/ACCESS.2023.3317698)
 - __Keichi Takahashi__, Kohei Ichikawa, Joseph Park, Gerald M. Pao, "Scalable
   Empirical Dynamic Modeling with Parallel Computing and Approximate k-NN Search,"
   IEEE Access, vol. 11, pp. 68171--68183, Jun. 2023.
