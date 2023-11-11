@@ -72,7 +72,8 @@ menu: "main"
 - __Keichi Takahashi__, Toshio Mori, Hiroyuki Takizawa, "Prototype of a Batched Quantum Circuit
   Simulator for the Vector Engine," _Fourth International Workshop on Quantum Computing Software_
   held in conjunction with SC23: The International Conference for High Performance Computing,
-  Networking, Storage, and Analysis, Nov. 2023. (accepted)
+  Networking, Storage, and Analysis, Nov. 2023.
+  [10.1145/3624062.3624226](https://doi.org/10.1145/3624062.3624226)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Parallelizable Loop Detection using Pre-trained Transformer Models for Code Understanding,"
   _24th International Conference on Parallel and Distributed Computing, Applications and
