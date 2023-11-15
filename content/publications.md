@@ -74,6 +74,7 @@ menu: "main"
   held in conjunction with SC23: The International Conference for High Performance Computing,
   Networking, Storage, and Analysis, Nov. 2023.
   [10.1145/3624062.3624226](https://doi.org/10.1145/3624062.3624226)
+  [slides](https://speakerdeck.com/keichi/prototype-of-a-batched-quantum-circuit-simulator-for-the-vector-engine)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Parallelizable Loop Detection using Pre-trained Transformer Models for Code Understanding,"
   _24th International Conference on Parallel and Distributed Computing, Applications and
