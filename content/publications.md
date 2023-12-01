@@ -79,6 +79,7 @@ menu: "main"
   Iida, "Parallelizable Loop Detection using Pre-trained Transformer Models for Code Understanding,"
   _24th International Conference on Parallel and Distributed Computing, Applications and
   Technologies (PDCAT 2023)_, Aug. 2023.
+  [10.1007/978-981-99-8211-0_4](https://doi.org/10.1007/978-981-99-8211-0_4)
 - Moto Satake, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
   "Balancing exploitation and exploration in parallel Bayesian optimization
   under computing resource constraint," _The 18th International Workshop on
