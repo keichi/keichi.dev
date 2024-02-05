@@ -4,6 +4,14 @@ menu: "main"
 ---
 
 ## Journal
+
+- Jiaheng Liu, Ryusuke Egawa, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
+  "Reuse Distance-Based Shared LLC Management Mechanism for Heterogeneous CPU-GPU Systems,"
+  IEICE Electronics Express, 2024. (to appear)
+  [10.1587/elex.21.20230520](https://doi.org/10.1587/elex.21.20230520)
+- Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
+  Iida, "Toward Automatic Parallelization: Detecting Parallelizable Loop using Large Language
+  Modeling," Journal of Information Processing Systems, 2024. (to appear)
 - Michael Zielewski, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "Efficient Pause
   Location Prediction using Quantum Annealing Simulations and Machine Learning," IEEE Access,
   vol. 11, pp. 104285-104294, Sep. 2023.
@@ -68,7 +76,7 @@ menu: "main"
 - Xingyuan Kang, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, and Hajimu
   Iida, "Multi-Objective Optimization of Controller Placement in Distributed ONOS Networks,"
   _The Eleventh International Symposium on Computing and Networking (CANDAR 2023)_, Nov. 2023.
-  (accepted)
+  [10.1109/CANDAR60563.2023.00017](https://doi.org/10.1109/CANDAR60563.2023.00017)
 - __Keichi Takahashi__, Toshio Mori, Hiroyuki Takizawa, "Prototype of a Batched Quantum Circuit
   Simulator for the Vector Engine," _Fourth International Workshop on Quantum Computing Software_
   held in conjunction with SC23: The International Conference for High Performance Computing,
