@@ -7,7 +7,7 @@ menu: "main"
 
 - Jiaheng Liu, Ryusuke Egawa, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
   "Reuse Distance-Based Shared LLC Management Mechanism for Heterogeneous CPU-GPU Systems,"
-  IEICE Electronics Express, 2024. (to appear)
+  IEICE Electronics Express, vol. 21, no. 4, 2024.
   [10.1587/elex.21.20230520](https://doi.org/10.1587/elex.21.20230520)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Toward Automatic Parallelization: Detecting Parallelizable Loop using Large Language
@@ -240,6 +240,16 @@ menu: "main"
 
 ## Book Chapter
 
+- __Keichi Takahashi__, Kohei Ichikawa, Gerald M. Pao, "Toward Scalable Empirical Dynamic Modeling,"
+  M. M. Resch et al. (eds.), Sustained Simulation Performance 2022, pp. 61-69, Springer, Mar. 2024.
+  [10.1007/978-3-031-41073-4_5](https://doi.org/10.1007/978-3-031-41073-4_5)
+- Hiroyuki Takizawa, __Keichi Takahashi__, Yoichi Shimomura, Ryusuke Egawa, Kenji Oizumi, Satoshi
+  Ono, Takeshi Yamashita, Atsuko Saito, "AOBA: The Most Powerful Vector Supercomputer in the World,"
+  M. M. Resch et al. (eds.), Sustained Simulation Performance 2022, pp. 61-69, Springer, Mar. 2024.
+  [10.1007/978-3-031-41073-4_6](https://doi.org/10.1007/978-3-031-41073-4_6)
+__Keichi Takahashi__, Kohei Ichikawa, Gerald M. Pao, "Toward Scalable Empirical Dynamic Modeling,"
+  M. M. Resch et al. (eds.), Sustained Simulation Performance 2022, pp. 61-69, Springer, Mar. 2024.
+  [10.1007/978-3-031-41073-4_5](https://doi.org/10.1007/978-3-031-41073-4_5)
 - __Keichi Takahashi__, Susumu Date, Yasuhiro Watashiba, Yoshiyuki Kido,
   Shinji Shimojo "Integrating SDN-enhanced MPI with Job Scheduler to Support
   Shared Clusters," M. M. Resch et al. (eds.), Sustained Simulation
