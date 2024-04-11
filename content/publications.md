@@ -73,6 +73,18 @@ menu: "main"
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+- Rei Aoyagi, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Combining lossy
+  compression with multi-level caching for data staging over network," 26th Workshop on Advances in
+  Parallel and Distributed Computational Models (APDCM), May 2024. (accepted)
+- Daiki Nakai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "A node selection
+  method for on-demand job execution with considering deadline constraints," 27th Workshop on Job
+  Scheduling Strategies for Parallel Processing (JSSPP 2024), May 2024. (accepted)
+- Sho Ishii, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Maximizing Energy Budget
+  Utilization Based on Dynamic Power Cap Control," 27th Workshop on Job Scheduling Strategies for
+  Parallel Processing (JSSPP 2024), May 2024. (accepted)
+- Hang Cui, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Clustering Based Job
+  Runtime Prediction for Backfilling Using Classification	," 27th Workshop on Job Scheduling
+  Strategies for Parallel Processing (JSSPP 2024), May 2024. (accepted)
 - Xingyuan Kang, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, and Hajimu
   Iida, "Multi-Objective Optimization of Controller Placement in Distributed ONOS Networks,"
   _The Eleventh International Symposium on Computing and Networking (CANDAR 2023)_, Nov. 2023.
