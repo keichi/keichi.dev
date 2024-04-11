@@ -73,6 +73,10 @@ menu: "main"
   Information Technology, vol. 22, no. 01, 2016.
 
 ## International Conference
+
+- Toshinobu Katayama, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "XAI-Based
+  Feature Importance Analysis on Loop Optimization," 19th International Workshop on Automatic
+  Performance Tuning (iWAPT), May 2024. (accepted)
 - Rei Aoyagi, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Combining lossy
   compression with multi-level caching for data staging over network," 26th Workshop on Advances in
   Parallel and Distributed Computational Models (APDCM), May 2024. (accepted)
@@ -83,7 +87,7 @@ menu: "main"
   Utilization Based on Dynamic Power Cap Control," 27th Workshop on Job Scheduling Strategies for
   Parallel Processing (JSSPP 2024), May 2024. (accepted)
 - Hang Cui, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Clustering Based Job
-  Runtime Prediction for Backfilling Using Classification	," 27th Workshop on Job Scheduling
+  Runtime Prediction for Backfilling Using Classification," 27th Workshop on Job Scheduling
   Strategies for Parallel Processing (JSSPP 2024), May 2024. (accepted)
 - Xingyuan Kang, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, and Hajimu
   Iida, "Multi-Objective Optimization of Controller Placement in Distributed ONOS Networks,"
