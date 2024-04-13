@@ -41,7 +41,7 @@ cp -a build/bin/llvm-nm $INSTALL_DIR/amdgcn-amdhsa/bin/nm
 cp -a build/bin/lld $INSTALL_DIR/amdgcn-amdhsa/bin/ld
 ```
 
-## GCCのビルド (2回目)
+## GCCのビルド (1回目)
 
 GCCのソースコードをダウンロードしておきます．また，newlibというlibcの実装をダウンロードしておきます．
 
@@ -51,8 +51,9 @@ cd gcc-13.2.0
 curl -sL http://sourceware.org/pub/newlib/newlib-4.4.0.20231231.tar.gz | tar --strip-components=1 -xzvf - newlib-4.4.0.20231231/newlib
 ```
 
-AMD GPUバックエンドのGCCをビルドします．
-最後にnewlibをダウンロードしたディレクトリを削除しておきます．
+AMD GPUバックエンドのGCCをビルドします．前の手順でインストールしたツールチェーンのパスをconfigure時に
+指定します．libcにnewlibを使うよう指定します．
+ビルド後にはnewlibをダウンロードしたディレクトリを削除しておきます．
 
 ```
 contrib/download_prerequisites
@@ -73,7 +74,7 @@ sudo make install
 rm -r ../newlib
 ```
 
-## GCCのビルド (1回目)
+## GCCのビルド (2回目)
 
 x86-64バックエンドのGCCをビルドします．AMD GPU用のオフローディングを有効にしてconfigureします．
 
@@ -102,7 +103,7 @@ export PATH=$INSTALL_DIR/bin:$PATH
 export LD_LIBRARY_PATH=$INSTALL_DIR/lib64:$LD_LIBRARY_PATH
 ```
 
-以下のコマンドでコンパイルします．
+以下のコマンドでソースコードをコンパイルします．
 
 ```
 gcc -fopenacc -offload=famdgcn-amdhsa -foffload-options=-march=gfx90a openacc.c
@@ -113,4 +114,5 @@ gcc -fopenacc -offload=famdgcn-amdhsa -foffload-options=-march=gfx90a openacc.c
 
 実行時には，ユーザが`video`グループに所属している必要があります．また，NVIDIA
 GPU用のオフローディングも有効にしてGCCをビルドした際には，`ACC_DEVICE_TYPE=radeon`と環境変数を
-設定し，明示的にAMD GPUを要求する必要があります．
+設定し，明示的にAMD GPUを要求する必要があります．(NVIDIA GPUが搭載されていなくても，自動的にAMD GPU
+を選択してくれないようです)
