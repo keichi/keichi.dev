@@ -5,6 +5,11 @@ menu: "main"
 
 ## Journal
 
+- Nozomu Ishiguro, Fusae Kaneko, Masaki Abe, Yuki Takayama, Junya Yoshida, Taiki Hoshino, Shuntaro
+  Takazawa, Hideshi Uematsu, Yuhei Sasaki, Naru Okawa, __Keichi Takahashi__, Hiroyuki Takizawa,
+  Hiroyuki Kishimoto, Yukio Takahashi, "Towards Sub-10 nm Spatial Resolution by Tender X-ray
+  Ptychographic Coherent Diffraction Imaging," Applied Physics Express, 2024. (in print)
+  [10.35848/1882-0786/ad4846](https://doi.org/10.35848/1882-0786/ad4846)
 - Jiaheng Liu, Ryusuke Egawa, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
   "Reuse Distance-Based Shared LLC Management Mechanism for Heterogeneous CPU-GPU Systems,"
   IEICE Electronics Express, vol. 21, no. 4, 2024.
