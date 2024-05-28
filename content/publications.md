@@ -8,7 +8,7 @@ menu: "main"
 - Nozomu Ishiguro, Fusae Kaneko, Masaki Abe, Yuki Takayama, Junya Yoshida, Taiki Hoshino, Shuntaro
   Takazawa, Hideshi Uematsu, Yuhei Sasaki, Naru Okawa, __Keichi Takahashi__, Hiroyuki Takizawa,
   Hiroyuki Kishimoto, Yukio Takahashi, "Towards Sub-10 nm Spatial Resolution by Tender X-ray
-  Ptychographic Coherent Diffraction Imaging," Applied Physics Express, 2024. (in print)
+  Ptychographic Coherent Diffraction Imaging," Applied Physics Express, vol. 17, no. 5, May. 2024.
   [10.35848/1882-0786/ad4846](https://doi.org/10.35848/1882-0786/ad4846)
 - Jiaheng Liu, Ryusuke Egawa, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
   "Reuse Distance-Based Shared LLC Management Mechanism for Heterogeneous CPU-GPU Systems,"
@@ -268,7 +268,7 @@ menu: "main"
   Ono, Takeshi Yamashita, Atsuko Saito, "AOBA: The Most Powerful Vector Supercomputer in the World,"
   M. M. Resch et al. (eds.), Sustained Simulation Performance 2022, pp. 61-69, Springer, Mar. 2024.
   [10.1007/978-3-031-41073-4_6](https://doi.org/10.1007/978-3-031-41073-4_6)
-__Keichi Takahashi__, Kohei Ichikawa, Gerald M. Pao, "Toward Scalable Empirical Dynamic Modeling,"
+- __Keichi Takahashi__, Kohei Ichikawa, Gerald M. Pao, "Toward Scalable Empirical Dynamic Modeling,"
   M. M. Resch et al. (eds.), Sustained Simulation Performance 2022, pp. 61-69, Springer, Mar. 2024.
   [10.1007/978-3-031-41073-4_5](https://doi.org/10.1007/978-3-031-41073-4_5)
 - __Keichi Takahashi__, Susumu Date, Yasuhiro Watashiba, Yoshiyuki Kido,
