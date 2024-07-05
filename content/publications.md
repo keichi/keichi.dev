@@ -79,6 +79,10 @@ menu: "main"
 
 ## International Conference
 
+- __Keichi Takahashi__, Takashi Abe, Akihiro Musa, Yoshihiko Sato, Yoichi Shimomura, Hiroyuki
+  Takizawa, Shunichi Koshimura, "Modernizing an Operational Real-time Tsunami Simulator to Support
+  Diverse Hardware Platforms," _International Conference on Cluster Computing (CLUSTER 2024)_,
+  Sep. 2024. (accepted)
 - Toshinobu Katayama, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "XAI-Based
   Feature Importance Analysis on Loop Optimization," 19th International Workshop on Automatic
   Performance Tuning (iWAPT), May 2024. (accepted)
