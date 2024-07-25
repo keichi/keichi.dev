@@ -79,6 +79,9 @@ menu: "main"
 
 ## International Conference
 
+- Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
+  Iida, "Automatic Parallelization with CodeT5+: A Model for Generating OpenMP Directives,"
+  _2024 International Workshop on Large Language Models (LLMs) and HPC_, Sep. 2024. (accepted)
 - __Keichi Takahashi__, Takashi Abe, Akihiro Musa, Yoshihiko Sato, Yoichi Shimomura, Hiroyuki
   Takizawa, Shunichi Koshimura, "Modernizing an Operational Real-time Tsunami Simulator to Support
   Diverse Hardware Platforms," _International Conference on Cluster Computing (CLUSTER 2024)_,
