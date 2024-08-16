@@ -85,22 +85,25 @@ menu: "main"
 - __Keichi Takahashi__, Takashi Abe, Akihiro Musa, Yoshihiko Sato, Yoichi Shimomura, Hiroyuki
   Takizawa, Shunichi Koshimura, "Modernizing an Operational Real-time Tsunami Simulator to Support
   Diverse Hardware Platforms," _International Conference on Cluster Computing (CLUSTER 2024)_,
-  Sep. 2024. (accepted)
+  Sep. 2024.
+  [arXiv:2408.07609](https://doi.org/10.48550/arXiv.2408.07609)
 - Toshinobu Katayama, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "XAI-Based
   Feature Importance Analysis on Loop Optimization," 19th International Workshop on Automatic
-  Performance Tuning (iWAPT), May 2024. (accepted)
+  Performance Tuning (iWAPT), May 2024.
+  [10.1109/IPDPSW63119.2024.00142](https://doi.org/10.1109/IPDPSW63119.2024.00142)
 - Rei Aoyagi, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Combining lossy
   compression with multi-level caching for data staging over network," 26th Workshop on Advances in
-  Parallel and Distributed Computational Models (APDCM), May 2024. (accepted)
+  Parallel and Distributed Computational Models (APDCM), May 2024.
+  [10.1109/IPDPSW63119.2024.00059](https://doi.org/10.1109/IPDPSW63119.2024.00059)
 - Daiki Nakai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "A node selection
   method for on-demand job execution with considering deadline constraints," 27th Workshop on Job
-  Scheduling Strategies for Parallel Processing (JSSPP 2024), May 2024. (accepted)
+  Scheduling Strategies for Parallel Processing (JSSPP 2024), May 2024.
 - Sho Ishii, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Maximizing Energy Budget
   Utilization Based on Dynamic Power Cap Control," 27th Workshop on Job Scheduling Strategies for
-  Parallel Processing (JSSPP 2024), May 2024. (accepted)
+  Parallel Processing (JSSPP 2024), May 2024.
 - Hang Cui, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Clustering Based Job
   Runtime Prediction for Backfilling Using Classification," 27th Workshop on Job Scheduling
-  Strategies for Parallel Processing (JSSPP 2024), May 2024. (accepted)
+  Strategies for Parallel Processing (JSSPP 2024), May 2024.
 - Xingyuan Kang, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, and Hajimu
   Iida, "Multi-Objective Optimization of Controller Placement in Distributed ONOS Networks,"
   _The Eleventh International Symposium on Computing and Networking (CANDAR 2023)_, Nov. 2023.
