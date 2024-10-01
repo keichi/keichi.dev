@@ -9,14 +9,11 @@ date: "2017-12-30T00:11:00+09:00"
 
 日本語は[こちら](https://researchmap.jp/keichi)
 
-I am currently an assistant professor at
-the [High Performance Computing Laboratory](https://www.hpc.is.tohoku.ac.jp/home-en/)
-led by Prof. Hiroyuki Takizawa
-at the Cyberscience Center, [Tohoku University](http://www.tohoku.ac.jp/en/).
-Prior to joining Tohoku University, I was an assistant professor at the Nara
-Institute of Science and Technology (NAIST) and a member of the Software
-Design and Analysis Laboratory. I also served as a guest faculty at the
-[Cybermedia Center](https://www.cmc.osaka-u.ac.jp/?lang=en), Osaka University.
+I am currently an associate professor at the Advanced High-Performance Computing Infrastructure
+Systems Research Division at [D3 Center](https://www.cmc.osaka-u.ac.jp/?lang=en), Osaka University.
+Prior to joining Osaka University, I was an assistant professor at [Cyberscience
+Center](https://www.cc.tohoku.ac.jp/english/), Tohoku University, and an assistant professor at the
+[Nara Institute of Science and Technology (NAIST)](https://www.naist.jp/en/).
 
 I received my Ph.D. in Computer Science in 2019 at Osaka University, where
 I worked under the supervision of Prof. Shinji Shimojo and Prof. Susumu
