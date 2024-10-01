@@ -5,12 +5,12 @@ menu: "main"
 
 ### Tel
 
-- Work (international): +81 22-795-3416
-- Work (domestic): 022-795-3416
+- Work (international): +81 6-6879-8796
+- Work (domestic): 06-6879-8796
 
 ### Email
 
-- Work: keichi at tohoku.ac.jp
+- Work: keichi at ais.cmc.osaka-u.ac.jp
 - Personal: keichi.t at me.com
 
 ### Address
@@ -18,18 +18,18 @@ menu: "main"
 International:
 
 ```
-Cyberscience Center, Tohoku University
-6-3 Aramaki Aza Aoba, Aoba Ward
-Sendai, Miyagi
-980-8578 Japan
+Advanced High-Performance Computing Infrastructure Systems Research Division
+D3 Center, Osaka University
+5-1 Mihogaoka, Ibaraki, Osaka 567-0047, Japan
 ```
 
 Domestic:
 
 ```
-〒980-8578
-宮城県仙台市青葉区荒巻字青葉6番3号
-東北大学サイバーサイエンスセンター
+〒567-0047
+大阪府茨木市美穂ヶ丘５番１号
+大阪大学D3センター
+先進高性能計算基盤システム研究部門 (伊達研究室)
 ```
 
 ### Social
