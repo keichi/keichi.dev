@@ -79,6 +79,17 @@ menu: "main"
 
 ## International Conference
 
+
+- Ryota Koda, __Keichi Takahashi__, Hiroyuki Takizawa, Nozomu Ishiguro and Yukio Takahashi,
+  "Real-Time Phase Retrieval Using On-the-Fly Training of Sample-Specific Surrogate Models," The
+  12th International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024. (accepted)
+- Hang Cui, __Keichi Takahashi__ and Hiroyuki Takizawa, "DRAS-OD: A Reinforcement Learning based Job
+  Scheduler for On-Demand Job Scheduling in High-Performance Computing Systems," The 12th
+  International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024. (accepted)
+- Tatsuyoshi Ohmura, __Keichi Takahashi__, Ryusuke Egawa and Hiroyuki Takizawa, "A QA-Assisted Job
+  Scheduler for Minimizing the Impact of Urgent Computing on HPC System Operation," 16th
+  International Workshop on Parallel and Distributed Algorithms and Applications (PDAA), Nov. 2024.
+  (accepted)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Automatic Parallelization with CodeT5+: A Model for Generating OpenMP Directives,"
   _2024 International Workshop on Large Language Models (LLMs) and HPC_, Sep. 2024. (accepted)
