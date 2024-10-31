@@ -5,6 +5,10 @@ menu: "main"
 
 ## Journal
 
+- Xiangcheng Sun, __Keichi Takahashi__, Yoichi Shimomur, Hiroyuki Takizawa, Xian Wang, "Performance
+  evaluation of the LBM simulations in fluid dynamics on SX-Aurora TSUBASA vector engine," Computer
+  Physics Communications, vol. 307, Feb. 2025.
+  [10.1016/j.cpc.2024.109411](https://doi.org/10.1016/j.cpc.2024.109411)
 - Nozomu Ishiguro, Fusae Kaneko, Masaki Abe, Yuki Takayama, Junya Yoshida, Taiki Hoshino, Shuntaro
   Takazawa, Hideshi Uematsu, Yuhei Sasaki, Naru Okawa, __Keichi Takahashi__, Hiroyuki Takizawa,
   Hiroyuki Kishimoto, Yukio Takahashi, "Towards Sub-10 nm Spatial Resolution by Tender X-ray
