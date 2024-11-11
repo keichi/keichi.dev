@@ -96,12 +96,14 @@ menu: "main"
   (accepted)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Automatic Parallelization with CodeT5+: A Model for Generating OpenMP Directives,"
-  _2024 International Workshop on Large Language Models (LLMs) and HPC_, Sep. 2024. (accepted)
+  _2024 International Workshop on Large Language Models (LLMs) and HPC_, Sep. 2024.
+  [10.1109/CLUSTERWorkshops61563.2024.00028](https://doi.org/10.1109/CLUSTERWorkshops61563.2024.00028)
 - __Keichi Takahashi__, Takashi Abe, Akihiro Musa, Yoshihiko Sato, Yoichi Shimomura, Hiroyuki
   Takizawa, Shunichi Koshimura, "Modernizing an Operational Real-time Tsunami Simulator to Support
   Diverse Hardware Platforms," _International Conference on Cluster Computing (CLUSTER 2024)_,
   Sep. 2024.
   [arXiv:2408.07609](https://doi.org/10.48550/arXiv.2408.07609)
+  [10.1109/CLUSTER59578.2024.00043](https://doi.org/10.1109/CLUSTER59578.2024.00043)
 - Toshinobu Katayama, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "XAI-Based
   Feature Importance Analysis on Loop Optimization," 19th International Workshop on Automatic
   Performance Tuning (iWAPT), May 2024.
