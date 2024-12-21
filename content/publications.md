@@ -115,12 +115,15 @@ menu: "main"
 - Daiki Nakai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "A node selection
   method for on-demand job execution with considering deadline constraints," 27th Workshop on Job
   Scheduling Strategies for Parallel Processing (JSSPP 2024), May 2024.
+  [10.1007/978-3-031-74430-3_8](https://doi.org/10.1007/978-3-031-74430-3_8)
 - Sho Ishii, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Maximizing Energy Budget
   Utilization Based on Dynamic Power Cap Control," 27th Workshop on Job Scheduling Strategies for
   Parallel Processing (JSSPP 2024), May 2024.
+  [10.1007/978-3-031-74430-3_9](https://doi.org/10.1007/978-3-031-74430-3_9)
 - Hang Cui, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Clustering Based Job
   Runtime Prediction for Backfilling Using Classification," 27th Workshop on Job Scheduling
   Strategies for Parallel Processing (JSSPP 2024), May 2024.
+  [10.1007/978-3-031-74430-3_3](https://doi.org/10.1007/978-3-031-74430-3_3)
 - Xingyuan Kang, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, and Hajimu
   Iida, "Multi-Objective Optimization of Controller Placement in Distributed ONOS Networks,"
   _The Eleventh International Symposium on Computing and Networking (CANDAR 2023)_, Nov. 2023.
