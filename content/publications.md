@@ -86,14 +86,16 @@ menu: "main"
 
 - Ryota Koda, __Keichi Takahashi__, Hiroyuki Takizawa, Nozomu Ishiguro and Yukio Takahashi,
   "Real-Time Phase Retrieval Using On-the-Fly Training of Sample-Specific Surrogate Models," The
-  12th International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024. (accepted)
+  12th International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024.
+  [10.1109/CANDAR64496.2024.00015](http://doi.org/10.1109/CANDAR64496.2024.00015)
 - Hang Cui, __Keichi Takahashi__ and Hiroyuki Takizawa, "DRAS-OD: A Reinforcement Learning based Job
   Scheduler for On-Demand Job Scheduling in High-Performance Computing Systems," The 12th
-  International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024. (accepted)
+  International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024.
+  [10.1109/CANDAR64496.2024.00011](http://doi.org/10.1109/CANDAR64496.2024.00011)
 - Tatsuyoshi Ohmura, __Keichi Takahashi__, Ryusuke Egawa and Hiroyuki Takizawa, "A QA-Assisted Job
   Scheduler for Minimizing the Impact of Urgent Computing on HPC System Operation," 16th
   International Workshop on Parallel and Distributed Algorithms and Applications (PDAA), Nov. 2024.
-  (accepted)
+  [10.1109/CANDARW64572.2024.00039](https://doi.org/10.1109/CANDARW64572.2024.00039)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Automatic Parallelization with CodeT5+: A Model for Generating OpenMP Directives,"
   _2024 International Workshop on Large Language Models (LLMs) and HPC_, Sep. 2024.
