@@ -84,6 +84,9 @@ menu: "main"
 ## International Conference
 
 
+- Shubham Verma, __Keichi Takahashi__, Hiroyuki Takizawa, "Parallelizable Loop Detection using
+  Pre-trained Transformer Models for Code Understanding," _24th International Conference on Parallel
+  and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
 - Ryota Koda, __Keichi Takahashi__, Hiroyuki Takizawa, Nozomu Ishiguro and Yukio Takahashi,
   "Real-Time Phase Retrieval Using On-the-Fly Training of Sample-Specific Surrogate Models," The
   12th International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024.
