@@ -88,16 +88,16 @@ menu: "main"
   Pre-trained Transformer Models for Code Understanding," _24th International Conference on Parallel
   and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
 - Ryota Koda, __Keichi Takahashi__, Hiroyuki Takizawa, Nozomu Ishiguro and Yukio Takahashi,
-  "Real-Time Phase Retrieval Using On-the-Fly Training of Sample-Specific Surrogate Models," The
-  12th International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024.
+  "Real-Time Phase Retrieval Using On-the-Fly Training of Sample-Specific Surrogate Models," _The
+  12th International Symposium on Computing and Networking (CANDAR 2024)_, Nov. 2024.
   [10.1109/CANDAR64496.2024.00015](http://doi.org/10.1109/CANDAR64496.2024.00015)
 - Hang Cui, __Keichi Takahashi__ and Hiroyuki Takizawa, "DRAS-OD: A Reinforcement Learning based Job
-  Scheduler for On-Demand Job Scheduling in High-Performance Computing Systems," The 12th
-  International Symposium on Computing and Networking (CANDAR 2024), Nov. 2024.
+  Scheduler for On-Demand Job Scheduling in High-Performance Computing Systems," _The 12th
+  International Symposium on Computing and Networking (CANDAR 2024)_, Nov. 2024.
   [10.1109/CANDAR64496.2024.00011](http://doi.org/10.1109/CANDAR64496.2024.00011)
 - Tatsuyoshi Ohmura, __Keichi Takahashi__, Ryusuke Egawa and Hiroyuki Takizawa, "A QA-Assisted Job
-  Scheduler for Minimizing the Impact of Urgent Computing on HPC System Operation," 16th
-  International Workshop on Parallel and Distributed Algorithms and Applications (PDAA), Nov. 2024.
+  Scheduler for Minimizing the Impact of Urgent Computing on HPC System Operation," _16th
+  International Workshop on Parallel and Distributed Algorithms and Applications (PDAA)_, Nov. 2024.
   [10.1109/CANDARW64572.2024.00039](https://doi.org/10.1109/CANDARW64572.2024.00039)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Automatic Parallelization with CodeT5+: A Model for Generating OpenMP Directives,"
@@ -110,24 +110,24 @@ menu: "main"
   [arXiv:2408.07609](https://doi.org/10.48550/arXiv.2408.07609)
   [10.1109/CLUSTER59578.2024.00043](https://doi.org/10.1109/CLUSTER59578.2024.00043)
 - Toshinobu Katayama, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "XAI-Based
-  Feature Importance Analysis on Loop Optimization," 19th International Workshop on Automatic
-  Performance Tuning (iWAPT), May 2024.
+  Feature Importance Analysis on Loop Optimization," _19th International Workshop on Automatic
+  Performance Tuning (iWAPT)_, May 2024.
   [10.1109/IPDPSW63119.2024.00142](https://doi.org/10.1109/IPDPSW63119.2024.00142)
 - Rei Aoyagi, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Combining lossy
-  compression with multi-level caching for data staging over network," 26th Workshop on Advances in
-  Parallel and Distributed Computational Models (APDCM), May 2024.
+  compression with multi-level caching for data staging over network," _26th Workshop on Advances in
+  Parallel and Distributed Computational Models (APDCM)_, May 2024.
   [10.1109/IPDPSW63119.2024.00059](https://doi.org/10.1109/IPDPSW63119.2024.00059)
 - Daiki Nakai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "A node selection
-  method for on-demand job execution with considering deadline constraints," 27th Workshop on Job
-  Scheduling Strategies for Parallel Processing (JSSPP 2024), May 2024.
+  method for on-demand job execution with considering deadline constraints," _27th Workshop on Job
+  Scheduling Strategies for Parallel Processing (JSSPP 2024)_, May 2024.
   [10.1007/978-3-031-74430-3_8](https://doi.org/10.1007/978-3-031-74430-3_8)
 - Sho Ishii, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Maximizing Energy Budget
-  Utilization Based on Dynamic Power Cap Control," 27th Workshop on Job Scheduling Strategies for
-  Parallel Processing (JSSPP 2024), May 2024.
+  Utilization Based on Dynamic Power Cap Control," _27th Workshop on Job Scheduling Strategies for
+  Parallel Processing (JSSPP 2024)_, May 2024.
   [10.1007/978-3-031-74430-3_9](https://doi.org/10.1007/978-3-031-74430-3_9)
 - Hang Cui, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Clustering Based Job
-  Runtime Prediction for Backfilling Using Classification," 27th Workshop on Job Scheduling
-  Strategies for Parallel Processing (JSSPP 2024), May 2024.
+  Runtime Prediction for Backfilling Using Classification," _27th Workshop on Job Scheduling
+  Strategies for Parallel Processing (JSSPP 2024)_, May 2024.
   [10.1007/978-3-031-74430-3_3](https://doi.org/10.1007/978-3-031-74430-3_3)
 - Xingyuan Kang, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, and Hajimu
   Iida, "Multi-Objective Optimization of Controller Placement in Distributed ONOS Networks,"
