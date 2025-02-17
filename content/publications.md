@@ -5,6 +5,10 @@ menu: "main"
 
 ## Journal
 
+- Kang Xingyuan, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, Hajimu Iida, "Load-Aware
+  Multi-Objective Optimization of Controller and Datastore Placement in Distributed SDNs,"
+  Concurrency and Computation: Practice and Experience, vol. 37, no. 4--5, Feb. 2025.
+  [10.1002/cpe.70007](https://doi.org/10.1002/cpe.70007)
 - Xiangcheng Sun, __Keichi Takahashi__, Yoichi Shimomur, Hiroyuki Takizawa, Xian Wang, "Performance
   evaluation of the LBM simulations in fluid dynamics on SX-Aurora TSUBASA vector engine," Computer
   Physics Communications, vol. 307, Feb. 2025.
@@ -84,6 +88,10 @@ menu: "main"
 ## International Conference
 
 
+- __Keichi Takahashi__, Tomonori Hayami, Yu Mukaizono, Yuki Teramae, Susumu Date "Performance
+  analysis of mdx II: A next-generation cloud platform for cross-disciplinary data science
+  research," _15th International Conference on Cloud Computing and Services Science (CLOSER 2025)_,
+  Apr. 2025. (accepted)
 - Shubham Verma, __Keichi Takahashi__, Hiroyuki Takizawa, "Parallelizable Loop Detection using
   Pre-trained Transformer Models for Code Understanding," _24th International Conference on Parallel
   and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
