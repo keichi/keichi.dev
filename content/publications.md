@@ -92,6 +92,7 @@ menu: "main"
   analysis of mdx II: A next-generation cloud platform for cross-disciplinary data science
   research," _15th International Conference on Cloud Computing and Services Science (CLOSER 2025)_,
   Apr. 2025. (accepted)
+  [arXiv:2502.10820](https://arxiv.org/abs/2502.10820)
 - Shubham Verma, __Keichi Takahashi__, Hiroyuki Takizawa, "Parallelizable Loop Detection using
   Pre-trained Transformer Models for Code Understanding," _24th International Conference on Parallel
   and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
