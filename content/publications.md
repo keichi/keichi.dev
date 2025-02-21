@@ -93,9 +93,9 @@ menu: "main"
   research," _15th International Conference on Cloud Computing and Services Science (CLOSER 2025)_,
   Apr. 2025. (accepted)
   [arXiv:2502.10820](https://arxiv.org/abs/2502.10820)
-- Shubham Verma, __Keichi Takahashi__, Hiroyuki Takizawa, "Parallelizable Loop Detection using
-  Pre-trained Transformer Models for Code Understanding," _24th International Conference on Parallel
-  and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
+- Shubham Verma, __Keichi Takahashi__, Hiroyuki Takizawa, "Leveraging Hardware Performance Counters
+  for Predicting Workload Interference in Vector Supercomputers" _24th International Conference on
+  Parallel and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
 - Ryota Koda, __Keichi Takahashi__, Hiroyuki Takizawa, Nozomu Ishiguro and Yukio Takahashi,
   "Real-Time Phase Retrieval Using On-the-Fly Training of Sample-Specific Surrogate Models," _The
   12th International Symposium on Computing and Networking (CANDAR 2024)_, Nov. 2024.
