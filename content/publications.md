@@ -329,6 +329,11 @@ menu: "main"
 
 ## Poster and Oral Presentation
 
+- __Keichi Takahashi__, "An API remoting system for accessing large-scale array data on-demand,"
+  _Supercomputing Asia (SCA 2025)_, Mar. 2025.
+- Tomonori Hayami, __Keichi Takahashi__, Yu Mukaizono, Yuki Teramae, Susumu Date, "Fostering
+  data-centric research in Japan: Design of the mdx II cloud platform," _Supercomputing Asia (SCA
+  2025)_, Mar. 2025.
 - Yifan Jin, Mulya Agung, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
   Takizawa, "Task Mapping with Considering both Memory and Heterogeneity,"
   _IEEE Symposium on Low-Power and High-Speed Chips and Systems (COOL Chips 25)_,
