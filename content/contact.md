@@ -10,7 +10,7 @@ menu: "main"
 
 ### Email
 
-- Work: keichi at ais.cmc.osaka-u.ac.jp
+- Work: takahashi.d3c at cmc.osaka-u.ac.jp
 - Personal: keichi.t at me.com
 
 ### Address
@@ -27,7 +27,7 @@ Domestic:
 
 ```
 〒567-0047
-大阪府茨木市美穂ヶ丘５番１号
+大阪府茨木市美穂ヶ丘5番1号
 大阪大学D3センター
 先進高性能計算基盤システム研究部門 (伊達研究室)
 ```
