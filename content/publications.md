@@ -96,6 +96,7 @@ menu: "main"
 - Shubham Verma, __Keichi Takahashi__, Hiroyuki Takizawa, "Leveraging Hardware Performance Counters
   for Predicting Workload Interference in Vector Supercomputers" _24th International Conference on
   Parallel and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
+  [10.1007/978-981-96-4207-6_50](https://doi.org/10.1007/978-981-96-4207-6_50)
 - Ryota Koda, __Keichi Takahashi__, Hiroyuki Takizawa, Nozomu Ishiguro and Yukio Takahashi,
   "Real-Time Phase Retrieval Using On-the-Fly Training of Sample-Specific Surrogate Models," _The
   12th International Symposium on Computing and Networking (CANDAR 2024)_, Nov. 2024.
