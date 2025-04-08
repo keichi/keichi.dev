@@ -91,8 +91,9 @@ menu: "main"
 - __Keichi Takahashi__, Tomonori Hayami, Yu Mukaizono, Yuki Teramae, Susumu Date "Performance
   analysis of mdx II: A next-generation cloud platform for cross-disciplinary data science
   research," _15th International Conference on Cloud Computing and Services Science (CLOSER 2025)_,
-  Apr. 2025. (accepted)
+  Apr. 2025.
   [arXiv:2502.10820](https://arxiv.org/abs/2502.10820)
+  [10.5220/0013485100003950](https://doi.org/10.5220/0013485100003950)
 - Shubham Verma, __Keichi Takahashi__, Hiroyuki Takizawa, "Leveraging Hardware Performance Counters
   for Predicting Workload Interference in Vector Supercomputers" _24th International Conference on
   Parallel and Distributed Computing, Applications and Technologies (PDCAT 2024)_, Dec. 2024.
