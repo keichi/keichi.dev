@@ -10,7 +10,7 @@ menu: "main"
 
 ### Email
 
-- Work: takahashi.d3c at cmc.osaka-u.ac.jp
+- Work: takahashi.d3c at osaka-u.ac.jp
 - Personal: keichi.t at me.com
 
 ### Address
