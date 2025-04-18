@@ -106,7 +106,7 @@ export LD_LIBRARY_PATH=$INSTALL_DIR/lib64:$LD_LIBRARY_PATH
 以下のコマンドでソースコードをコンパイルします．
 
 ```
-gcc -fopenacc -offload=famdgcn-amdhsa -foffload-options=-march=gfx90a openacc.c
+gcc -fopenacc -foffload=amdgcn-amdhsa -foffload-options=-march=gfx90a openacc.c
 ```
 
 なおgfx90aはMI210のアーキテクチャです．搭載されているGPUのアーキテクチャは，`rocm-smi
