@@ -10,7 +10,7 @@ date: "2017-12-30T00:11:00+09:00"
 日本語は[こちら](https://researchmap.jp/keichi)
 
 I am currently an associate professor at the Advanced High-Performance Computing Infrastructure
-Systems Research Division at [D3 Center](https://www.cmc.osaka-u.ac.jp/?lang=en), The University of
+Systems Research Division at [D3 Center](https://www.d3c.osaka-u.ac.jp/en/), The University of
 Osaka. Prior to joining the University of Osaka, I was an assistant professor at [Cyberscience
 Center](https://www.cc.tohoku.ac.jp/english/), Tohoku University, and an assistant professor at the
 [Nara Institute of Science and Technology (NAIST)](https://www.naist.jp/en/).
