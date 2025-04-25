@@ -87,7 +87,9 @@ menu: "main"
 
 ## International Conference
 
-
+- Kaito Yanai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Workflow Batch Job
+  Scheduling with Considering Task Dependencies," 28th Workshop on Job Scheduling Strategies for
+  Parallel Processing (JSSPP 2025), June 2025. (accepted)
 - __Keichi Takahashi__, Tomonori Hayami, Yu Mukaizono, Yuki Teramae, Susumu Date "Performance
   analysis of mdx II: A next-generation cloud platform for cross-disciplinary data science
   research," _15th International Conference on Cloud Computing and Services Science (CLOSER 2025)_,
