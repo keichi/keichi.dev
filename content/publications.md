@@ -20,7 +20,7 @@ menu: "main"
   [10.35848/1882-0786/ad4846](https://doi.org/10.35848/1882-0786/ad4846)
 - Jiaheng Liu, Ryusuke Egawa, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa,
   "Reuse Distance-Based Shared LLC Management Mechanism for Heterogeneous CPU-GPU Systems,"
-  IEICE Electronics Express, vol. 21, no. 4, 2024.
+  IEICE Electronics Express, vol. 21, no. 4, Feb. 2024.
   [10.1587/elex.21.20230520](https://doi.org/10.1587/elex.21.20230520)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Toward Automatic Parallelization: Detecting Parallelizable Loop using Large Language
@@ -335,9 +335,20 @@ menu: "main"
 
 - __Keichi Takahashi__, "An API remoting system for accessing large-scale array data on-demand,"
   _Supercomputing Asia (SCA 2025)_, Mar. 2025. (poster)
+- Wassapon Watanakeesuntorn, __Keichi Takahashi__, Junya Yamamoto, Kohei Taniguchi,  Hirotake Abe,
+  Arata Endo, Chonho Lee, Susumu Date, "DDoS Attack Detection with Time-Series Predictions Using
+  Empirical Dynamic Modeling," _Supercomputing Asia (SCA 2025)_, Mar. 2025. (poster)
 - Tomonori Hayami, __Keichi Takahashi__, Yu Mukaizono, Yuki Teramae, Susumu Date, "Fostering
   data-centric research in Japan: Design of the mdx II cloud platform," _Supercomputing Asia (SCA
   2025)_, Mar. 2025. (poster)
+- Hiroyuki Takizawa, Tatsuyoshi Ohmura, __Keichi Takahashi__, Yoichi Shimomura, Ryusuke Egawa,
+  Yoshihiko Sato, Akihiro Musa, Shunichi Koshimura, "ExpressHPC: Towards "Connected Supercomputing"
+  Enabling On-Demand Job Execution for Disaster Resilience," _Fourth Combined Workshop on
+  Interactive and Urgent HPC_, Nov. 2024.
+- Kundjanasith Thonglek, Kohei Ichikawa, __Keichi Takahashi__, Chawanat Nakasan, Kazufumi Yuasa,
+  Tadatoshi Babasaki, Hajimu Iida, "Toward Predictive Modeling of Solar Power Generation for
+  Multiple Power Plants," _5th IEICE-CS International Conference on Emerging Technologies for
+  Communications (ICETC)_, Nov. 2024.
 - Yifan Jin, Mulya Agung, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki
   Takizawa, "Task Mapping with Considering both Memory and Heterogeneity,"
   _IEEE Symposium on Low-Power and High-Speed Chips and Systems (COOL Chips 25)_,
