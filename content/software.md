@@ -7,8 +7,8 @@ menu: "main"
 
 Here are some of the open source software that I have contributed to:
 
-- [batched-qsim-ve](https://github.com/keichi/batched-qsim-ve):
-  A prototype batched quantum circuit simulator for CPU, GPU and VE
+- [veqsim](https://github.com/keichi/veqsim):
+  A batched quantum circuit simulator for CPU, GPU and VE
 - [neoSYCL](https://github.com/Tohoku-University-Takizawa-Lab/neoSYCL):
   A SYCL Implementation for CPU and NEC SX-Aurora TSUBASA (SX-AT)
 - [OpenMNT/CTranslate2](https://github.com/OpenNMT/CTranslate2): Fast
