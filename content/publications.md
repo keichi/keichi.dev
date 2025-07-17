@@ -5,6 +5,10 @@ menu: "main"
 
 ## Journal
 
+- Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
+  Iida, "Toward Automatic Parallelization: Detecting Parallelizable Loop using Large Language
+  Modeling," Journal of Information Processing Systems, vol. 21, no. 3, pp. 271-283, 2025.
+  [10.3745/JIPS.04.0349](https://doi.org/10.3745/JIPS.04.0349)
 - Kang Xingyuan, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, Hajimu Iida, "Load-Aware
   Multi-Objective Optimization of Controller and Datastore Placement in Distributed SDNs,"
   Concurrency and Computation: Practice and Experience, vol. 37, no. 4--5, Feb. 2025.
@@ -22,9 +26,6 @@ menu: "main"
   "Reuse Distance-Based Shared LLC Management Mechanism for Heterogeneous CPU-GPU Systems,"
   IEICE Electronics Express, vol. 21, no. 4, Feb. 2024.
   [10.1587/elex.21.20230520](https://doi.org/10.1587/elex.21.20230520)
-- Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
-  Iida, "Toward Automatic Parallelization: Detecting Parallelizable Loop using Large Language
-  Modeling," Journal of Information Processing Systems, 2024. (to appear)
 - Michael Zielewski, __Keichi Takahashi__, Yoichi Shimomura, Hiroyuki Takizawa, "Efficient Pause
   Location Prediction using Quantum Annealing Simulations and Machine Learning," IEEE Access,
   vol. 11, pp. 104285-104294, Sep. 2023.
