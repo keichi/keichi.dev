@@ -33,16 +33,7 @@ sudo dnf -y module install nvidia-driver:open-dkms
 
 もしプロプライエタリ版ドライバをインストールしていれば、オープンソース版へ切り替えが必要となる。
 
-## GPUDirect Storageのインストール
-
-GDSをインストールする。なお`nvidia-fs`というドライバがDKMSでビルドされるのだが、特にエラーメッセージ
-もなくインストールされないことがあった。再インストールで解消した。
-
-```
-sudo dnf -y install nvidia-gds
-```
-
-## MLNX_OFEDのインストール
+## OFEDのインストール
 
 GDS用にパッチされたNVMeドライバをインストールする。(カーネルでPCI P2P DMA機能が利用可能であれば
 標準のNVMeドライバを使えるらしいが、カーネル6.2以上かつP2P DMA機能を有効にしてコンパイルされている
@@ -61,6 +52,15 @@ NVMeのドライバはinitramfsに含まれているので、initramfsを再生�
 ```
 sudo dracut -f
 sudo reboot
+```
+
+## GPUDirect Storageのインストール
+
+GDSをインストールする。なお`nvidia-fs`というドライバがDKMSでビルドされるのだが、特にエラーメッセージ
+もなくインストールされないことがあった。再インストールで解消した。
+
+```
+sudo dnf -y install nvidia-gds
 ```
 
 ## NVMeの準備
