@@ -88,6 +88,9 @@ menu: "main"
 
 ## International Conference
 
+- Toshinobu Katayama, Masatoshi Kawai, Yoichi Shimomura, __Keichi Takahashi__, Hiroyuki Takizawa,
+  "Explainable AI-Guided Genetic Algorithms for Efficient Software Automatic Tuning," Multi-scale,
+  Multi-physics, Coupled Problems and AI enhanced simulations on HPC (MMCP'26), Jan. 2026.
 - Kaito Yanai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Workflow Batch Job
   Scheduling with Considering Task Dependencies," 28th Workshop on Job Scheduling Strategies for
   Parallel Processing (JSSPP 2025), June 2025. (accepted)
