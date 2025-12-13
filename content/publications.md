@@ -5,6 +5,10 @@ menu: "main"
 
 ## Journal
 
+- __Keichi Takahashi__, Tomonori Hayami, Kota Sakakura, Yu Mukaizono, Yuki Teramae, and Susumu Date,
+  "mdx II: A High-Performance Cloud Infrastructure for Data-Intensive and Cross-Disciplinary
+  Science," SN Computer Science, vol. 6, no.8, Dec. 2025.
+  [10.1007/s42979-025-04602-0](https://doi.org/10.1007/s42979-025-04602-0)
 - Soratouch Pornmaneerattanatri, __Keichi Takahashi__, Yutaro Kashiwa, Kohei Ichikawa, and Hajimu
   Iida, "Toward Automatic Parallelization: Detecting Parallelizable Loop using Large Language
   Modeling," Journal of Information Processing Systems, vol. 21, no. 3, pp. 271-283, 2025.
