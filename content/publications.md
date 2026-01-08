@@ -13,6 +13,10 @@ menu: "main"
   Iida, "Toward Automatic Parallelization: Detecting Parallelizable Loop using Large Language
   Modeling," Journal of Information Processing Systems, vol. 21, no. 3, pp. 271-283, 2025.
   [10.3745/JIPS.04.0349](https://doi.org/10.3745/JIPS.04.0349)
+- Ryota Koda, __Keichi Takahashi__, Hiroyuki Takizawa, Nozomu Ishiguro, Yukio Takahashi,
+  "Developing an End-to-End 3D X-Ray Ptychography Workflow Using Surrogate Models,"
+  Concurrency and Computation: Practice and Experience, vol. 37, no. 25--26, 2025.
+  [10.1002/cpe.70308](https://doi.org/10.1002/cpe.70308)
 - Kang Xingyuan, __Keichi Takahashi__, Chawanat Nakasan, Kohei Ichikawa, Hajimu Iida, "Load-Aware
   Multi-Objective Optimization of Controller and Datastore Placement in Distributed SDNs,"
   Concurrency and Computation: Practice and Experience, vol. 37, no. 4--5, Feb. 2025.
