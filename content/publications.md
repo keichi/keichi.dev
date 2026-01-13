@@ -96,6 +96,11 @@ menu: "main"
 
 ## International Conference
 
+- YuTsen Tseng, Masatoshi Kawai, __Keichi Takahashi__, Hiroyuki Takizawa, "TRIOS: Reducing
+  File-System Contention through Predictive Time-Resolved I/O Simulation in Job Scheduling,"
+  _SCA/HPCAsia 2026: Supercomputing Asia and International Conference on High Performance Computing in
+  Asia Pacific Region_, Jan. 2026.
+  [10.1145/3773656.3773668](https://doi.org/10.1145/3773656.3773668)
 - Toshinobu Katayama, Masatoshi Kawai, Yoichi Shimomura, __Keichi Takahashi__, Hiroyuki Takizawa,
   "Explainable AI-Guided Genetic Algorithms for Efficient Software Automatic Tuning," Multi-scale,
   Multi-physics, Coupled Problems and AI enhanced simulations on HPC (MMCP'26), Jan. 2026.
@@ -104,7 +109,8 @@ menu: "main"
   Distributed Algorithms and Applications (PDAA), Nov. 2025.
 - Kaito Yanai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Workflow Batch Job
   Scheduling with Considering Task Dependencies," 28th Workshop on Job Scheduling Strategies for
-  Parallel Processing (JSSPP 2025), June 2025. (accepted)
+  Parallel Processing (JSSPP 2025), June 2025.
+  [10.1007/978-3-032-10507-3_7](https://doi.org/10.1007/978-3-032-10507-3_7)
 - __Keichi Takahashi__, Tomonori Hayami, Yu Mukaizono, Yuki Teramae, Susumu Date "Performance
   analysis of mdx II: A next-generation cloud platform for cross-disciplinary data science
   research," _15th International Conference on Cloud Computing and Services Science (CLOSER 2025)_,
