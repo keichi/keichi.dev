@@ -107,6 +107,7 @@ menu: "main"
 - Yoshiki Noguchi, Chonho Lee, __Keichi Takahashi__, Susumu Date, "Exploring Diverse Cloud Bursting
   Policies Using Pareto Conditioned Networks," 17th International Workshop on Parallel and
   Distributed Algorithms and Applications (PDAA), Nov. 2025.
+  [10.1109/CANDARW68385.2025.00035](https://doi.org/10.1109/CANDARW68385.2025.00035)
 - Kaito Yanai, __Keichi Takahashi__, Yoichi Shimomura and Hiroyuki Takizawa, "Workflow Batch Job
   Scheduling with Considering Task Dependencies," 28th Workshop on Job Scheduling Strategies for
   Parallel Processing (JSSPP 2025), June 2025.
