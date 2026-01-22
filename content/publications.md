@@ -102,8 +102,18 @@ menu: "main"
   Asia Pacific Region_, Jan. 2026.
   [10.1145/3773656.3773668](https://doi.org/10.1145/3773656.3773668)
 - Toshinobu Katayama, Masatoshi Kawai, Yoichi Shimomura, __Keichi Takahashi__, Hiroyuki Takizawa,
-  "Explainable AI-Guided Genetic Algorithms for Efficient Software Automatic Tuning," Multi-scale,
-  Multi-physics, Coupled Problems and AI enhanced simulations on HPC (MMCP'26), Jan. 2026.
+  "Explainable AI-Guided Genetic Algorithms for Efficient Software Automatic Tuning," _Multi-scale,
+  Multi-physics, Coupled Problems and AI enhanced simulations on HPC (MMCP'26)_, Jan. 2026.
+  [10.1145/3784828.3785252](https://doi.org/10.1145/3784828.3785252)
+- Xuanwen Pan, Yoichi Shimomura, Sichen Tao, Masatoshi Kawai, __Keichi Takahashi__, Hiroyuki
+  Takizawa, "CityScaleCast: Spatiotemporal GNN for City-Scale Weather Prediction with
+  GraphCast-Guided Parallel Modeling and Multi-Step Forecasting in Sendai," _Multi-scale,
+  Multi-physics, Coupled Problems and AI enhanced simulations on HPC (MMCP'26)_, Jan. 2026.
+  [10.1145/3784828.3785258](https://doi.org/10.1145/3784828.3785258)
+- Yuta Tanizawa, Masatoshi Kawai, __Keichi Takahashi__, Hiroyuki Takizawa, "Semantic Equivalence
+  Verification of HPC Codes Using LLMs," _The 1st International Workshop on Foundational Large
+  Language Models Advances for HPC in Asia (LLM4HPCAsia 2026)_, Jan. 2026.
+  [10.1145/3784828.3785337](https://doi.org/10.1145/3784828.3785337)
 - Yoshiki Noguchi, Chonho Lee, __Keichi Takahashi__, Susumu Date, "Exploring Diverse Cloud Bursting
   Policies Using Pareto Conditioned Networks," 17th International Workshop on Parallel and
   Distributed Algorithms and Applications (PDAA), Nov. 2025.
