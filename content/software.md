@@ -7,6 +7,8 @@ menu: "main"
 
 Here are some of the open source software that I have contributed to:
 
+- [quickmp](https://github.com/keichi/quickmp): A fast matrix profile
+  computation library for CPU and GPU
 - [veqsim](https://github.com/keichi/veqsim):
   A batched quantum circuit simulator for CPU, GPU and VE
 - [neoSYCL](https://github.com/Tohoku-University-Takizawa-Lab/neoSYCL):
