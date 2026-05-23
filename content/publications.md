@@ -96,6 +96,11 @@ menu: "main"
 
 ## International Conference
 
+- Ryutaro Matsumoto, Kohei Taniguchi, Tomonori Hayami, __Keichi Takahashi__, Susumu Date,
+  "ElasticHub: A Cost-Efficient JupyterHub Platform via Automated Scaling with Kubernetes on Hybrid
+  Cloud," _16th International Conference on Cloud Computing and Services Science (CLOSER 2026)_,
+  Apr. 2026.
+  [10.5220/0014840200004039](https://doi.org/10.5220/0014840200004039)
 - YuTsen Tseng, Masatoshi Kawai, __Keichi Takahashi__, Hiroyuki Takizawa, "TRIOS: Reducing
   File-System Contention through Predictive Time-Resolved I/O Simulation in Job Scheduling,"
   _SCA/HPCAsia 2026: Supercomputing Asia and International Conference on High Performance Computing in
