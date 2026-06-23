@@ -96,6 +96,11 @@ menu: "main"
 
 ## International Conference
 
+- Wassapon Watanakeesuntorn, Kohei Taniguchi, __Keichi Takahashi__, Junya Yamamoto, Hirotake Abe,
+  Arata Endo, Chonho Lee, Susumu Date, "SmartNIC-based Memory Monitoring for Lightweight Privilege
+  Escalation Detection in HPC Systems," _Practice and Experience in Advanced Research Computing
+  (PEARC 2026)_, Jul. 2026.
+  [10.1145/3785462.3815797](https://doi.org/10.1145/3785462.3815797)
 - Ryutaro Matsumoto, Kohei Taniguchi, Tomonori Hayami, __Keichi Takahashi__, Susumu Date,
   "ElasticHub: A Cost-Efficient JupyterHub Platform via Automated Scaling with Kubernetes on Hybrid
   Cloud," _16th International Conference on Cloud Computing and Services Science (CLOSER 2026)_,
