@@ -101,6 +101,14 @@ menu: "main"
   Escalation Detection in HPC Systems," _Practice and Experience in Advanced Research Computing
   (PEARC 2026)_, Jul. 2026.
   [10.1145/3785462.3815797](https://doi.org/10.1145/3785462.3815797)
+- Kohei Taniguchi, Arata Endo, __Keichi Takahashi__, Wassapon Watanakeesuntorn, Hirotake Abe, Lee
+  Chonho, Susumu Date, "Quota-based Admission Control for Short-Lived gRPC Calls in DetNet with
+  Credit-Based Shaper," _2026 8th International Conference on Computer Communication and the Internet
+  (ICCCI)_, Jun. 2026.
+- Wassapon Watanakeesuntorn, __Keichi Takahashi__, Kohei Taniguchi, Junya Yamamoto, Hirotake Abe,
+  Arata Endo, Chonho Lee, Susumu Date, "Exploring the Applicability of Empirical Dynamic Modeling to
+  Lightweight DDoS Attack Detection," _2026 8th International Conference on Computer Communication and
+  the Internet (ICCCI)_, Jun. 2026.
 - Ryutaro Matsumoto, Kohei Taniguchi, Tomonori Hayami, __Keichi Takahashi__, Susumu Date,
   "ElasticHub: A Cost-Efficient JupyterHub Platform via Automated Scaling with Kubernetes on Hybrid
   Cloud," _16th International Conference on Cloud Computing and Services Science (CLOSER 2026)_,
