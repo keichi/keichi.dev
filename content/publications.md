@@ -383,6 +383,10 @@ menu: "main"
 
 ## Poster and Oral Presentation
 
+- Wassapon Watanakeesuntorn, Kohei Taniguchi, Junya Yamamoto, __Keichi Takahashi__, Hirotake Abe,
+  Arata Endo, Chonho Lee, Susumu Date, "Toward Cooperative Kubernetes Scheduling for
+  Latency-Guaranteed Inter-Pod Communication," _IEEE International Conference on Multimedia and Expo
+  (ICME 2026)_, Jul. 2026. (demo)
 - __Keichi Takahashi__, "An API remoting system for accessing large-scale array data on-demand,"
   _Supercomputing Asia (SCA 2025)_, Mar. 2025. (poster)
 - Wassapon Watanakeesuntorn, __Keichi Takahashi__, Junya Yamamoto, Kohei Taniguchi,  Hirotake Abe,
