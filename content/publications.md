@@ -96,6 +96,10 @@ menu: "main"
 
 ## International Conference
 
+- Junya Yamamoto, Kohei Taniguchi, Wassapon Watanakeesuntorn, Hirotake Abe, __Keichi Takahashi__,
+  Arata Endo, Chonho Lee, Susumu Date, "Architecture of a Cooperative Kubernetes-TSN Scheduler for
+  Latency-Guaranteed Applications," _22nd IEEE International Conference on e-Science (eScience 2026)_,
+  Sep. 2026.
 - Wassapon Watanakeesuntorn, Kohei Taniguchi, __Keichi Takahashi__, Junya Yamamoto, Hirotake Abe,
   Arata Endo, Chonho Lee, Susumu Date, "SmartNIC-based Memory Monitoring for Lightweight Privilege
   Escalation Detection in HPC Systems," _Practice and Experience in Advanced Research Computing
