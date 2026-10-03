@@ -100,6 +100,12 @@ menu: "main"
   Susumu Date, "Accelerating Autotuning via Knowledge Distillation from a Hardware-Aware Performance
   Model," _33rd IEEE International Conference on High Performance Computing, Data, and Analytics
   (HiPC 2026)_, Dec. 2026.
+- Zhongbo Tang, Chonho Lee, Kohei Taniguchi, Tomonori Hayami, __Keichi Takahashi__, Susumu Date,
+  "Elastic Tug-of-War Model for Non-Stationary Multi-Armed Bandit Problems," _14th International
+  Symposium on Computing and Networking (CANDAR 2026)_, Nov. 2026.
+- Bo Zhu, __Keichi Takahashi__, Kohei Taniguchi, Chonho Lee, Susumu Date, "Exploring Optimization
+  Opportunities Beyond Automatic Compiler Optimization with Reinforcement Learning,"
+  _14th International Workshop on Computer Systems and Architectures (CSA'26)_, Nov. 2026.
 - Shinji Yoshida, __Keichi Takahashi__, Susumu Date, "Impact of Overheads in Disaggregated Systems on
   Job Turnaround Times," _6th International Workshop on RESource DISaggregation in High-Performance
   Computing (RESDIS'26)_, Nov. 2026.
