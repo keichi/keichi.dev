@@ -96,6 +96,10 @@ menu: "main"
 
 ## International Conference
 
+- Takuto Takahashi, __Keichi Takahashi__, Tomonori Hayami, Kota Sakakura, Takashi Soga, Arata Endo,
+  Susumu Date, "Accelerating Autotuning via Knowledge Distillation from a Hardware-Aware Performance
+  Model," _33rd IEEE International Conference on High Performance Computing, Data, and Analytics
+  (HiPC 2026)_, Dec. 2026.
 - Shinji Yoshida, __Keichi Takahashi__, Susumu Date, "Impact of Overheads in Disaggregated Systems on
   Job Turnaround Times," _6th International Workshop on RESource DISaggregation in High-Performance
   Computing (RESDIS'26)_, Nov. 2026.
