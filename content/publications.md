@@ -108,10 +108,12 @@ menu: "main"
   _14th International Workshop on Computer Systems and Architectures (CSA'26)_, Nov. 2026.
 - Shinji Yoshida, __Keichi Takahashi__, Susumu Date, "Impact of Overheads in Disaggregated Systems on
   Job Turnaround Times," _6th International Workshop on RESource DISaggregation in High-Performance
-  Computing (RESDIS'26)_, Nov. 2026.
+  Computing (RESDIS'26)_, pp. 790-796, Nov. 2026.
+  [10.1109/SCW72768.2026.00129](https://doi.org/10.1109/SCW72768.2026.00129)
 - Rintaro Togo, __Keichi Takahashi__, Tomonori Hayami, Kota Sakakura, Takashi Soga, Arata Endo,
   Susumu Date, "Extending the Performance Portability of Julia to Long-Vector Architectures," _2026
-  International Workshop on Performance, Portability & Productivity in HPC (P3HPC)_, Nov. 2026.
+  International Workshop on Performance, Portability & Productivity in HPC (P3HPC)_, pp. 452-461,
+  Nov. 2026. [10.1109/SCW72768.2026.00090](https://doi.org/10.1109/SCW72768.2026.00090)
 - Junya Yamamoto, Kohei Taniguchi, Wassapon Watanakeesuntorn, Hirotake Abe, __Keichi Takahashi__,
   Arata Endo, Chonho Lee, Susumu Date, "Architecture of a Cooperative Kubernetes-TSN Scheduler for
   Latency-Guaranteed Applications," _22nd IEEE International Conference on e-Science (eScience 2026)_,
